@@ -1,0 +1,233 @@
+[
+    
+    {
+        "ModId": 1,
+        "SetId": 51,
+        "DbfId": 900411030,
+        "m_noteMiniGuid": "SZB_900411030",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "虎鲸",
+        "ScriptName": "SZB_900411030",
+        "CardType": 0,
+        "RareType": 1,
+        "RaceType":
+        [1],
+        "SpellType":
+        [],
+        "ManaCost": 2,
+        "Attack": 2,
+        "MaxHealth": 2,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 51,
+        "DbfId": 124424010,
+        "m_noteMiniGuid": "SZB_124424010",
+        "Classes":
+        [
+            5
+        ],
+        "CnName": "海神的威望",
+        "ScriptName": "SZB_124424010",
+        "CardType": 1,
+        "RareType": 2,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 5,
+        "Attack": 0,
+        "MaxHealth": 0,
+        "Targets": 0,
+        "Description": "召唤三条虎鲸，它们分别具有<b>冲锋</b>、<b>嘲讽</b>和<b>剧毒</b>"
+    },
+    {
+        "ModId": 1,
+        "SetId": 51,
+        "DbfId": 125411010,
+        "m_noteMiniGuid": "SZB_125411010",
+        "Classes":
+        [
+            5
+        ],
+        "CnName": "坠敌的龙骑士",
+        "ScriptName": "SZB_125411010",
+        "CardType": 0,
+        "RareType": 1,
+        "RaceType":
+        [1],
+        "SpellType":
+        [],
+        "ManaCost": 4,
+        "Attack": 2,
+        "MaxHealth": 2,
+        "Targets": 0,
+        "Description": "<b>冲锋</b> <b>剧毒</b>，法力渴求(7):召唤另一个坠敌的龙骑士。"
+    },
+    {
+        "ModId": 1,
+        "SetId": 51,
+        "DbfId": 126421020,
+        "m_noteMiniGuid": "SZB_126421020",
+        "Classes":
+        [
+            5
+        ],
+        "CnName": "人鱼歌唱家",
+        "ScriptName": "SZB_126421020",
+        "CardType": 0,
+        "RareType": 2,
+        "RaceType":
+        [1],
+        "SpellType":
+        [],
+        "ManaCost": 1,
+        "Attack": 0,
+        "MaxHealth": 2,
+        "Targets": 0,
+        "Description": "在你的回合结束时为你的英雄恢复2点生命值。如果你弃掉了这张随从牌，则会召唤它。"
+    },
+    {
+        "ModId": 1,
+        "SetId": 51,
+        "DbfId": 900444060,
+        "m_noteMiniGuid": "SZB_900444060",
+        "Classes":
+        [
+            5
+        ],
+        "CnName": "波涛的怒压",
+        "ScriptName": "SZB_900444060",
+        "CardType": 1,
+        "RareType": 4,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 1,
+        "Attack": 0,
+        "MaxHealth": 0,
+        "Targets": 0,
+        "Description": "对一个随机敌方随从造成5点伤害。"
+    },    
+    {
+        "ModId": 1,
+        "SetId": 51,
+        "DbfId": 124414010,
+        "m_noteMiniGuid": "SZB_124414010",
+        "Classes":
+        [
+            5
+        ],
+        "CnName": "飞龙俯冲",
+        "ScriptName": "SZB_124414010",
+        "CardType": 1,
+        "RareType": 1,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 4,
+        "Attack": 0,
+        "MaxHealth": 0,
+        "Targets": 12,
+        "Description": "弃一张牌，抽一张牌，对随机两个敌方随从造成4点伤害。"
+    },
+    {
+        "ModId": 1,
+        "SetId": 51,
+        "DbfId": 100414010,
+        "m_noteMiniGuid": "SZB_100414010",
+        "Classes":
+        [
+            5
+        ],
+        "CnName": "龙之启示",
+        "ScriptName": "SZB_100414010",
+        "CardType": 1,
+        "RareType": 1,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 2,
+        "Attack": 0,
+        "MaxHealth": 0,
+        "Targets": 0,
+        "Description": "获得一个空的法力水晶。"
+    },    
+    {
+        "ModId": 1,
+        "SetId": 51,
+        "DbfId": 125441020,
+        "m_noteMiniGuid": "SZB_125441020",
+        "Classes":
+        [
+            5
+        ],
+        "CnName": "黑翼霸主·法露特",
+        "ScriptName": "SZB_125441020",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [3],
+        "SpellType":
+        [],
+        "ManaCost": 6,
+        "Attack": 5,
+        "MaxHealth": 3,
+        "Targets": 0,
+        "Description": "<b>战吼：</b>随机消灭一个敌方随从，复原两个法力水晶。"
+    },
+    {
+        "ModId": 1,
+        "SetId": 51,
+        "DbfId": 124441010,
+        "m_noteMiniGuid": "SZB_124441010",
+        "Classes":
+        [
+            5
+        ],
+        "CnName": "独尊龙·四龙",
+        "ScriptName": "SZB_124441010",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [3],
+        "SpellType":
+        [],
+        "ManaCost": 3,
+        "Attack": 3,
+        "MaxHealth": 3,
+        "Targets": 0,
+        "Description": "<b>战吼：</b>为你的英雄恢复3点生命值。将一张'波涛的怒压'置入你的手牌"
+    },
+    {
+        "ModId": 1,
+        "SetId": 51,
+        "DbfId": 123441010,
+        "m_noteMiniGuid": "SZB_123441010",
+        "Classes":
+        [
+            5
+        ],
+        "CnName": "冻雪冰心·菲琳",
+        "ScriptName": "SZB_123441010",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [3],
+        "SpellType":
+        [],
+        "ManaCost": 2,
+        "Attack": 1,
+        "MaxHealth": 2,
+        "Targets": 2,
+        "Description": "<b>剧毒</b>\n<b>战吼：</b>对一个敌方随从造成1点伤害。"
+    },
+]

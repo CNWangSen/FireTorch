@@ -1,0 +1,289 @@
+[
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 590000,
+        "m_noteMiniGuid": "PVZ_000",
+        "Classes":
+        [
+            4
+        ],
+        "CnName": "疯狂戴夫",
+        "ScriptName": "HERO_01",
+        "CardType": 3,
+        "RareType": 0,
+        "RaceType":
+        [
+            9
+        ],
+        "SpellType":
+        [],
+        "ManaCost": 0,
+        "Attack": 0,
+        "MaxHealth": 30,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 5900000,
+        "m_noteMiniGuid": "PVZ_000bp",
+        "Classes":
+        [
+            4
+        ],
+        "CnName": "培育种子",
+        "ScriptName": "BOT_444",
+        "CardType": 4,
+        "RareType": 0,
+        "RaceType":
+        [
+        ],
+        "SpellType":
+        [
+        ],
+        "ManaCost": 1,
+        "Attack": 0,
+        "MaxHealth": 0,
+        "Targets": 0,
+        "Description": "将一株随机植物置入手牌。"
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 590101,
+        "m_noteMiniGuid": "PVZ_101",
+        "Classes":
+        [
+            4
+        ],
+        "CnName": "向日葵",
+        "ScriptName": "HERO_09bp",
+        "CardType": 0,
+        "RareType": 0,
+        "RaceType":
+        [
+            9
+        ],
+        "SpellType":
+        [],
+        "ManaCost": 2,
+        "Attack": 0,
+        "MaxHealth": 4,
+        "Targets": 0,
+        "Description": "在你的回合结束时，将一张<b>阳光</b>置入手牌。"
+    },
+
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 5901010,
+        "m_noteMiniGuid": "PVZ_101t",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "阳光",
+        "ScriptName": "HERO_09bp",
+        "CardType": 1,
+        "RareType": 0,
+        "RaceType":
+        [
+        ],
+        "SpellType":
+        [
+            5
+        ],
+        "ManaCost": 0,
+        "Attack": 0,
+        "MaxHealth": 0,
+        "Targets": 0,
+        "Description": "获取一个临时的法力水晶。"
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 590103,
+        "m_noteMiniGuid": "PVZ_103",
+        "Classes":
+        [
+            4
+        ],
+        "CnName": "樱桃炸弹",
+        "ScriptName": "UNG_057t1",
+        "CardType": 1,
+        "RareType": 0,
+        "RaceType":
+        [
+            9
+        ],
+        "SpellType":
+        [],
+        "ManaCost": 4,
+        "Attack": 0,
+        "MaxHealth": 0,
+        "Targets": 2,
+        "Description": "对一个敌方随从及其相邻的随从造成5点伤害。"
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 590102,
+        "m_noteMiniGuid": "PVZ_102",
+        "Classes":
+        [
+            4
+        ],
+        "CnName": "豌豆射手",
+        "ScriptName": "UNG_057t1",
+        "CardType": 0,
+        "RareType": 0,
+        "RaceType":
+        [
+            9
+        ],
+        "SpellType":
+        [],
+        "ManaCost": 2,
+        "Attack": 0,
+        "MaxHealth": 4,
+        "Targets": 0,
+        "Description": "在你的回合结束时，对面前的敌人造成2点伤害。"
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 590104,
+        "m_noteMiniGuid": "PVZ_104",
+        "Classes":
+        [
+            4
+        ],
+        "CnName": "坚果",
+        "ScriptName": "UNG_057t1",
+        "CardType": 0,
+        "RareType": 0,
+        "RaceType":
+        [
+            9
+        ],
+        "SpellType":
+        [],
+        "ManaCost": 2,
+        "Attack": 0,
+        "MaxHealth": 5,
+        "Targets": 0,
+        "Description": "<b>嘲讽</b>"
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 590105,
+        "m_noteMiniGuid": "PVZ_105",
+        "Classes":
+        [
+            4
+        ],
+        "CnName": "土豆地雷",
+        "ScriptName": "UNG_057t1",
+        "CardType": 0,
+        "RareType": 0,
+        "RaceType":
+        [
+            9
+        ],
+        "SpellType":
+        [],
+        "ManaCost": 1,
+        "Attack": 0,
+        "MaxHealth": 4,
+        "Targets": 0,
+        "Description": "在你的回合开始时获得<b>剧毒</b>和+1攻击力。"
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 590106,
+        "m_noteMiniGuid": "PVZ_106",
+        "Classes":
+        [
+            4
+        ],
+        "CnName": "寒冰射手",
+        "ScriptName": "UNG_057t1",
+        "CardType": 0,
+        "RareType": 0,
+        "RaceType":
+        [
+            9
+        ],
+        "SpellType":
+        [],
+        "ManaCost": 2,
+        "Attack": 0,
+        "MaxHealth": 4,
+        "Targets": 0,
+        "Description": "在你的回合结束时，对面前的敌人造成2点伤害，并使其冻结。"
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 590107,
+        "m_noteMiniGuid": "PVZ_107",
+        "Classes":
+        [
+            4
+        ],
+        "CnName": "大嘴花",
+        "ScriptName": "UNG_057t1",
+        "CardType": 0,
+        "RareType": 0,
+        "RaceType":
+        [
+            9
+        ],
+        "SpellType":
+        [],
+        "ManaCost": 2,
+        "Attack": 0,
+        "MaxHealth": 4,
+        "Targets": 0,
+        "Description": "在你的回合结束时，消灭一个随机敌方随从。"
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 590108,
+        "m_noteMiniGuid": "PVZ_108",
+        "Classes":
+        [
+            4
+        ],
+        "CnName": "双发射手",
+        "ScriptName": "UNG_057t1",
+        "CardType": 0,
+        "RareType": 0,
+        "RaceType":
+        [
+            9
+        ],
+        "SpellType":
+        [],
+        "ManaCost": 2,
+        "Attack": 0,
+        "MaxHealth": 4,
+        "Targets": 0,
+        "Description": "在你的回合结束时，对面前的敌人造成2点伤害，重复一次。"
+    },
+
+]

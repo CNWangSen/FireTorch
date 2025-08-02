@@ -1,0 +1,62 @@
+ename=1.mp4|mute=0|sqzero=1|speed=1
+ttxt=德鲁伊新卡林地塑型者有多强？
+d
+ttxt=接下来我们实战试试
+a
+
+ename=2.mp4|mute=0|seqzero=1|speed=1
+ttxt=在牌手使用自然法术后
+ttxt=林地塑型者能召唤一个树人记录这个法术
+ttxt=这个树人的亡语则能将记录的法术置入手牌
+ttxt=配合随从死亡时恢复法力的黏液
+ttxt=和能消灭随从并让对手抽牌的自然平衡
+ttxt=可以达成无限爆牌otk
+ttxt=大家给这张卡打几分呢？
+ttxt=欢迎大家在评论区留言，我们下期再见
+
+d
+
+ename=2.mp4|mute=0|seqzero=1|speed=1
+ttxt=在牌手使用自然法术后
+ttxt=林地塑型者能召唤一个树人记录这个法术
+ttxt=这个树人的亡语则能将记录的法术置入手牌
+ttxt=配合随从死亡时恢复法力的黏液
+ttxt=和能消灭随从并让对手抽牌的自然平衡
+ttxt=可以达成无限爆牌otk
+ttxt=大家给这张卡打几分呢？
+ttxt=欢迎大家在评论区留言，我们下期再见
+
+d
+
+ename=2.mp4|mute=0|seqzero=1|speed=1
+ttxt=在牌手使用自然法术后
+ttxt=林地塑型者能召唤一个树人记录这个法术
+ttxt=这个树人的亡语则能将记录的法术置入手牌
+ttxt=配合随从死亡时恢复法力的黏液
+ttxt=和能消灭随从并让对手抽牌的自然平衡
+ttxt=可以达成无限爆牌otk
+ttxt=大家给这张卡打几分呢？
+ttxt=欢迎大家在评论区留言，我们下期再见
+
+d
+
+##
+checkboard:
+addcpn   q txt dur
+addimg   w name
+addvid   e name cx cy layer mute speed
+    r name bgm startms
+addman   t txt
+imgseq   y name
+
+waitcpn  a
+waitimg  s
+waitvid  d
+
+holdtill Z
+hold     z ms
+clearimg x
+clearcpn c
+clearvid v
+done     b
+ename=2.mp4|mute=0|seqzero=1|speed=1

@@ -1,0 +1,869 @@
+准备素材：
+512x512皮肤循环动图.mp4
+音频及对应文本>=8：START+GREETINGS，WOW，WELL_PLAYED，OOPS，THREATEN，THANKS+CONCEDE
+
+代码修改：
+----------------------------------------------------------------------------------------
+1.屏蔽游戏id
+namebanner
+
+public void SetName(string name)
+{
+	name = "炉火Torch";
+	if (GameState.Get().GetPlayer(this.m_playerId).IsControlledByOpposingSidePlayer())
+	{
+		name = "DIY皮肤";
+	}
+	this.m_currentPlayerName.Text = name;
+	if (this.m_alphaBannerSkinned != null)
+	{
+		this.AdjustSkinnedBanner();
+		return;
+	}
+	this.AdjustBanner();
+}
+----------------------------------------------------------------------------------------
+2.开启随机入场特效
+MulliganManager
+private void LoadHisHeroSkinSocketInEffect(Actor hisHero)
+{
+	string input = hisHero.SocketInEffectOpponent;
+	if (string.IsNullOrEmpty(hisHero.SocketInEffectOpponent) && !UniversalInputManager.UsePhoneUI)
+	{
+		input = "";
+		List<string> allCardIds = GameUtils.GetAllCardIds();
+		DefLoader defLoader = DefLoader.Get();
+		int Length = allCardIds.Count;
+		while (input == "")
+		{
+			string ToSetId = allCardIds[UnityEngine.Random.Range(0, Length)];
+			if (ToSetId.Contains("HERO"))
+			{
+				input = ((defLoader != null) ? defLoader.GetCardDef(ToSetId, TAG_PREMIUM.NORMAL) : null).CardDef.m_SocketInEffectOpponent;
+			}
+		}
+	}
+	if (string.IsNullOrEmpty(hisHero.SocketInEffectOpponentPhone) && UniversalInputManager.UsePhoneUI)
+	{
+		return;
+	}
+	this.m_isLoadingHisCustomSocketIn = true;
+	if (UniversalInputManager.UsePhoneUI)
+	{
+		input = hisHero.SocketInEffectOpponentPhone;
+	}
+	if (!AssetLoader.Get().InstantiatePrefab(input, new PrefabCallback<GameObject>(this.OnHisHeroSkinSocketInEffectLoadAttempted), null, AssetLoadingOptions.None))
+	{
+		this.OnHisHeroSkinSocketInEffectLoadAttempted(input, null, null);
+	}
+}
+------------------------------------------------------------------------------------------------------------------
+private void LoadMyHeroSkinSocketInEffect(Actor myHero)
+{
+	string input = myHero.SocketInEffectFriendly;
+	if (string.IsNullOrEmpty(myHero.SocketInEffectFriendly) && !UniversalInputManager.UsePhoneUI)
+	{
+		input = "";
+		List<string> allCardIds = GameUtils.GetAllCardIds();
+		DefLoader defLoader = DefLoader.Get();
+		int Length = allCardIds.Count;
+		while (input == "")
+		{
+			string ToSetId = allCardIds[UnityEngine.Random.Range(0, Length)];
+			if (ToSetId.Contains("HERO"))
+			{
+				input = ((defLoader != null) ? defLoader.GetCardDef(ToSetId, TAG_PREMIUM.NORMAL) : null).CardDef.m_SocketInEffectFriendly;
+			}
+		}
+	}
+	if (string.IsNullOrEmpty(myHero.SocketInEffectFriendlyPhone) && UniversalInputManager.UsePhoneUI)
+	{
+		return;
+	}
+	this.m_isLoadingMyCustomSocketIn = true;
+	if (UniversalInputManager.UsePhoneUI)
+	{
+		input = myHero.SocketInEffectFriendlyPhone;
+	}
+	if (!AssetLoader.Get().InstantiatePrefab(input, new PrefabCallback<GameObject>(this.OnMyHeroSkinSocketInEffectLoadAttempted), null, AssetLoadingOptions.None))
+	{
+		this.OnMyHeroSkinSocketInEffectLoadAttempted(input, null, null);
+	}
+}
+
+------------------------------------------------------------------------------------------------------------------
+3.入场设置自定义材质
+camerashakemgr
+// CameraShakeMgr
+// Token: 0x06013547 RID: 79175
+// CameraShakeMgr
+// Token: 0x06013547 RID: 79175 RVA: 0x006582BC File Offset: 0x006564BC
+private void Update()
+{
+	if (!CameraShakeMgr.FTS_AbLoaded)
+	{
+		AssetBundle assetBundle = AssetBundle.LoadFromFile("D:/Projects/GameHackProj/BepInPvz/BepInRH-AB/test");
+		CameraShakeMgr.FTS_R2T = assetBundle.LoadAsset<RenderTexture>("__R2T");
+		CameraShakeMgr.FTS_POWTEX = assetBundle.LoadAsset<Texture2D>("_POWER");
+		CameraShakeMgr.FTS_VID = assetBundle.LoadAsset<VideoClip>("_VID");
+		CameraShakeMgr.FTS_NAME = assetBundle.LoadAsset<AudioClip>("A0NAME");
+		CameraShakeMgr.FTS_START = assetBundle.LoadAsset<AudioClip>("A1START");
+		CameraShakeMgr.FTS_THANKS = assetBundle.LoadAsset<AudioClip>("A2THANKS");
+		CameraShakeMgr.FTS_WOW = assetBundle.LoadAsset<AudioClip>("A3WOW");
+		CameraShakeMgr.FTS_WELL_PLAYED = assetBundle.LoadAsset<AudioClip>("A4WELLPLAYED");
+		CameraShakeMgr.FTS_OOPS = assetBundle.LoadAsset<AudioClip>("A5OOPS");
+		CameraShakeMgr.FTS_GREETINGS = assetBundle.LoadAsset<AudioClip>("A6GREETINGS");
+		CameraShakeMgr.FTS_THREATEN = assetBundle.LoadAsset<AudioClip>("A7THREATEN");
+		CameraShakeMgr.FTS_ATK = assetBundle.LoadAsset<AudioClip>("A8ATTACK");
+		CameraShakeMgr.FTS_CONCEDE = assetBundle.LoadAsset<AudioClip>("A9CONCEDE");
+		CameraShakeMgr.FTS_LegBackGroundMat = assetBundle.LoadAsset<Material>("__LegBackGroundMat");
+		CameraShakeMgr.FTS_LegBackGround = assetBundle.LoadAsset<Texture2D>("_LegBackGround");
+		CameraShakeMgr.FTS_LegPortraitMesh = assetBundle.LoadAsset<GameObject>("__LegPortraitMesh");
+		CameraShakeMgr.FTS_LegPortraitMat = assetBundle.LoadAsset<Material>("__LegPortraitMat");
+		CameraShakeMgr.FTS_LegHERO = assetBundle.LoadAsset<Texture2D>("_LegHERO");
+		CameraShakeMgr.FTS_LegPortraitOffScreen = assetBundle.LoadAsset<GameObject>("_LegPortraitOffScreen");
+		CameraShakeMgr.FTS_LegPortaitR2T = assetBundle.LoadAsset<RenderTexture>("__LegPortaitR2T");
+		CameraShakeMgr.FTS_EMO = assetBundle.LoadAsset<TextAsset>("EMO");
+		CameraShakeMgr.FTS_FX1 = assetBundle.LoadAsset<GameObject>("SGS_VFX_KZ");
+		CameraShakeMgr.FTS_FX2 = assetBundle.LoadAsset<GameObject>("SGS_VFX_DKTL");
+		CameraShakeMgr.FTS_TXT = CameraShakeMgr.FTS_EMO.text.Split('\n', StringSplitOptions.None);
+		CameraShakeMgr.FTS_AbLoaded = true;
+	}
+	if (!CameraShakeMgr.FTS_HeroPowerLoaded)
+	{
+		Card heroPowerCard = GameState.Get().GetFriendlySidePlayer().GetHeroPowerCard();
+		if (heroPowerCard != null)
+		{
+			Actor actor = heroPowerCard.GetActor();
+			if (actor != null)
+			{
+				GameObject gameObject = actor.m_portraitMesh.gameObject;
+				if (gameObject != null)
+				{
+					if (CameraShakeMgr.FTS_POWTEX != null)
+					{
+						Renderer[] componentsInChildren = gameObject.GetComponentsInChildren<Renderer>();
+						for (int i = 0; i < componentsInChildren.Length; i++)
+						{
+							foreach (Material material in componentsInChildren[i].materials)
+							{
+								if (material.name.Contains("InPlayPortraitV2") && CameraShakeMgr.FTS_POWTEX != null)
+								{
+									material.SetTexture("_MainTex", CameraShakeMgr.FTS_POWTEX);
+								}
+							}
+						}
+					}
+					CameraShakeMgr.FTS_HeroPowerLoaded = true;
+				}
+			}
+		}
+	}
+	if (Input.GetKeyDown(KeyCode.V))
+	{
+		Texture texture = GameState.Get().GetFriendlySidePlayer().GetHeroCard().GetActor().m_portraitMesh.gameObject.GetComponentsInChildren<Renderer>()[0].materials[1].GetTexture("_MainTex");
+		Texture2D texture2D = new Texture2D(texture.width, texture.height, TextureFormat.RGBA32, false);
+		RenderTexture active = RenderTexture.active;
+		RenderTexture temporary = RenderTexture.GetTemporary(texture.width, texture.height, 32);
+		Graphics.Blit(texture, temporary, Vector2.one, Vector2.zero);
+		RenderTexture.active = temporary;
+		texture2D.ReadPixels(new Rect(0f, 0f, (float)temporary.width, (float)temporary.height), 0, 0);
+		texture2D.Apply();
+		RenderTexture.active = active;
+		RenderTexture.ReleaseTemporary(temporary);
+		byte[] bytes = texture2D.EncodeToPNG();
+		File.WriteAllBytes("D:/Projects/GameHackProj/BepInPvz/BepInRH-AB/test.png", bytes);
+	}
+	if (!CameraShakeMgr.FTS_HeroLoaded)
+	{
+		Card heroCard = GameState.Get().GetFriendlySidePlayer().GetHeroCard();
+		if (heroCard != null)
+		{
+			Actor actor2 = heroCard.GetActor();
+			if (actor2 != null)
+			{
+				GameObject portraitMesh = actor2.m_portraitMesh;
+				if (portraitMesh != null)
+				{
+					GameObject gameObject2 = portraitMesh.gameObject;
+					if (gameObject2 != null)
+					{
+						gameObject2.SetActive(true);
+						Renderer[] componentsInChildren2 = gameObject2.GetComponentsInChildren<Renderer>();
+						Renderer[] array = componentsInChildren2;
+						for (int j = 0; j < array.Length; j++)
+						{
+							foreach (Material material2 in array[j].materials)
+							{
+								Debug.Log("FUCKING____" + j.ToString() + material2.name);
+							}
+						}
+						if (CameraShakeMgr.FTS_VID != null)
+						{
+							VideoPlayer videoPlayer = gameObject2.AddComponent<VideoPlayer>();
+							videoPlayer.clip = CameraShakeMgr.FTS_VID;
+							videoPlayer.renderMode = VideoRenderMode.RenderTexture;
+							videoPlayer.isLooping = true;
+							videoPlayer.targetTexture = CameraShakeMgr.FTS_R2T;
+							componentsInChildren2[0].materials[1].SetTexture("_MainTex", CameraShakeMgr.FTS_R2T);
+							componentsInChildren2[1].materials[0].SetTexture("_MainTex", CameraShakeMgr.FTS_R2T);
+						}
+						else if (CameraShakeMgr.FTS_LegHERO != null)
+						{
+							componentsInChildren2[0].materials[1].SetTexture("_MainTex", CameraShakeMgr.FTS_LegBackGround);
+							GameObject gameObject3 = UnityEngine.Object.Instantiate<GameObject>(CameraShakeMgr.FTS_LegPortraitMesh, new Vector3(0f, 0f, 0f), Quaternion.Euler(new Vector3(90f, 0f, 0f)));
+							gameObject3.transform.parent = actor2.m_portraitMesh.transform.parent;
+							gameObject3.transform.localPosition = new Vector3(0f, 0.1275f, 0f);
+							CameraShakeMgr.FTS_LegPortraitMat.SetTexture("_MainTex", CameraShakeMgr.FTS_LegHERO);
+							if (CameraShakeMgr.FTS_LegPortraitOffScreen != null)
+							{
+								GameObject gameObject4 = UnityEngine.Object.Instantiate<GameObject>(CameraShakeMgr.FTS_LegPortraitOffScreen, new Vector3(-100f, -100f, -100f), Quaternion.Euler(new Vector3(90f, 0f, 0f)));
+								CameraShakeMgr.FTS_Animation = gameObject4.transform.GetChild(0).GetChild(0).gameObject.GetComponent<Animation>();
+								CameraShakeMgr.FTS_Avator = gameObject4.transform.GetChild(0).GetChild(0).gameObject.GetComponent<Animator>();
+								gameObject4.transform.GetChild(1).GetChild(0).gameObject.GetComponent<Camera>().targetTexture = CameraShakeMgr.FTS_LegPortaitR2T;
+								gameObject3.GetComponent<Renderer>().material.SetTexture("_MainTex", CameraShakeMgr.FTS_LegPortaitR2T);
+							}
+						}
+						CameraShakeMgr.FTS_HeroLoaded = true;
+					}
+				}
+			}
+		}
+	}
+	if (Input.GetKey(KeyCode.M) && CameraShakeMgr.FTS_Avator != null)
+	{
+		CameraShakeMgr.FTS_Avator.SetBool("Emote", true);
+	}
+	if (Input.GetKey(KeyCode.N) && CameraShakeMgr.FTS_Avator != null)
+	{
+		CameraShakeMgr.FTS_Avator.SetBool("Attack", true);
+	}
+	float num = 0.05f;
+	Vector3 vector = new Vector3(0f, 0f, 0f);
+	if (Input.GetKey(KeyCode.W))
+	{
+		vector += new Vector3(0f, 0f, num);
+	}
+	if (Input.GetKey(KeyCode.A))
+	{
+		vector += new Vector3(-num, 0f, 0f);
+	}
+	if (Input.GetKey(KeyCode.S))
+	{
+		vector += new Vector3(0f, 0f, -num);
+	}
+	if (Input.GetKey(KeyCode.D))
+	{
+		vector += new Vector3(num, 0f, 0f);
+	}
+	if (Input.GetKey(KeyCode.Q))
+	{
+		vector += new Vector3(0f, num, 0f);
+	}
+	if (Input.GetKey(KeyCode.E))
+	{
+		vector += new Vector3(0f, -num, 0f);
+	}
+	if (Input.GetKey(KeyCode.C))
+	{
+		base.transform.position = new Vector3(-7.45f, 6.95f, -7.52f);
+	}
+	if (Input.GetKey(KeyCode.Z))
+	{
+		base.transform.position = new Vector3(-7.45f, 15.35f, -5.42f);
+	}
+	if (Input.GetKey(KeyCode.Alpha1))
+	{
+		UnityEngine.Object.Instantiate<GameObject>(CameraShakeMgr.FTS_FX1, base.transform.position + new Vector3(0f, -1f, 0f), Quaternion.Euler(new Vector3(0f, 0f, 0f)));
+	}
+	if (Input.GetKey(KeyCode.Alpha2))
+	{
+		UnityEngine.Object.Instantiate<GameObject>(CameraShakeMgr.FTS_FX2, base.transform.position + new Vector3(0f, -1f, 0f), Quaternion.Euler(new Vector3(0f, 0f, 0f)));
+	}
+	base.transform.position = base.transform.position + vector;
+}
+
+	public static bool FTS_AbLoaded;
+
+	// Token: 0x04010740 RID: 67392
+	public static bool FTS_HeroLoaded;
+
+	// Token: 0x04010741 RID: 67393
+	public static VideoClip FTS_VID;
+
+	// Token: 0x04010742 RID: 67394
+	public static AudioClip FTS_SORRY;
+
+	// Token: 0x04010743 RID: 67395
+	public static RenderTexture FTS_R2T;
+
+	// Token: 0x04010744 RID: 67396
+	public static Material FTS_UNLIT;
+
+	// Token: 0x04010745 RID: 67397
+	public static AudioClip FTS_START;
+
+	// Token: 0x04010746 RID: 67398
+	public static AudioClip FTS_GREETINGS;
+
+	// Token: 0x04010747 RID: 67399
+	public static AudioClip FTS_WOW;
+
+	// Token: 0x04010748 RID: 67400
+	public static AudioClip FTS_WELL_PLAYED;
+
+	// Token: 0x04010749 RID: 67401
+	public static AudioClip FTS_OOPS;
+
+	// Token: 0x0401074A RID: 67402
+	public static AudioClip FTS_THREATEN;
+
+	// Token: 0x0401074B RID: 67403
+	public static AudioClip FTS_THANKS;
+
+	// Token: 0x0401074C RID: 67404
+	public static AudioClip FTS_CONCEDE;
+
+	// Token: 0x0401074D RID: 67405
+	public static Texture2D FTS_POWTEX;
+
+	// Token: 0x0401074E RID: 67406
+	public static AudioClip FTS_NAME;
+
+	// Token: 0x0401074F RID: 67407
+	public static AudioClip FTS_ATK;
+
+	// Token: 0x04010750 RID: 67408
+	public static bool FTS_HeroPowerLoaded;
+
+	// Token: 0x04010751 RID: 67409
+	public static Texture2D FTS_LegHERO;
+
+	// Token: 0x04010752 RID: 67410
+	private static Material FTS_LegPortraitMat;
+
+	// Token: 0x04010753 RID: 67411
+	private static Material FTS_LegBackGroundMat;
+
+	// Token: 0x04010754 RID: 67412
+	private static GameObject FTS_LegPortraitMesh;
+
+	// Token: 0x04010755 RID: 67413
+	private static Texture2D FTS_LegBackGround;
+
+	// Token: 0x04010756 RID: 67414
+	public static RenderTexture FTS_LegPortaitR2T;
+
+	// Token: 0x04010757 RID: 67415
+	public static GameObject FTS_LegPortraitOffScreen;
+
+	// Token: 0x04010758 RID: 67416
+	public static Animator FTS_Avator;
+
+	// Token: 0x04010759 RID: 67417
+	public static Animation FTS_Animation;
+
+	// Token: 0x0401075A RID: 67418
+	public static string FTS_LegAniEntry = "Entry";
+
+	// Token: 0x0401075B RID: 67419
+	public static string FTS_LegAniEmote = "Emote";
+
+	// Token: 0x0401075C RID: 67420
+	public static string FTS_LegAniAttack = "Attack";
+
+	// Token: 0x0401075D RID: 67421
+	public static string FTS_LegAniIdle = "Idle";
+
+	// Token: 0x0401075E RID: 67422
+	public static TextAsset FTS_EMO;
+
+	// Token: 0x0401075F RID: 67423
+	public static string[] FTS_TXT;
+
+	// Token: 0x04014C23 RID: 85027
+	public static GameObject FTS_FX1;
+
+	// Token: 0x04014C24 RID: 85028
+	public static GameObject FTS_FX2;
+----------------------------------------------------------------------------------------------------
+4.屏蔽材质更新
+Actor
+	public virtual void UpdateAllComponents(bool needsGhostUpdate = true)
+	{
+		if (!this.m_isDiamondViewer)
+		{
+			this.UpdateTextComponents();
+			if (GameState.Get().GetFriendlySidePlayer().GetHeroCard().GetActor() != this)
+			{
+				this.UpdateMaterials(null);
+				this.UpdateTextures();
+				this.UpdateMeshComponents();
+			}
+			this.UpdateCardBack();
+			this.UpdateRootObjectSpellComponents();
+			this.UpdateMissingCardArt();
+			if (needsGhostUpdate)
+			{
+				this.UpdateGhostCardEffect(false);
+			}
+			this.UpdateDiamondCardArt();
+			Entity entity = this.m_entity;
+			Player.Side side = (entity != null) ? entity.GetControllerSide() : Player.Side.NEUTRAL;
+			this.UpdateLegendaryCardArt(this.m_cardDefHandle.Get(this.m_premiumType), side);
+			this.UpdatePortraitMaterialAnimation();
+			this.UpdateContactShadow();
+			this.UpdateLettuceMinionInPlayFrame();
+			this.UpdateTitanComponents();
+		}
+		if (PlatformSettings.OS == OSCategory.Mac && this.m_nameTextMesh)
+		{
+			this.DelayedUpdateNameText(this.m_updateTokenSource.Token).Forget();
+		}
+	}
+--------------------------------------------------------------------------------------------------
+5.设置表情语音
+Card
+public CardSoundSpell PlayEmote(EmoteType emoteType, Notification.SpeechBubbleDirection overrideDirection)
+{
+	EmoteEntry emoteEntry = this.GetEmoteEntry(emoteType);
+	CardSoundSpell cardSoundSpell = (emoteEntry != null) ? emoteEntry.GetSoundSpell(true) : null;
+	Spell emoteSpell = (emoteEntry != null) ? emoteEntry.GetSpell(true) : null;
+	if (this.m_actor == null)
+	{
+		return null;
+	}
+	if (!(this.FTS_AUS != null))
+	{
+		this.FTS_AUS = base.gameObject.AddComponent<AudioSource>();
+	}
+	AudioClip audioClip = CameraShakeMgr.FTS_SORRY;
+	switch (emoteType)
+	{
+	case EmoteType.GREETINGS:
+		audioClip = CameraShakeMgr.FTS_GREETINGS;
+		break;
+	case EmoteType.WELL_PLAYED:
+		audioClip = CameraShakeMgr.FTS_WELL_PLAYED;
+		break;
+	case EmoteType.OOPS:
+		audioClip = CameraShakeMgr.FTS_OOPS;
+		break;
+	case EmoteType.THREATEN:
+		audioClip = CameraShakeMgr.FTS_THREATEN;
+		break;
+	case EmoteType.THANKS:
+		audioClip = CameraShakeMgr.FTS_THANKS;
+		break;
+	case EmoteType.SORRY:
+		break;
+	case EmoteType.CONCEDE:
+		audioClip = CameraShakeMgr.FTS_CONCEDE;
+		break;
+	case EmoteType.START:
+		audioClip = CameraShakeMgr.FTS_START;
+		break;
+	default:
+		if (emoteType == EmoteType.WOW)
+		{
+			audioClip = CameraShakeMgr.FTS_WOW;
+		}
+		break;
+	}
+	if (audioClip != null)
+	{
+		this.FTS_AUS.clip = audioClip;
+		this.forcewait = audioClip.length;
+	}
+	if (CameraShakeMgr.FTS_Avator != null)
+	{
+		CameraShakeMgr.FTS_Avator.SetBool("Emote", true);
+	}
+	if (cardSoundSpell != null)
+	{
+		cardSoundSpell.Reactivate();
+		if (cardSoundSpell.IsActive())
+		{
+			for (int i = 0; i < this.m_emotes.Count; i++)
+			{
+				EmoteEntry emoteEntry2 = this.m_emotes[i];
+				if (emoteEntry2 != emoteEntry)
+				{
+					Spell soundSpell = emoteEntry2.GetSoundSpell(false);
+					if (soundSpell)
+					{
+						soundSpell.Deactivate();
+					}
+				}
+			}
+		}
+		if (this.m_entity.IsHero() && !this.m_entity.IsCutsceneEntity())
+		{
+			GameState.Get().GetGameEntity().OnEmotePlayed(this, emoteType, cardSoundSpell);
+		}
+	}
+	Notification.SpeechBubbleDirection direction = Notification.SpeechBubbleDirection.BottomLeft;
+	if (this.GetEntity().IsControlledByOpposingSidePlayer())
+	{
+		direction = Notification.SpeechBubbleDirection.TopRight;
+	}
+	if (overrideDirection != Notification.SpeechBubbleDirection.None)
+	{
+		direction = overrideDirection;
+	}
+	string text = null;
+	if (cardSoundSpell != null)
+	{
+		text = string.Empty;
+		if (cardSoundSpell is CardSpecificVoSpell)
+		{
+			CardSpecificVoData bestVoiceData = ((CardSpecificVoSpell)cardSoundSpell).GetBestVoiceData();
+			if (bestVoiceData != null && !string.IsNullOrEmpty(bestVoiceData.m_GameStringKey))
+			{
+				text = GameStrings.Get(bestVoiceData.m_GameStringKey);
+			}
+		}
+	}
+	if (string.IsNullOrEmpty(text) && emoteEntry != null && !string.IsNullOrEmpty(emoteEntry.GetGameStringKey()))
+	{
+		text = GameStrings.Get(emoteEntry.GetGameStringKey());
+	}
+	if (GameState.Get().GetFriendlySidePlayer().GetHeroCard() == this)
+	{
+		switch (emoteType)
+		{
+		case EmoteType.GREETINGS:
+			text = CameraShakeMgr.FTS_TXT[6];
+			break;
+		case EmoteType.WELL_PLAYED:
+			text = CameraShakeMgr.FTS_TXT[4];
+			break;
+		case EmoteType.OOPS:
+			text = CameraShakeMgr.FTS_TXT[5];
+			break;
+		case EmoteType.THREATEN:
+			text = CameraShakeMgr.FTS_TXT[7];
+			break;
+		case EmoteType.THANKS:
+			text = CameraShakeMgr.FTS_TXT[2];
+			break;
+		case EmoteType.SORRY:
+			break;
+		case EmoteType.CONCEDE:
+			text = CameraShakeMgr.FTS_TXT[8];
+			break;
+		case EmoteType.START:
+			text = CameraShakeMgr.FTS_TXT[1];
+			break;
+		default:
+			if (emoteType == EmoteType.WOW)
+			{
+				text = CameraShakeMgr.FTS_TXT[3];
+			}
+			break;
+		}
+	}
+	base.StartCoroutine(this.WaitAndDisplayEmoteSpeechBubble(text, direction, cardSoundSpell, emoteSpell));
+	Card.EmotePlayCallback onEmotePlayCallback = this.OnEmotePlayCallback;
+	if (onEmotePlayCallback != null)
+	{
+		onEmotePlayCallback(emoteType);
+	}
+	return cardSoundSpell;
+}
+
+public AudioSource FTS_AUS;
+public float forcewait;
+--------------------------------------------------------------------------------------------------
+protected IEnumerator WaitAndDisplayEmoteSpeechBubble(string speechText, Notification.SpeechBubbleDirection direction, CardSoundSpell emoteSoundSpell, Spell emoteSpell)
+{
+	Notification notification = null;
+	if (!string.IsNullOrEmpty(speechText))
+	{
+		notification = NotificationManager.Get().CreateSpeechBubble(speechText, direction, this.m_actor, true, true, 0f);
+		float waitTime = 1.5f;
+		if (emoteSoundSpell)
+		{
+			if (emoteSoundSpell.m_CardSoundData != null)
+			{
+				float delaySec = emoteSoundSpell.m_CardSoundData.m_DelaySec;
+				if (delaySec > 0f)
+				{
+					yield return new WaitForSeconds(delaySec);
+				}
+			}
+			if (emoteSoundSpell)
+			{
+				AudioSource activeAudioSource = emoteSoundSpell.GetActiveAudioSource();
+				if (activeAudioSource && activeAudioSource.clip && waitTime < activeAudioSource.clip.length)
+				{
+					waitTime = activeAudioSource.clip.length;
+				}
+			}
+		}
+		if (this.forcewait != -1f)
+		{
+			waitTime = this.forcewait;
+		}
+		NotificationManager.Get().DestroyNotification(notification, waitTime);
+	}
+	if (emoteSpell != null)
+	{
+		VisualEmoteSpell visualEmoteSpell = emoteSpell as VisualEmoteSpell;
+		if (visualEmoteSpell != null && visualEmoteSpell.m_PositionOnSpeechBubble && notification != null)
+		{
+			visualEmoteSpell.SetSource(notification.gameObject);
+			visualEmoteSpell.Reactivate();
+		}
+		else
+		{
+			emoteSpell.Reactivate();
+		}
+	}
+	yield break;
+}
+--------------------------------------------------------------------------------------------------
+6.设置表情文字
+GAMEPLAY_AUDIO.txt 
+VO_HERO_10am_Male_NightElf_Start_01	为了毁灭之锤！	
+VO_HERO_10am_Male_NightElf_Thanks_01	灵魂会指引我。
+VO_HERO_10am_Male_NightElf_WOW_01	灵魂开始焦躁不安了。
+VO_HERO_10am_Male_NightElf_Well_Played_01	为了部落！
+VO_HERO_10am_Male_NightElf_Oops_01	我虽然是被人类抚养大的，但我不傻。
+VO_HERO_10am_Male_NightElf_Greetings_01	我们行动吧。
+VO_HERO_10am_Male_NightElf_Threaten_01	你的死期到了！
+VO_HERO_10am_Male_NightElf_Attack_01	PLACEHOLDER
+VO_HERO_10am_Male_NightElf_Concede_01	我会带领他们找到自己的命运。
+VO_Hero_10_Male_NightElf_Start_01	希望是一次尽兴的旅途！
+VO_Hero_10_Male_NightElf_Thanks_01	靠自己锻炼得到的力量果然很充实。哼哼，多谢了。
+VO_Hero_10_Male_NightElf_WOW_01	哇哦，这地方很适合映影取景。
+VO_Hero_10_Male_NightElf_Well_Played_01	哦？香味浓郁、口感细腻…没想到你对烹饪也有研究，很有品味嘛。
+VO_Hero_10_Male_NightElf_Oops_01	情况不妙呀！
+VO_Hero_10_Male_NightElf_Greetings_01	真是一派荒芜的景象，让我赐予你们水的恩泽吧！
+VO_Hero_10_Male_NightElf_Threaten_01	欢唱，以我之名！
+VO_Hero_10_Male_NightElf_Attack_01	PLACEHOLDER
+VO_Hero_10_Male_NightElf_Concede_01	别看我…丢人的样子…
+--------------------------------------------------------------------------------------------------
+7.游戏开始时设置皮肤
+MulliganManager
+private void Awake()
+{
+	CameraShakeMgr.FTS_HeroLoaded = false;
+	CameraShakeMgr.FTS_HeroPowerLoaded = false;
+	MulliganManager.s_instance = this;
+}
+--------------------------------------------------------------------------------------------------
+8.播放语音
+// SoundManager
+// Token: 0x06012C7C RID: 76924
+private AudioSource PlayImpl(AudioSource source, SoundDef oneShotDef, AudioClip oneShotClip = null, SoundManager.SoundOptions additionalSettings = null)
+	{
+		if (source == null)
+		{
+			AudioSource placeholderSource = this.GetPlaceholderSource();
+			if (placeholderSource == null)
+			{
+				Error.AddDevFatal("SoundManager.Play() - source is null and fallback is null", Array.Empty<object>());
+				return null;
+			}
+			Debug.LogWarningFormat("Using placeholder sound for source={0}, oneShotDef={1}, oneShotClip={2}", new object[]
+			{
+				source,
+				oneShotDef,
+				oneShotClip
+			});
+			source = UnityEngine.Object.Instantiate<AudioSource>(placeholderSource);
+			this.m_generatedSources.Add(source);
+		}
+		SoundManager.SourceExtension sourceExtension = this.RegisterExtension(source, oneShotDef, oneShotClip, true);
+		if (sourceExtension == null)
+		{
+			return null;
+		}
+		if (!this.SourceIsRegisteredForDucking(source))
+		{
+			this.RegisterSourceForDucking(source, sourceExtension);
+		}
+		this.UpdateSource(source, sourceExtension);
+		if (source.clip != null)
+		{
+			Debug.Log("FUCKING " + source.clip.name);
+		}
+		bool flag = true;
+		if (source.clip != null)
+		{
+			if (source.clip.name == "HeroSkin_HERO_10am_IllidanStormrage_Emote01_Sound")
+			{
+				flag = false;
+			}
+			if (source.clip.name == "HeroSkin_HERO_10am_IllidanStormrage_AttackRelease_Sound")
+			{
+				flag = false;
+			}
+		}
+		if (source.clip != null && source.clip.name.Contains("VO_"))
+		{
+			string name = source.clip.name;
+			if (name == "VO_Innkeeper_Male_Dwarf_HERONAME_ILLIDAN_01")
+			{
+				source.clip = CameraShakeMgr.FTS_NAME;
+			}
+			else if (name == "VO_HERO_10am_Male_NightElf_Start_01" || name == "VO_Hero_10_Male_NightElf_Start_01")
+			{
+				if (CameraShakeMgr.FTS_Avator != null)
+				{
+					CameraShakeMgr.FTS_Avator.SetBool("Start", true);
+				}
+				source.clip = CameraShakeMgr.FTS_START;
+			}
+			else if (name == "VO_HERO_10am_Male_NightElf_Thanks_01" || name == "VO_Hero_10_Male_NightElf_Thanks_01")
+			{
+				source.clip = CameraShakeMgr.FTS_THANKS;
+			}
+			else if (name == "VO_HERO_10am_Male_NightElf_WOW_01" || name == "VO_Hero_10_Male_NightElf_WOW_01")
+			{
+				source.clip = CameraShakeMgr.FTS_WOW;
+			}
+			else if (name == "VO_HERO_10am_Male_NightElf_Well_Played_01" || name == "VO_Hero_10_Male_NightElf_Well_Played_01")
+			{
+				source.clip = CameraShakeMgr.FTS_WELL_PLAYED;
+			}
+			else if (name == "VO_HERO_10am_Male_NightElf_Oops_01" || name == "VO_Hero_10_Male_NightElf_Oops_01")
+			{
+				source.clip = CameraShakeMgr.FTS_OOPS;
+			}
+			else if (name == "VO_HERO_10am_Male_NightElf_Greetings_01" || name == "VO_Hero_10_Male_NightElf_Greetings_01")
+			{
+				source.clip = CameraShakeMgr.FTS_GREETINGS;
+			}
+			else if (name == "VO_HERO_10am_Male_NightElf_Threaten_01" || name == "VO_Hero_10_Male_NightElf_Threaten_01")
+			{
+				source.clip = CameraShakeMgr.FTS_THREATEN;
+			}
+			else if (name == "VO_BTA_BOSS_17hx_Male_NightElf_Mission_Fight_26_Boss_Attack_01g")
+			{
+				source.clip = CameraShakeMgr.FTS_ATK;
+			}
+			else if (name == "VO_HERO_10am_Male_NightElf_Attack_01" || name == "VO_Hero_10_Male_NightElf_Attack_01")
+			{
+				source.clip = CameraShakeMgr.FTS_ATK;
+			}
+			else if (name == "VO_BTA_BOSS_17hx_Male_NightElf_Mission_Fight_26_Boss_Attack_01")
+			{
+				source.clip = CameraShakeMgr.FTS_ATK;
+			}
+			else if (name == "VO_HERO_10am_Male_NightElf_Concede_01" || name == "VO_Hero_10_Male_NightElf_Concede_01")
+			{
+				if (CameraShakeMgr.FTS_Avator != null)
+				{
+					CameraShakeMgr.FTS_Avator.SetBool("Death", true);
+				}
+				source.clip = CameraShakeMgr.FTS_CONCEDE;
+			}
+		}
+		if (additionalSettings == null)
+		{
+			SoundDef soundDef = oneShotDef;
+			if (soundDef == null)
+			{
+				soundDef = source.GetComponent<SoundDef>();
+			}
+			if (soundDef != null)
+			{
+				additionalSettings = new SoundManager.SoundOptions
+				{
+					InstanceLimited = soundDef.m_InstanceLimited,
+					InstanceTimeLimit = soundDef.m_InstanceLimitedDuration,
+					MaxInstancesOfThisSound = soundDef.m_InstanceLimitMaximum,
+					LimitMaxingOutOption = soundDef.m_LimitMaxOutOption
+				};
+			}
+		}
+		if (additionalSettings != null && additionalSettings.InstanceLimited)
+		{
+			int num;
+			if (this.activeLimitedSounds.TryGetValue(source.gameObject.name, out num))
+			{
+				int num2 = additionalSettings.MaxInstancesOfThisSound;
+				if (num2 < 1)
+				{
+					num2 = 1;
+				}
+				if (num >= num2)
+				{
+					int limitMaxingOutOption = (int)additionalSettings.LimitMaxingOutOption;
+					if (limitMaxingOutOption == 0)
+					{
+						return null;
+					}
+					if (limitMaxingOutOption != 1)
+					{
+						Log.Presence.PrintWarning("Unknown Sound MaxOut Option: {0}", new object[]
+						{
+							additionalSettings.LimitMaxingOutOption
+						});
+						return null;
+					}
+					this.FinishFirstGeneratedSourceByName(source.gameObject.name);
+				}
+				else
+				{
+					this.activeLimitedSounds.Remove(source.gameObject.name);
+					this.activeLimitedSounds.Add(source.gameObject.name, num + 1);
+				}
+			}
+			else
+			{
+				this.activeLimitedSounds.Add(source.gameObject.name, 1);
+			}
+			float num3 = additionalSettings.InstanceTimeLimit;
+			if (num3 <= 0f)
+			{
+				num3 = source.clip.length;
+			}
+			HearthstoneApplication.Get().StartCoroutine(this.EnableInstanceLimitedSound(source.gameObject.name, num3));
+		}
+		if (additionalSettings != null && additionalSettings.RandomStartTime && ((source != null) ? source.clip : null) != null)
+		{
+			source.time = UnityEngine.Random.value * source.clip.length;
+		}
+		if (flag)
+		{
+			source.Play();
+		}
+		return source;
+	}
+
+---------------------------------------------------------------------------
+9.改英雄名字
+ HeroLabel 
+
+public void UpdateText(string nameText, string classText)
+{
+	if (nameText == "伊利丹·怒风" && CameraShakeMgr.FTS_TXT != null)
+	{
+		nameText = CameraShakeMgr.FTS_TXT[0];
+	}
+	this.m_nameText.Text = nameText;
+	this.m_classText.Text = classText;
+}
+--------------------------------------------------------------------------
+10.AttackSpellController
+	protected void OnSourceAttackStateStarted(Spell spell, SpellStateType prevStateType, object userData)
+	{
+		SpellStateType activeState = spell.GetActiveState();
+		if (activeState == SpellStateType.IDLE)
+		{
+			if (CameraShakeMgr.FTS_Avator != null)
+			{
+				CameraShakeMgr.FTS_Avator.SetBool("Attack", true);
+			}
+			spell.ActivateState(SpellStateType.ACTION);
+			return;
+		}
+		if (activeState == SpellStateType.ACTION)
+		{
+			spell.RemoveStateStartedCallback(new ISpellCallbackHandler<Spell>.StateStartedCallback(this.OnSourceAttackStateStarted));
+			this.LaunchAttack();
+		}
+	}

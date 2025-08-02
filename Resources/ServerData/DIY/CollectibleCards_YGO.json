@@ -1,0 +1,27 @@
+[
+    {
+    "ModId": 1,
+    "SetId": 52,
+    "DbfId": 870000,
+    "m_noteMiniGuid": "YGO_870000",
+    "ScriptName":"DRG_090",
+    "Classes":
+    [
+        0
+    ],
+    "CnName": "青眼白龙",
+    "CardType": 0,
+    "RareType": 4,
+    "RaceType":
+    [
+        3
+    ],
+    "SpellType":
+    [],
+    "ManaCost": 10,
+    "Attack": 30,
+    "MaxHealth": 25,
+    "Targets": 0,
+    "Description": "<b>冲锋</b>\n所有敌方随从具有<b>嘲讽</b>。"
+    },
+]

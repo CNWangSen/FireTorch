@@ -1,0 +1,1459 @@
+[
+    {
+    "ModId": 1,
+    "SetId": 52,
+    "DbfId": 910000,
+    "m_noteMiniGuid": "TMP_910000",
+    "ScriptName":"OG_229",
+    "Classes":
+    [
+        0
+    ],
+    "CnName": "旅行管理员杜加尔",
+    "CardType": 0,
+    "RareType": 4,
+    "RaceType":
+    [],
+    "SpellType":
+    [],
+    "ManaCost": 9,
+    "Attack": 3,
+    "MaxHealth": 3,
+    "Targets": 0,
+    "Description": "<b>战吼：</b>从你的牌库中召唤三个来自不同扩展包的随从。"
+    },
+
+
+
+
+    {
+    "ModId": 1,
+    "SetId": 52,
+    "DbfId": 910001,
+    "m_noteMiniGuid": "TMP_910001",
+    "ScriptName":"OG_229",
+    "Classes":
+    [
+        9
+    ],
+    "CnName": "湍流元素特布勒斯",
+    "CardType": 0,
+    "RareType": 4,
+    "RaceType":
+    [
+        4
+    ],
+    "SpellType":
+    [],
+    "ManaCost": 4,
+    "Attack": 3,
+    "MaxHealth": 4,
+    "Targets": 0,
+    "Description": "<b>猎人游客</b>\n<b>战吼：</b>使你手牌、牌库和战场上的所有其他<b>战吼</b>随从获得+1/+1。"
+    },
+
+
+
+
+
+
+    {
+    "ModId": 1,
+    "SetId": 52,
+    "DbfId": 910002,
+    "m_noteMiniGuid": "TMP_910002",
+    "ScriptName":"ULD_003",
+    "Classes":
+    [
+        0
+    ],
+    "CnName": "梦想策划师杰弗里斯",
+    "CardType": 0,
+    "RareType": 4,
+    "RaceType":
+    [
+        4
+    ],
+    "SpellType":
+    [],
+    "ManaCost": 3,
+    "Attack": 3,
+    "MaxHealth": 2,
+    "Targets": 0,
+    "Description": "<b>战吼：</b>选择一个旅游观光选项，从中获取两张可能完美的牌。"
+    },
+    {
+    "ModId": 1,
+    "SetId": 52,
+    "DbfId": 910003,
+    "m_noteMiniGuid": "TMP_910002t1",
+    "ScriptName":"OG_229",
+    "Classes":
+    [
+        0
+    ],
+    "CnName": "简便之行",
+    "CardType": 1,
+    "RareType": 0,
+    "RaceType":
+    [],
+    "SpellType":
+    [],
+    "ManaCost": 0,
+    "Attack": 0,
+    "MaxHealth": 0,
+    "Targets": 0,
+    "Description": "随机获取两张可能会影响敌方战场的牌"
+    },
+    {
+    "ModId": 1,
+    "SetId": 52,
+    "DbfId": 910004,
+    "m_noteMiniGuid": "TMP_910002t2",
+    "ScriptName":"OG_229",
+    "Classes":
+    [
+        0
+    ],
+    "CnName": "奢华之行",
+    "CardType": 1,
+    "RareType": 0,
+    "RaceType":
+    [],
+    "SpellType":
+    [],
+    "ManaCost": 0,
+    "Attack": 0,
+    "MaxHealth": 0,
+    "Targets": 0,
+    "Description": "随机获取两张可能会消耗大量法力水晶的牌"
+    },
+    {
+    "ModId": 1,
+    "SetId": 52,
+    "DbfId": 910005,
+    "m_noteMiniGuid": "TMP_910002t3",
+    "ScriptName":"OG_229",
+    "Classes":
+    [
+        0
+    ],
+    "CnName": "紧凑之行",
+    "CardType": 1,
+    "RareType": 0,
+    "RaceType":
+    [],
+    "SpellType":
+    [],
+    "ManaCost": 0,
+    "Attack": 0,
+    "MaxHealth": 0,
+    "Targets": 0,
+    "Description": "随机获取两张可能会对敌方英雄造成伤害的牌"
+    },
+
+
+
+    {
+    "ModId": 1,
+    "SetId": 52,
+    "DbfId": 910006,
+    "m_noteMiniGuid": "TMP_910003",
+    "ScriptName":"CFM_685",
+    "Classes":
+    [
+        11
+    ],
+    "CnName": "预留泊位",
+    "CardType": 1,
+    "RareType": 0,
+    "RaceType":
+    [],
+    "SpellType":
+    [],
+    "ManaCost": 3,
+    "Attack": 0,
+    "MaxHealth": 0,
+    "Targets": 0,
+    "Description": "使你手牌中一张随机随从牌获得+4/+4。如果其为手牌中唯一的随从牌，其法力值消耗减少（2）点。"
+    },
+
+
+    {
+    "ModId": 1,
+    "SetId": 52,
+    "DbfId": 910007,
+    "m_noteMiniGuid": "TMP_910007",
+    "ScriptName":"AV_284",
+    "Classes":
+    [
+        5
+    ],
+    "CnName": "传送门操控师斯奇拉",
+    "CardType": 0,
+    "RareType": 4,
+    "RaceType":
+    [],
+    "SpellType":
+    [],
+    "ManaCost": 5,
+    "Attack": 4,
+    "MaxHealth": 5,
+    "Targets": 0,
+    "Description": "<b>潜行者游客</b>\n<b>战吼：</b>使你手牌中法力值消耗最低和最高的法术牌的法力值消耗互换。"
+    },
+
+
+
+    {
+    "ModId": 1,
+    "SetId": 52,
+    "DbfId": 910008,
+    "m_noteMiniGuid": "TMP_910008",
+    "ScriptName":"AV_284",
+    "Classes":
+    [
+        5
+    ],
+    "CnName": "抱团",
+    "CardType": 1,
+    "RareType": 1,
+    "RaceType":
+    [],
+    "SpellType":
+    [],
+    "ManaCost": 7,
+    "Attack": 0,
+    "MaxHealth": 0,
+    "Targets": 0,
+    "Description": "用随机纳迦填满你的面板。"
+    },
+
+
+    
+    {
+    "ModId": 1,
+    "SetId": 52,
+    "DbfId": 910009,
+    "m_noteMiniGuid": "TMP_910009",
+    "ScriptName":"CFM_685",
+    "Classes":
+    [
+        4
+    ],
+    "CnName": "业务支猿",
+    "CardType": 1,
+    "RareType": 2,
+    "RaceType":
+    [],
+    "SpellType":
+    [],
+    "ManaCost": 4,
+    "Attack": 0,
+    "MaxHealth": 0,
+    "Targets": 0,
+    "Description": "将8根香蕉置入你的手牌。放不下的香蕉会随机喂给场上的友方随从。"
+    },
+
+    
+    {
+    "ModId": 1,
+    "SetId": 52,
+    "DbfId": 910010,
+    "m_noteMiniGuid": "TMP_910010",
+    "ScriptName":"GIL_530",
+    "Classes":
+    [
+        7
+    ],
+    "CnName": "暴富特使",
+    "CardType": 0,
+    "RareType": 2,
+    "RaceType":
+    [],
+    "SpellType":
+    [],
+    "ManaCost": 2,
+    "Attack": 4,
+    "MaxHealth": 4,
+    "Targets": 0,
+    "Description": "<b>战吼：</b>将你手牌中法力值消耗最高的牌置于你的牌库顶。"
+    },
+
+
+
+
+
+    {
+    "ModId": 1,
+    "SetId": 52,
+    "DbfId": 910011,
+    "m_noteMiniGuid": "TMP_910011",
+    "ScriptName":"CFM_685",
+    "Classes":
+    [
+        6
+    ],
+    "CnName": "信任背摔",
+    "CardType": 1,
+    "RareType": 2,
+    "RaceType":
+    [],
+    "SpellType":
+    [],
+    "ManaCost": 4,
+    "Attack": 0,
+    "MaxHealth": 0,
+    "Targets": 0,
+    "Description": "发现两张法力值消耗小于或等于（5）点的随从牌，并使其获得彼此的攻击力和生命值。"
+    },
+
+
+
+    {
+    "ModId": 1,
+    "SetId": 52,
+    "DbfId": 910012,
+    "m_noteMiniGuid": "TMP_910012",
+    "ScriptName": "BRM_013",
+    "Classes":
+    [
+        7
+    ],
+    "CnName": "光速",
+    "CardType": 1,
+    "RareType": 1,
+    "RaceType":
+    [],
+    "SpellType":
+    [
+        4
+    ],
+    "ManaCost": 2,
+    "Attack": 0,
+    "MaxHealth": 0,
+    "Targets": 1,
+    "Description": "使一个随从获得+1/+2和<b>突袭</b>。在本回合可以重复使用。"
+    },
+
+
+
+    {
+        "ModId": 1,
+        "SetId": 15,
+        "DbfId": 910013,
+        "m_noteMiniGuid": "HERO_09at",
+        "Classes":
+        [
+            7
+        ],
+        "CnName": "先知维伦",
+        "ScriptName": "HERO_09at",
+        "CardType": 3,
+        "RareType": 0,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 0,
+        "Attack": 0,
+        "MaxHealth": 30,
+        "Targets": 0,
+        "Description": ""
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 15,
+        "DbfId": 910014,
+        "m_noteMiniGuid": "TMP_910014",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "维伦，流亡者领袖",
+        "ScriptName": "OG_229",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [
+            24
+        ],
+        "SpellType":
+        [],
+        "ManaCost": 7,
+        "Attack": 7,
+        "MaxHealth": 7,
+        "Targets": 0,
+        "Description": "<b>嘲讽</b>。<b>亡语：</b>触发你在本局对战中使用过的所有其他德莱尼的<b>战吼</b>和<b>亡语</b>。"
+    },
+
+
+    {
+        "ModId": 1,
+        "SetId": 15,
+        "DbfId": 910015,
+        "m_noteMiniGuid": "TMP_910015",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "无界空宇",
+        "ScriptName": "OG_229",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [
+        ],
+        "SpellType":
+        [],
+        "ManaCost": 100,
+        "Attack": 15,
+        "MaxHealth": 15,
+        "Targets": 0,
+        "Description": "每当一张牌被抽到，使用或摧毁时，本牌的法力值消耗便减少（1）点，<b>战吼：</b>消灭所有其他随从。"
+    },
+
+
+    {
+        "ModId": 1,
+        "SetId": 15,
+        "DbfId": 910016,
+        "m_noteMiniGuid": "TMP_910016",
+        "Classes":
+        [
+            7
+        ],
+        "CnName": "阿斯卡拉",
+        "ScriptName": "OG_229",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [
+            24
+        ],
+        "SpellType":
+        [],
+        "ManaCost": 5,
+        "Attack": 5,
+        "MaxHealth": 5,
+        "Targets": 0,
+        "Description": "<b>战吼：</b>你使用的下一个德莱尼会召唤一个其自身的复制。"
+    },
+
+
+    {
+        "ModId": 1,
+        "SetId": 15,
+        "DbfId": 910017,
+        "m_noteMiniGuid": "TMP_910017",
+        "Classes":
+        [
+            11
+        ],
+        "CnName": "矮人矮人星",
+        "ScriptName": "OG_229",
+        "CardType": 1,
+        "RareType": 3,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 10,
+        "Attack": 0,
+        "MaxHealth": 0,
+        "Targets": 0,
+        "Description": "用法力值消耗为（2）的随机随从填满你的面板并使其攻击随机敌人。"
+    },
+
+
+    {
+        "ModId": 1,
+        "SetId": 15,
+        "DbfId": 910018,
+        "m_noteMiniGuid": "TMP_910018",
+        "Classes":
+        [
+            10
+        ],
+        "CnName": "卡拉，黑暗之星",
+        "ScriptName": "REV_906",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 3,
+        "Attack": 3,
+        "MaxHealth": 3,
+        "Targets": 0,
+        "Description": "<b>法术迸发：</b>随机从一个敌人处偷取2点生命值。<i>（暗影法术不会移除此法术迸发。）</i>"
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 15,
+        "DbfId": 910019,
+        "m_noteMiniGuid": "SC_413t",
+        "Classes":
+        [
+            9
+        ],
+        "CnName": "攻城坦克（已部署）",
+        "ScriptName": "GIL_152",
+        "CardType": 0,
+        "RareType": 2,
+        "RaceType":
+        [6],
+        "SpellType":
+        [],
+        "ManaCost": 5,
+        "Attack": 5,
+        "MaxHealth": 5,
+        "Targets": 0,
+        "Description": "<b>战吼：</b>随机对一个敌方随从造成10点伤害。超过目标生命值的伤害会命中敌方英雄。"
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 15,
+        "DbfId": 112854,
+        "m_noteMiniGuid": "SC_006",
+        "Classes":
+        [
+            10
+        ],
+        "CnName": "雷兽",
+        "ScriptName": "DMF_085",
+        "CardType": 0,
+        "RareType": 0,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 8,
+        "Attack": 8,
+        "MaxHealth": 8,
+        "Targets": 0,
+        "Description": "<b>突袭</b>"
+    },
+    {
+        "ModId": 1,
+        "SetId": 20,
+        "DbfId": 113664,
+        "m_noteMiniGuid": "SC_019",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "雷兽窟",
+        "ScriptName": "Story_11_UnstableShadowBlast",
+        "CardType": 3,
+        "RareType": 1,
+        "RaceType":
+        [
+            7
+        ],
+        "SpellType":
+        [],
+        "ManaCost": 0,
+        "Attack": 0,
+        "MaxHealth": 60,
+        "Targets": 0,
+        "Description": ""
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 15,
+        "DbfId": 112859,
+        "m_noteMiniGuid": "SC_008",
+        "Classes":
+        [
+            4
+        ],
+        "CnName": "刺蛇",
+        "ScriptName": "SC_008",
+        "CardType": 0,
+        "RareType": 2,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 3,
+        "Attack": 4,
+        "MaxHealth": 2,
+        "Targets": 0,
+        "Description": "<b>战吼：</b>随机对一个敌人造成2点伤害。你每控制一个其他异虫随从，重复一次。"
+    },
+
+
+    {
+        "ModId": 1,
+        "SetId": 20,
+        "DbfId": 113203,
+        "m_noteMiniGuid": "SC_762",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "母舰",
+        "ScriptName": "BT_134",
+        "CardType": 3,
+        "RareType": 3,
+        "RaceType":
+        [
+            7
+        ],
+        "SpellType":
+        [],
+        "ManaCost": 10,
+        "Attack": 0,
+        "MaxHealth": 200,
+        "Targets": 0,
+        "Description": ""
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 550002,
+        "m_noteMiniGuid": "FUS_002",
+        "Classes":
+        [
+            2
+        ],
+        "CnName": "飞行员火车王",
+        "ScriptName": "VAC_933",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [
+            2,
+            11
+        ],
+        "SpellType":
+        [],
+        "ManaCost": 5,
+        "Attack": 6,
+        "MaxHealth": 2,
+        "Targets": 0,
+        "Description": "<b>战吼：</b>将六张降落伞洗入你的牌库。当抽到降落伞时，召唤一个6/2并具有<b>冲锋</b>的火车王。"
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 550003,
+        "m_noteMiniGuid": "FUS_003",
+        "Classes":
+        [
+            4
+        ],
+        "CnName": "炎魔暴龙王",
+        "ScriptName": "EX1_298",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [
+            4,
+            1
+        ],
+        "SpellType":
+        [],
+        "ManaCost": 8,
+        "Attack": 8,
+        "MaxHealth": 8,
+        "Targets": 0,
+        "Description": "<b>冲锋</b>，无法攻击。在你的回合结束时，召唤一个暴龙王并使其攻击随机敌人然后死亡。"
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 113321,
+        "m_noteMiniGuid": "EDR_000",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "伊瑟拉，翡翠守护巨龙",
+        "ScriptName": "EDR_000",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [
+            3
+        ],
+        "SpellType":
+        [],
+        "ManaCost": 9,
+        "Attack": 4,
+        "MaxHealth": 12,
+        "Targets": 0,
+        "Description": "<b>对战开始时：</b>双方玩家的法力值上限提高5点。<b>战吼：</b>获得3个法力水晶。"
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 114849,
+        "m_noteMiniGuid": "TMP_EDR_001",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "纳拉雷克斯，龙群先锋",
+        "ScriptName": "EDR_000",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [
+            3
+        ],
+        "SpellType":
+        [],
+        "ManaCost": 7,
+        "Attack": 7,
+        "MaxHealth": 7,
+        "Targets": 0,
+        "Description": "你的龙牌法力值消耗为（1）点。"
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 116018,
+        "m_noteMiniGuid": "TMP_EDR_002",
+        "Classes":
+        [
+            1
+        ],
+        "CnName": "乌索克",
+        "ScriptName": "EX1_573",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [
+            1
+        ],
+        "SpellType":
+        [],
+        "ManaCost": 9,
+        "Attack": 6,
+        "MaxHealth": 14,
+        "Targets": 0,
+        "Description": "<b>战吼：</b>攻击所有其他随从。<b>亡语：</b>复活本随从消灭的随从"
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 114284,
+        "m_noteMiniGuid": "TMP_EDR_003",
+        "Classes":
+        [
+            9
+        ],
+        "CnName": "麦琳瑟拉",
+        "ScriptName": "EX1_573",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [
+            
+        ],
+        "SpellType":
+        [],
+        "ManaCost": 6,
+        "Attack": 4,
+        "MaxHealth": 4,
+        "Targets": 0,
+        "Description": "<b>战吼：</b>复活所有 不同的法力值消耗大于或等于（8）点的友方随从。"
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 114286,
+        "m_noteMiniGuid": "TMP_EDR_004t1",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "已腐蚀的梦魇",
+        "ScriptName": "EX1_573",
+        "CardType": 1,
+        "RareType": 0,
+        "RaceType":
+        [
+            
+        ],
+        "SpellType":
+        [
+            6
+        ],
+        "ManaCost": 0,
+        "Attack": 0,
+        "MaxHealth": 0,
+        "Targets": 1,
+        "Description": "在本回合中使一个随从获得+5/+5和<b>免疫</b>。"
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 114287,
+        "m_noteMiniGuid": "TMP_EDR_004t2",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "已腐蚀的梦境",
+        "ScriptName": "EX1_573",
+        "CardType": 1,
+        "RareType": 0,
+        "RaceType":
+        [
+            
+        ],
+        "SpellType":
+        [
+            
+        ],
+        "ManaCost": 0,
+        "Attack": 0,
+        "MaxHealth": 0,
+        "Targets": 1,
+        "Description": "将一个随从洗入其拥有者的牌库。"
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 114288,
+        "m_noteMiniGuid": "TMP_EDR_004t3",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "已腐蚀的欢笑姐妹",
+        "ScriptName": "EX1_573",
+        "CardType": 0,
+        "RareType": 0,
+        "RaceType":
+        [
+            
+        ],
+        "SpellType":
+        [
+            6
+        ],
+        "ManaCost": 2,
+        "Attack": 6,
+        "MaxHealth": 10,
+        "Targets": 0,
+        "Description": "<b>扰魔</b>。你的英雄拥有<b>扰魔</b>。"
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 114289,
+        "m_noteMiniGuid": "TMP_EDR_004t4",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "已腐蚀的幼龙",
+        "ScriptName": "EX1_573",
+        "CardType": 0,
+        "RareType": 0,
+        "RaceType":
+        [
+            3
+        ],
+        "SpellType":
+        [
+            
+        ],
+        "ManaCost": 4,
+        "Attack": 12,
+        "MaxHealth": 12,
+        "Targets": 0,
+        "Description": ""
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 114290,
+        "m_noteMiniGuid": "TMP_EDR_004t5",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "已腐蚀的苏醒",
+        "ScriptName": "EX1_573",
+        "CardType": 1,
+        "RareType": 0,
+        "RaceType":
+        [
+            
+        ],
+        "SpellType":
+        [
+            6
+        ],
+        "ManaCost": 2,
+        "Attack": 0,
+        "MaxHealth": 0,
+        "Targets": 0,
+        "Description": "对所有敌人造成5点伤害（尤其是伊瑟拉！）。"
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 114285,
+        "m_noteMiniGuid": "TMP_EDR_004",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "莎拉达希尔",
+        "ScriptName": "EX1_573",
+        "CardType": 1,
+        "RareType": 4,
+        "RaceType":
+        [
+            
+        ],
+        "SpellType":
+        [
+            5
+        ],
+        "ManaCost": 7,
+        "Attack": 0,
+        "MaxHealth": 0,
+        "Targets": 0,
+        "Description": "获取全部5张梦境牌。如果你在此牌在你手中时使用过法力值消耗更高的牌，腐蚀这些梦境牌！"
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 114254,
+        "m_noteMiniGuid": "TMP_EDR_005",
+        "Classes":
+        [
+            4
+        ],
+        "CnName": "戈德林",
+        "ScriptName": "EX1_573",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [
+            1
+        ],
+        "SpellType":
+        [
+            
+        ],
+        "ManaCost": 9,
+        "Attack": 9,
+        "MaxHealth": 9,
+        "Targets": 0,
+        "Description": "突袭。友方野兽造成的伤害翻倍。"
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 1142560,
+        "m_noteMiniGuid": "TMP_EDR_006",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "梦魇之王萨维斯",
+        "ScriptName": "RLK_592",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [
+            2
+        ],
+        "SpellType":
+        [
+            
+        ],
+        "ManaCost": 4,
+        "Attack": 4,
+        "MaxHealth": 4,
+        "Targets": 0,
+        "Description": "<b>战吼：</b>从牌库中发现一个随从，并且赋予它<b>黑暗之赐</b>。"
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 114544,
+        "m_noteMiniGuid": "TMP_EDR_007",
+        "Classes":
+        [
+            6
+        ],
+        "CnName": "坚韧的托雷斯",
+        "ScriptName": "HERO_09bp",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [
+            
+        ],
+        "SpellType":
+        [
+            
+        ],
+        "ManaCost": 5,
+        "Attack": 6,
+        "MaxHealth": 8,
+        "Targets": 0,
+        "Description": "<b>圣盾</b>。<b>嘲讽</b> 你的<b>圣盾</b>承受三次伤害才会破灭。"
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 115809,
+        "m_noteMiniGuid": "TMP_EDR_008",
+        "Classes":
+        [
+            3
+        ],
+        "CnName": "林地塑型者",
+        "ScriptName": "TTN_903",
+        "CardType": 0,
+        "RareType": 3,
+        "RaceType":
+        [
+            
+        ],
+        "SpellType":
+        [
+            
+        ],
+        "ManaCost": 5,
+        "Attack": 3,
+        "MaxHealth": 6,
+        "Targets": 0,
+        "Description": "在你施放一个自然法术后，召唤一个2/2并具有“<b>亡语：</b>获取该法术的一张复制”的树人。"
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 114340,
+        "m_noteMiniGuid": "TMP_EDR_010",
+        "Classes":
+        [
+            11
+        ],
+        "CnName": "伊森德雷",
+        "ScriptName": "HERO_01bp",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [
+            3
+        ],
+        "SpellType":
+        [
+            
+        ],
+        "ManaCost": 10,
+        "Attack": 1,
+        "MaxHealth": 30,
+        "Targets": 0,
+        "Description": "<b>嘲讽</b>。<b>亡语：</b>在本局对战中伊森德雷每死亡过一次，随机召唤一条龙。"
+    },
+    
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 115810,
+        "m_noteMiniGuid": "TMP_EDR_009",
+        "Classes":
+        [
+            11
+        ],
+        "CnName": "托尔托拉",
+        "ScriptName": "HERO_01bp",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [
+            1
+        ],
+        "SpellType":
+        [
+            
+        ],
+        "ManaCost": 10,
+        "Attack": 1,
+        "MaxHealth": 30,
+        "Targets": 0,
+        "Description": "<b>嘲讽</b>，<b>扰魔</b>，在该随从受到伤害后，获得1点护甲并获得+1攻击力"
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 114498,
+        "m_noteMiniGuid": "TMP_EDR_0100",
+        "Classes":
+        [
+            2
+        ],
+        "CnName": "残暴的魔蝠",
+        "ScriptName": "HERO_01bp",
+        "CardType": 0,
+        "RareType": 3,
+        "RaceType":
+        [
+            2
+        ],
+        "SpellType":
+        [
+            
+        ],
+        "ManaCost": 7,
+        "Attack": 7,
+        "MaxHealth": 5,
+        "Targets": 0,
+        "Description": "<b>亡语：</b>复活一个不同的法力值消耗大于或等于（5）点的友方<b>亡语</b>随从，并召唤一个它的复制。"
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 114497,
+        "m_noteMiniGuid": "TMP_EDR_011",
+        "Classes":
+        [
+            2
+        ],
+        "CnName": "贪婪的地狱猎犬",
+        "ScriptName": "HERO_01bp",
+        "CardType": 0,
+        "RareType": 2,
+        "RaceType":
+        [
+            2
+        ],
+        "SpellType":
+        [
+            
+        ],
+        "ManaCost": 5,
+        "Attack": 5,
+        "MaxHealth": 3,
+        "Targets": 0,
+        "Description": "<b>亡语：</b>复活一个法力值消耗小于或等于（4）点的友方<b>亡语</b>随从，并召唤一个它的复制。"
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 114498,
+        "m_noteMiniGuid": "TMP_EDR_013",
+        "Classes":
+        [
+            4
+        ],
+        "CnName": "猎人新橙",
+        "ScriptName": "NEW1_031",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [
+        ],
+        "SpellType":
+        [
+            
+        ],
+        "ManaCost": 5,
+        "Attack": 3,
+        "MaxHealth": 5,
+        "Targets": 0,
+        "Description": "在你施放一个法术后，随机召唤一个动物伙伴。"
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 114498,
+        "m_noteMiniGuid": "TMP_EDR_013",
+        "Classes":
+        [
+            4
+        ],
+        "CnName": "猎人新橙",
+        "ScriptName": "NEW1_031",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [
+        ],
+        "SpellType":
+        [
+            
+        ],
+        "ManaCost": 5,
+        "Attack": 3,
+        "MaxHealth": 5,
+        "Targets": 0,
+        "Description": "在你施放一个法术后，随机召唤一个动物伙伴。"
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 114510,
+        "m_noteMiniGuid": "TMP_EDR_014",
+        "Classes":
+        [
+            8
+        ],
+        "CnName": "欺诈之网",
+        "ScriptName": "NEW1_031",
+        "CardType": 1,
+        "RareType": 2,
+        "RaceType":
+        [
+        ],
+        "SpellType":
+        [
+            
+        ],
+        "ManaCost": 2,
+        "Attack": 0,
+        "MaxHealth": 0,
+        "Targets": 3,
+        "Description": "将一个友方随从移回你的手牌以召唤一只4/4并具有<b>潜行</b>的蜘蛛。"
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 114512,
+        "m_noteMiniGuid": "TMP_EDR_014t",
+        "Classes":
+        [
+            8
+        ],
+        "CnName": "迅捷小蜘蛛",
+        "ScriptName": "NEW1_031",
+        "CardType": 0,
+        "RareType": 0,
+        "RaceType":
+        [
+            1
+        ],
+        "SpellType":
+        [
+        ],
+        "ManaCost": 4,
+        "Attack": 4,
+        "MaxHealth": 4,
+        "Targets": 0,
+        "Description": "<b>潜行</b>"
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 115176,
+        "m_noteMiniGuid": "TMP_EDR_015",
+        "Classes":
+        [
+            8
+        ],
+        "CnName": "凋零先驱",
+        "ScriptName": "NEW1_031",
+        "CardType": 0,
+        "RareType": 2,
+        "RaceType":
+        [
+        ],
+        "SpellType":
+        [
+        ],
+        "ManaCost": 2,
+        "Attack": 2,
+        "MaxHealth": 3,
+        "Targets": 0,
+        "Description": "每当本随从从战场进入你的手牌时，随机召唤两个法力值消耗为（2）的随从。"
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 114632,
+        "m_noteMiniGuid": "TMP_EDR_017",
+        "Classes":
+        [
+            6
+        ],
+        "CnName": "巨熊之槌",
+        "ScriptName": "NEW1_031",
+        "CardType": 2,
+        "RareType": 2,
+        "RaceType":
+        [
+        ],
+        "SpellType":
+        [
+        ],
+        "ManaCost": 4,
+        "Attack": 4,
+        "MaxHealth": 2,
+        "Targets": 0,
+        "Description": "在你的英雄攻击后，抽取你法力值消耗最高的牌。"
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 114868,
+        "m_noteMiniGuid": "TMP_EDR_016",
+        "Classes":
+        [
+            6
+        ],
+        "CnName": "乌索尔",
+        "ScriptName": "NEW1_031",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [
+            1
+        ],
+        "SpellType":
+        [
+        ],
+        "ManaCost": 8,
+        "Attack": 9,
+        "MaxHealth": 7,
+        "Targets": 0,
+        "Description": "<b>战吼：</b>将你手牌中法力值消耗最高的法术变为持续 回合的光环并施放。"
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 115203,
+        "m_noteMiniGuid": "TMP_EDR_019",
+        "Classes":
+        [
+            10
+        ],
+        "CnName": "阿迦玛甘",
+        "ScriptName": "Story_11_UnstableShadowBlast",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [
+            1
+        ],
+        "SpellType":
+        [
+        ],
+        "ManaCost": 10,
+        "Attack": 8,
+        "MaxHealth": 9,
+        "Targets": 0,
+        "Description": "<b>战吼：</b>你使用的下一张牌会消耗<b>对手</b>的生命值而非法力值<i>（最高不超过10点）</i>。"
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 115203,
+        "m_noteMiniGuid": "TMP_EDR_020",
+        "Classes":
+        [
+            2
+        ],
+        "CnName": "年兽",
+        "ScriptName": "CORE_CS2_012",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [
+            2,1
+        ],
+        "SpellType":
+        [
+        ],
+        "ManaCost": 10,
+        "Attack": 6,
+        "MaxHealth": 12,
+        "Targets": 0,
+        "Description": "<b>突袭</b>。<b>风怒</b> <b>亡语：</b>对所有敌人造成 点伤害。<i>（在本随从攻击后提升！）</i>"
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 115204,
+        "m_noteMiniGuid": "TMP_EDR_021",
+        "Classes":
+        [
+            8
+        ],
+        "CnName": "永燃火凤",
+        "ScriptName": "UNG_027",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [
+            4
+        ],
+        "SpellType":
+        [
+        ],
+        "ManaCost": 4,
+        "Attack": 2,
+        "MaxHealth": 2,
+        "Targets": 0,
+        "Description": "在本回合中你每使用过一张牌，本牌的法力值消耗便减少(1)点。<b>亡语：</b>将本随从移回你的手牌。"
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 118191,
+        "m_noteMiniGuid": "TMP_TLC_001",
+        "Classes":
+        [
+            8
+        ],
+        "CnName": "源生之石",
+        "ScriptName": "UNG_027",
+        "CardType": 2,
+        "RareType": 4,
+        "RaceType":
+        [
+        ],
+        "SpellType":
+        [
+        ],
+        "ManaCost": 3,
+        "Attack": 0,
+        "MaxHealth": 8,
+        "Targets": 0,
+        "Description": "在你<b>发现</b>一张牌后，本武器会使用其余选项并失去1点耐久度。"
+    }
+]

@@ -1,0 +1,121 @@
+I、Project Structure
+Visual: CG,Signal,AIGC,
+	Client<-----------------------------------------3D_Models------------------>3D Artist, AIGC_Researcher
+	OneSceneManager
+	OneStageManager<--------------------------------Human---------------------->Player
+	OneActorManager---->CardDbf<-----Json<----------Excel
+	VfxBase---------------------------------------->2D_Graphic,1D_Aud--------->2D Artist, SignalProcessing
+
+Logic: AI,Comm,
+	Server<-----------------------------------------Response/Request----------->Communication
+	Game
+	Player<-----------------------------------------AI------------------------->AI_Researcher
+	Card--------------->CardDbf<-------Json<--------Excel---------------------->Card_Designer
+	Ability----------------------------------------->Code---------------------->GamePlay_Programmer
+
+
+classic: MTG,YGO,PTCG,ECG(fast-spell),Hearthstone,MJ Duel,SZB,LOR,CardMonster,Mercenary,StormWarsCCG(auto-fight),Yi Xian
+multi-line: Gwent,Artifact,Conquest of Skyrim,oldScroll,pvzH,MarvelSnap(sync round)
+multi-player: SanGuoSha,Baconshop,MarvelDuel,
+multi-round: SlayTheSpire,Adventure,Joker
+
+II、TODO
+1. Multi-BattleLine to fit MarvelSnap、Gwent and OldScroll, Sync End Turn for Mercenary and MarvelSnap
+2. Minion Equipment to fit CardMonsters and EternalCardGame
+3. FastSpell to fit SanGuoSha、LOR and EternalCardGame
+4. Multi-Player to fit SanGuoSha
+5. Minion Power and Location for ECG, PTCG
+6. 2D pipline scene: spine/dragonbones for SlayTheSpire maping, epic war mode, diamondcard, etc.
+
+7. Command/Draggable -> Response/Request to be MultiPlayer
+8. Better Models,Vfx
+9. Better AI (AIGC + AIdecision)
+10. Cleaner Logic Code for easier Card Code Generation and Card Merge.
+11. Clean Visual Code for better vfx
+12. Video Product Pipline: Cover Gen, VidCut, 
+
+
+SkillsToGet:
+1. AIGC + AIdecision
+	Image Generation (txt2image, image2image(Image Animation, Merge))
+	Mesh Generation
+	Audio Generation
+	RL Gaming
+2. Engineer Coding
+	C#,python,C++,ffmpeg,unity
+3. art/VFX creating
+	Drawing,playmaker,Live2D,Model3D
+
+RecentTODO:
+1. Clean Code, fast, neat, 
+2. Impl RL agent through self-play
+3. Try load hearthstone scene files
+4. Marvel Snap GamePlay
+5. Load Board,BGM
+6. DIY VFX
+7. LoadAssetAsync
+
+RecentDone:
+
+Always Remember:
+1.Never Tell Others whether It Is a Game or PrVideo, Let them Guess
+2.Two Day One Bili, Fix Publish Time, Stay stun
+3.Designed game rule asks for simple ai/art/
+4.Clear aim and Proper tool make a clean job
+
+III、Project Life:
+Step 1. Be a Hearthstone Clone and earn Money through Bilibili
+	own code
+	hs VFX
+	hs Image
+	hs Txt
+	hs audio
+	hs card mechanics
+	->GamePlay->Bilibili Product:
+		1. New Card Show ( OTK, Combo, Skin)
+		2. DIY Show ( Hero Skin VFX, Warcraft Related, CardFusion)
+		3. eDQQ
+		4. BattleGroundDqq+Math Curves
+
+
+Step 2. Swap VFX, Image and Txts to be a NEW CCG.
+	own code
+	own VFX
+	own Image
+	own Txt
+	own audio
+	hs card mechanics + DIY mechanics
+	-> Bilibili Product
+	-> Sell Through HardDisk
+	-> Steam
+
+
+
+
+
+
+
+任务：
+唤醒造物者
+
+
+状态：
+
+
+
+法强：
+野火
+元素伙伴
+
+英雄技能：
+加亚莱，龙鹰之神
+黑瘴林树精
+火焰狂人
+奥术增幅体
+大胆的吞火者
+大富翁比尔杜
+瞄准射击
+发条自动机
+
+地标：
+惊险悬崖

@@ -1,0 +1,308 @@
+[
+    {
+    "ModId": 1,
+    "SetId": 52,
+    "DbfId": 990001,
+    "m_noteMiniGuid": "SGS_990001",
+    "Classes":
+    [
+        0
+    ],
+    "CnName": "顺手牵羊",
+    "CardType": 1,
+    "RareType": 4,
+    "RaceType":
+    [],
+    "SpellType":
+    [],
+    "ManaCost": 0,
+    "Attack": 0,
+    "MaxHealth": 0,
+    "Targets": 0,
+    "Description": "如果对手场上没有随从，随机获得对手的一张手牌。"
+	},
+
+    {
+    "ModId": 1,
+    "SetId": 52,
+    "DbfId": 990002,
+    "m_noteMiniGuid": "SGS_990002",
+    "Classes":
+    [
+        0
+    ],
+    "CnName": "过河拆桥",
+    "CardType": 1,
+    "RareType": 3,
+    "RaceType":
+    [],
+    "SpellType":
+    [],
+    "ManaCost": 0,
+    "Attack": 0,
+    "MaxHealth": 0,
+    "Targets": 0,
+    "Description": "对手随机丢弃一张手牌。"
+    },
+
+
+    {
+    "ModId": 1,
+    "SetId": 52,
+    "DbfId": 990003,
+    "m_noteMiniGuid": "SGS_990003",
+    "ScriptName":"VAN_CS2_024",
+    "Classes":
+    [
+        0
+    ],
+    "CnName": "杀",
+    "CardType": 1,
+    "RareType": 0,
+    "RaceType":
+    [],
+    "SpellType":
+    [],
+    "ManaCost": 0,
+    "Attack": 0,
+    "MaxHealth": 0,
+    "Targets": 5,
+    "Description": "对一个敌方角色造成5点伤害。（你的攻击力会提升此伤害！）"
+    },
+
+    {
+    "ModId": 1,
+    "SetId": 52,
+    "DbfId": 990004,
+    "m_noteMiniGuid": "SGS_990004",
+    "Classes":
+    [
+        0
+    ],
+    "CnName": "桃",
+    "CardType": 1,
+    "RareType": 2,
+    "RaceType":
+    [],
+    "SpellType":
+    [],
+    "ManaCost": 0,
+    "Attack": 0,
+    "MaxHealth": 0,
+    "Targets": 0,
+    "Description": "为你的英雄恢复5点生命。"
+    },
+
+    {
+    "ModId": 1,
+    "SetId": 52,
+    "DbfId": 990005,
+    "m_noteMiniGuid": "SGS_990005",
+    "ScriptName":"HERO_01bp",
+    "Classes":
+    [
+        0
+    ],
+    "CnName": "酒",
+    "CardType": 1,
+    "RareType": 3,
+    "RaceType":
+    [],
+    "SpellType":
+    [],
+    "ManaCost": 0,
+    "Attack": 0,
+    "MaxHealth": 0,
+    "Targets": 0,
+    "Description": "在本回合中，使你的英雄获得+5攻击力。"
+    },
+
+    {
+    "ModId": 1,
+    "SetId": 52,
+    "DbfId": 990006,
+    "m_noteMiniGuid": "SGS_990006",
+    "Classes":
+    [
+        0
+    ],
+    "CnName": "闪",
+    "CardType": 1,
+    "RareType": 2,
+    "RaceType":
+    [],
+    "SpellType":
+    [],
+    "ManaCost": 0,
+    "Attack": 0,
+    "MaxHealth": 0,
+    "Targets": 0,
+    "Description": "获得10点护甲值。"
+    },
+
+    {
+    "ModId": 1,
+    "SetId": 52,
+    "DbfId": 990007,
+    "m_noteMiniGuid": "SGS_990007",
+    "ScriptName":"RLK_706",
+    "Classes":
+    [
+        0
+    ],
+    "CnName": "决斗",
+    "CardType": 1,
+    "RareType": 0,
+    "RaceType":
+    [],
+    "SpellType":
+    [],
+    "ManaCost": 0,
+    "Attack": 0,
+    "MaxHealth": 0,
+    "Targets": 0,
+    "Description": "对敌方英雄造成6点伤害。"
+    },
+
+    {
+    "ModId": 1,
+    "SetId": 52,
+    "DbfId": 990008,
+    "m_noteMiniGuid": "SGS_990008",
+    "ScriptName":"RLK_706",
+    "Classes":
+    [
+        0
+    ],
+    "CnName": "万箭齐发",
+    "CardType": 1,
+    "RareType": 3,
+    "RaceType":
+    [],
+    "SpellType":
+    [],
+    "ManaCost": 0,
+    "Attack": 0,
+    "MaxHealth": 0,
+    "Targets": 0,
+    "Description": "对所有其他角色造成3点伤害。"
+    },
+
+   {
+    "ModId": 1,
+    "SetId": 52,
+    "DbfId": 990009,
+    "m_noteMiniGuid": "SGS_990009",
+    "Classes":
+    [
+        0
+    ],
+    "CnName": "南蛮入侵",
+    "CardType": 1,
+    "RareType": 2,
+    "RaceType":
+    [],
+    "SpellType":
+    [],
+    "ManaCost": 2,
+    "Attack": 0,
+    "MaxHealth": 0,
+    "Targets": 0,
+    "Description": "所有随从减少1点攻击力。"
+    },
+
+   {
+    "ModId": 1,
+    "SetId": 52,
+    "DbfId": 990010,
+    "m_noteMiniGuid": "SGS_990010",
+    "Classes":
+    [
+        0
+    ],
+    "CnName": "桃园结义",
+    "CardType": 1,
+    "RareType": 1,
+    "RaceType":
+    [],
+    "SpellType":
+    [],
+    "ManaCost": 0,
+    "Attack": 0,
+    "MaxHealth": 0,
+    "Targets": 0,
+    "Description": "为所有随从恢复4点生命值。"
+    },
+
+   {
+    "ModId": 1,
+    "SetId": 52,
+    "DbfId": 990011,
+    "m_noteMiniGuid": "SGS_990011",
+    "Classes":
+    [
+        0
+    ],
+    "CnName": "五谷丰登",
+    "CardType": 1,
+    "RareType": 1,
+    "RaceType":
+    [],
+    "SpellType":
+    [],
+    "ManaCost": 1,
+    "Attack": 0,
+    "MaxHealth": 0,
+    "Targets": 0,
+    "Description": "双方各抽一张牌。"
+    },
+
+   {
+    "ModId": 1,
+    "SetId": 52,
+    "DbfId": 990012,
+    "m_noteMiniGuid": "SGS_990012",
+    "Classes":
+    [
+        0
+    ],
+    "CnName": "借刀杀人",
+    "CardType": 1,
+    "RareType": 2,
+    "RaceType":
+    [],
+    "SpellType":
+    [],
+    "ManaCost": 3,
+    "Attack": 0,
+    "MaxHealth": 0,
+    "Targets": 3,
+    "Description": "使一个友方随从攻击敌方英雄。"
+    },
+
+
+    {
+    "ModId": 1,
+    "SetId": 52,
+    "DbfId": 990013,
+    "m_noteMiniGuid": "SGS_990013",
+    "Classes":
+    [
+        0
+    ],
+    "CnName": "无中生有",
+    "ScriptName":"CS2_023",
+    "CardType": 1,
+    "RareType": 0,
+    "RaceType":
+    [],
+    "SpellType":
+    [],
+    "ManaCost": 0,
+    "Attack": 0,
+    "MaxHealth": 0,
+    "Targets": 0,
+    "Description": "抽两张牌。"
+    },
+
+]

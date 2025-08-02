@@ -1,0 +1,134 @@
+Dragons = [
+	"赤鳞龙卫_Fire","岩甲雏龙_Earth",
+	"雷爪龙_Thunder","霜喉幼龙_Ice",
+	"深海怒涛龙_Water","翡翠林龙_Nature",
+	"永夜湮灭龙_Dark","圣辉裁决龙_Light",
+	"虚空吞噬者_Void",
+	"终焉腐化巨龙_Curse",
+]
+
+Demons = [
+	"炼狱小鬼_Fire","影爪魔_Dark",
+	"腐咒行尸_Curse","熔岩践踏者_Earth",
+	"暴雷魔君_Thunder","血海溺亡者_Water",
+	"霜嚎领主_Ice","伪光欺诈者_Light",
+	"深渊主宰_Void",
+	"疫藤母体_Nature",
+]
+
+Mechanicals=[
+	"钻地机兵_Earth","电弧哨兵_Thunder",
+	"熔炉清道夫_Fire","液压切割者_Water",
+	"光棱净化者_Light","暗蚀回收站_Dark",
+	"低温休眠舱_Ice","生态重塑装置_Nature",
+	"相位转移核心_Void",
+	"崩坏指令终端_Curse",
+]
+
+Murlocs=[
+	"潮涌鱼人_Water","藻殖共生者_Nature",
+	"冰鳞斥候_Ice","毒腺潜伏者_Curse",
+	"电鳗猎手_Thunder","泥潭伏击者_Earth",
+	"珍珠祭司_Light","深渊穿刺者_Dark",
+	"虚空召唤者_Void",
+	"沸煮暴君_Fire",
+]
+
+Beasts=[
+	"丛林幼兽_Nature","岩爪山猫_Earth",
+	"霜牙追猎者_Ice","焚野雄狮_Fire",
+	"影爪夜行豹_Dark","怒涛虎鲸_Water",
+	"圣辉角兽_Light","虚空吞噬者_Void",
+	"腐疫领主_Curse",
+	"雷吼猛犸_Thunder",
+]
+
+Elfs=[
+	"林间巡卫_Nature","晨光射手_Light",
+	"月泉歌者_Water","霜语启蒙者_Ice",
+	"雷矢游侠_Thunder","岩脉德鲁伊_Earth",
+	"炎舞剑圣_Fire","腐咒先知_Curse",
+	"星界放逐者_Void",
+	"暗月刺客_Dark",
+]
+
+Undeads=[
+	"永夜骷髅兵_Dark","霜骸侍僧_Ice",
+	"蚀魂食尸鬼_Curse","墓土构造体_Earth",
+	"焦骨骑士_Fire","溺亡怨灵_Water",
+	"雷殛骸骨法师_Thunder","苍白圣徒_Light",
+	"虚空尸巫_Void",
+	"腐殖领主_Nature"
+]
+
+Orcs = [
+	"熔岩掠夺者_Fire","岩锤战士_Earth",
+	"雷殛督军_Thunder","血戮狂战士_Dark",
+	"怒涛投矛手_Water","荣耀挑战者_Light",
+	"疫病散播者_Curse","霜斧征服者_Ice",
+	"虚空战神_Void",
+	"蛮荒大酋长_Nature"
+]
+
+Humans = [
+	"圣光新兵_Light","岩盾守卫_Earth",
+	"怒涛水手_Water","炎枪骑兵_Fire",
+	"雷弩游侠_Thunder","暗影密探_Dark",
+	"霜语学者_Ice","自然导师_Nature",
+	"疫病大公_Curse",
+	"虚空探险家_Void",
+]
+
+Pandarens = [
+	"竹林学徒_Nature","静湖武者_Water",
+	"岩心酿酒师_Earth","炎拳学徒_Fire",
+	"玉辉祭司_Light","影竹刺客_Dark",
+	"霜雪调酒师_Ice","虚空酒仙_Void",
+	"雷云修士_Thunder",
+	"厄运食神_Curse",
+]
+
+
+ans = "[\n"
+
+def HackList(li,race):
+	for i in range(len(li)):
+		ans+='\t{\n'
+		ans+="\t\t'ModId':"+str(1)+",\n"
+		ans+="\t\t'SetId':"+str(0)+",\n"
+		ans+="\t\t'DbfId':"+str(CNTid)+",\n"
+		ans+="\t\t'm_noteMiniGuid':FTBG_"+str(1)+",\n"
+        ans+="\t\t'Classes':\n"
+       	ans+="\t\t[\n"
+       	ans+="\t\t\t"+str(cl)+",\n"
+       	ans+="\t\t],\n"
+       	ans+="\t\t'CnName':"+str(1)+",\n"
+       	ans+="\t\t'ScriptName':"+str(1)+",\n"
+       	ans+="\t\t'CardType':"+str(1)+",\n"
+        ans+="\t\t'RaceType':\n"
+       	ans+="\t\t[\n"
+       	ans+="\t\t\t"+str(cl)+",\n"
+       	ans+="\t\t],\n"
+        ans+="\t\t'SpellType':\n"
+       	ans+="\t\t[\n"
+       	ans+="\t\t],\n"
+       	ans+="\t\t'ManaCost':"+str(1)+",\n"
+       	ans+="\t\t'Attack':"+str(1)+",\n"
+       	ans+="\t\t'MaxHealth':"+str(1)+",\n"
+       	ans+="\t\t'Targets':"+str(1)+",\n"
+       	ans+="\t\t'Description':"+str(1)+",\n"
+       	ans+="\t},\n"
+
+
+
+
+
+
+
+
+
+
+ans+="]"
+
+with open("test.json","w",encoding="utf-8") as opt:
+	opt.write(ans)

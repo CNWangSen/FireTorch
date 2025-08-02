@@ -1,0 +1,148 @@
+ename=1.mp4|mute=0|sqzero=1|speed=1
+ttxt=七头雷兽正在看守兽窟
+ttxt=炉石传说十一个职业
+ttxt=谁能利用七辆攻城坦克捣毁兽窟？
+ttxt=选手可持任意数量的狂野卡
+ttxt=基础分三十
+ttxt=除攻城坦克外
+ttxt=选手每用一牌扣两分
+ttxt=每用一费扣一分
+d
+ttxt=阿尔萨斯得17分
+a
+
+ename=2.mp4|mute=0|seqzero=1|speed=1
+ttxt=2号选手伊利丹登场
+d
+ttxt=伊利丹得16分
+a
+
+
+d
+ename=3.mp4|mute=0|seqzero=1|speed=1
+ttxt=3号选手玛法里奥登场
+ttxt=本次比赛考察选手的群体弱化能力
+ttxt=选手须尽量降低七头雷兽的生命值
+ttxt=再依次打出七辆已部署的攻城坦克
+ttxt=利用坦克的溅射伤害击毁兽窟
+ttxt=选手操作结束时若有敌方单位存活
+ttxt=则选手挑战失败，成绩归零
+d
+ttxt=玛法里奥得19分
+a
+
+
+d
+ename=4.mp4|mute=0|seqzero=1|speed=1
+ttxt=4号选手雷克萨登场
+d
+ttxt=雷克萨得9分
+a
+
+
+d
+ename=5.mp4|mute=0|seqzero=1|speed=1
+ttxt=5号选手吉安娜登场
+ttxt=友情提示
+ttxt=虽然攻城坦克可以击杀满血雷兽
+ttxt=但是那样溅射伤害只有两点
+ttxt=是不足以击毁雷兽窟的
+d
+ttxt=吉安娜得21分
+a
+
+
+d
+ename=6.mp4|mute=0|seqzero=1|speed=1
+ttxt=6号选手乌瑟尔登场
+d
+ttxt=乌瑟尔得26分
+a
+
+
+d
+ename=7.mp4|mute=0|seqzero=1|speed=1
+ttxt=7号选手安度因登场
+d
+ttxt=安度因得16分
+a
+
+
+d
+ename=8.mp4|mute=0|seqzero=1|speed=1
+ttxt=8号选手瓦莉拉登场
+d
+ttxt=瓦莉拉得15分
+a
+
+
+d
+ename=9.mp4|mute=0|seqzero=1|speed=1
+ttxt=9号选手萨尔登场
+ttxt=虽然这里可以选择群体变鱼
+ttxt=但是有可能无法击毁兽窟而挑战失败
+ttxt=因此萨尔选择比较稳妥的打法
+d
+ttxt=萨尔得21分
+a
+
+
+d
+ename=10.mp4|mute=0|seqzero=1|speed=1
+ttxt=10号选手古尔丹登场
+d
+ttxt=古尔丹得24分
+a
+
+
+d
+ename=11.mp4|mute=0|seqzero=1|speed=1
+ttxt=11号选手加尔鲁什登场
+d
+ttxt=加尔鲁什得19分
+a
+
+
+d
+ename=1.mp4|mute=0|seqzero=1|speed=1
+ttxt=总结一下，前三名是骑，术，法
+ttxt=炉石斗蛐蛐，欢乐每一期
+ttxt=我是唐士鱼人，我们下期再见
+a
+v
+
+##
+checkboard:
+addcpn   q txt dur
+addimg   w name
+addvid   e name cx cy layer mute speed
+addaud   r name bgm startms
+addman   t txt
+imgseq   y name
+
+waitcpn  a
+waitimg  s
+waitvid  d
+
+holdtill Z
+hold     z ms
+clearimg x
+clearcpn c
+clearvid v
+done     b
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

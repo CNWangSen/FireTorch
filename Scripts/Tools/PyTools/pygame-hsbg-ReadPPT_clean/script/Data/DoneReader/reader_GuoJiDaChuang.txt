@@ -1,0 +1,40 @@
+ename=1.mp4|mute=1|sqzero=1|speed=1|startms=7000|endms=18000
+ttxt=引导拍摄
+d
+
+ename=0.mp4|mute=1|seqzero=1|speed=1|startms=3000|endms=14000
+ttxt=啊哈啊
+d
+
+ename=2.mp4|mute=1|seqzero=1|speed=1|startms=22000|endms=31000
+ttxt=采集动作
+d
+
+ename=1.mp4|mute=1|seqzero=1|speed=1|startms=90000|endms=99000
+ttxt=分析结果
+d
+
+ename=3.mp4|mute=1|seqzero=1|speed=1|startms=77000|endms=144000
+ttxt=后期处理
+d
+
+##
+checkboard:
+addcpn   q txt dur
+addimg   w name
+addvid   e name cx cy layer mute speed
+    r name bgm startms
+addman   t txt
+imgseq   y name
+
+waitcpn  a
+waitimg  s
+waitvid  d
+
+holdtill Z
+hold     z ms
+clearimg x
+clearcpn c
+clearvid v
+done     b
+ename=2.mp4|mute=0|seqzero=1|speed=1

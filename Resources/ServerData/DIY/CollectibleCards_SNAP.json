@@ -1,0 +1,78 @@
+[
+    {
+    "ModId": 1,
+    "SetId": 52,
+    "DbfId": 880000,
+    "m_noteMiniGuid": "SNAP_880000",
+    "ScriptName":"EX1_543",
+    "Classes":
+    [
+        4
+    ],
+    "CnName": "恶魔恐龙",
+    "CardType": 0,
+    "RareType": 4,
+    "RaceType":
+    [
+        1
+    ],
+    "SpellType":
+    [],
+    "ManaCost": 0,
+    "Attack": 3,
+    "MaxHealth": 3,
+    "Targets": 0,
+    "Description": "<b>持续：</b>你每有1张手牌，+2战力"
+    },
+
+    {
+    "ModId": 1,
+    "SetId": 52,
+    "DbfId": 880001,
+    "m_noteMiniGuid": "SNAP_880001",
+    "ScriptName":"OG_229",
+    "Classes":
+    [
+        0
+    ],
+    "CnName": "白光花火",
+    "CardType": 0,
+    "RareType": 4,
+    "RaceType":
+    [
+    ],
+    "SpellType":
+    [],
+    "ManaCost": 4,
+    "Attack": 1,
+    "MaxHealth": 1,
+    "Targets": 0,
+    "Description": "<b>战吼：</b> 将你牌库顶的随从置入战场。"
+    },
+
+
+    {
+    "ModId": 1,
+    "SetId": 52,
+    "DbfId": 880003,
+    "m_noteMiniGuid": "SNAP_Hero",
+    "ScriptName":"OG_229",
+    "Classes":
+    [
+        0
+    ],
+    "CnName": "Jeeet",
+    "CardType": 3,
+    "RareType": 4,
+    "RaceType":
+    [
+    ],
+    "SpellType":
+    [],
+    "ManaCost": 0,
+    "Attack": 0,
+    "MaxHealth": 30,
+    "Targets": 0,
+    "Description": "SNAP模式英雄"
+    },
+]

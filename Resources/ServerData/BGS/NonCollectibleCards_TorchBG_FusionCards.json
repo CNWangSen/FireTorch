@@ -1,0 +1,25 @@
+[
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 550000,
+        "m_noteMiniGuid": "BOTA_BOSS_20p2",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "卡牌融合",
+        "ScriptName": "EX1_251",
+        "CardType": 4,
+        "RareType": 0,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 2,
+        "Attack": 0,
+        "MaxHealth": 0,
+        "Targets": 3,
+        "Description": "使一个友方随从和左边的随从融合。"
+    },
+]

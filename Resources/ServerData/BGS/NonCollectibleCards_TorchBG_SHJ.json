@@ -1,0 +1,2005 @@
+[
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850001,
+        "m_noteMiniGuid": "FTBG_BaiZe",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "白泽",
+        "CardType": 0,
+        "RareType": 0,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 1,
+        "Attack": 1,
+        "MaxHealth": 1,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850002,
+        "m_noteMiniGuid": "FTBG_BaiZe_G",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "白泽",
+        "CardType": 0,
+        "RareType": 0,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 1,
+        "Attack": 2,
+        "MaxHealth": 2,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850003,
+        "m_noteMiniGuid": "FTBG_XuanGui",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "旋龟",
+        "CardType": 0,
+        "RareType": 0,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 2,
+        "Attack": 2,
+        "MaxHealth": 3,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850004,
+        "m_noteMiniGuid": "FTBG_XuanGui_G",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "旋龟",
+        "CardType": 0,
+        "RareType": 0,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 2,
+        "Attack": 4,
+        "MaxHealth": 6,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850005,
+        "m_noteMiniGuid": "FTBG_LuoYu",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "蠃鱼",
+        "CardType": 0,
+        "RareType": 0,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 3,
+        "Attack": 3,
+        "MaxHealth": 4,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850006,
+        "m_noteMiniGuid": "FTBG_LuoYu_G",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "蠃鱼",
+        "CardType": 0,
+        "RareType": 0,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 3,
+        "Attack": 6,
+        "MaxHealth": 8,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850007,
+        "m_noteMiniGuid": "FTBG_QiongQi",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "穷奇",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 4,
+        "Attack": 6,
+        "MaxHealth": 3,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850008,
+        "m_noteMiniGuid": "FTBG_QiongQi_G",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "穷奇",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 4,
+        "Attack": 12,
+        "MaxHealth": 6,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850009,
+        "m_noteMiniGuid": "FTBG_JiuWeiHu",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "九尾狐",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 5,
+        "Attack": 5,
+        "MaxHealth": 6,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850010,
+        "m_noteMiniGuid": "FTBG_JiuWeiHu_G",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "九尾狐",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 5,
+        "Attack": 10,
+        "MaxHealth": 12,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850011,
+        "m_noteMiniGuid": "FTBG_YingLong",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "应龙",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 6,
+        "Attack": 7,
+        "MaxHealth": 7,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850012,
+        "m_noteMiniGuid": "FTBG_YingLong_G",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "应龙",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 6,
+        "Attack": 14,
+        "MaxHealth": 14,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850013,
+        "m_noteMiniGuid": "FTBG_WuZhiQi",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "无支祁",
+        "CardType": 0,
+        "RareType": 1,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 1,
+        "Attack": 2,
+        "MaxHealth": 2,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850014,
+        "m_noteMiniGuid": "FTBG_WuZhiQi_G",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "无支祁",
+        "CardType": 0,
+        "RareType": 1,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 1,
+        "Attack": 4,
+        "MaxHealth": 4,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850015,
+        "m_noteMiniGuid": "FTBG_TaoTie",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "饕餮",
+        "CardType": 0,
+        "RareType": 1,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 2,
+        "Attack": 3,
+        "MaxHealth": 3,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850016,
+        "m_noteMiniGuid": "FTBG_TaoTie_G",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "饕餮",
+        "CardType": 0,
+        "RareType": 1,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 2,
+        "Attack": 6,
+        "MaxHealth": 6,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850017,
+        "m_noteMiniGuid": "FTBG_PiXiu",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "貔貅",
+        "CardType": 0,
+        "RareType": 1,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 3,
+        "Attack": 1,
+        "MaxHealth": 1,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850018,
+        "m_noteMiniGuid": "FTBG_PiXiu_G",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "貔貅",
+        "CardType": 0,
+        "RareType": 1,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 3,
+        "Attack": 2,
+        "MaxHealth": 2,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850019,
+        "m_noteMiniGuid": "FTBG_FengHuang",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "凤凰",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 4,
+        "Attack": 4,
+        "MaxHealth": 4,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850020,
+        "m_noteMiniGuid": "FTBG_FengHuang_G",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "凤凰",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 4,
+        "Attack": 8,
+        "MaxHealth": 8,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850021,
+        "m_noteMiniGuid": "FTBG_ShuHu",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "孰湖",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 5,
+        "Attack": 3,
+        "MaxHealth": 8,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850022,
+        "m_noteMiniGuid": "FTBG_ShuHu_G",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "孰湖",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 5,
+        "Attack": 6,
+        "MaxHealth": 16,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+
+
+
+
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850025,
+        "m_noteMiniGuid": "FTBG_Bo",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "驳",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 6,
+        "Attack": 6,
+        "MaxHealth": 6,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850026,
+        "m_noteMiniGuid": "FTBG_Bo_G",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "驳",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 6,
+        "Attack": 12,
+        "MaxHealth": 12,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850027,
+        "m_noteMiniGuid": "FTBG_RanYiYu",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "冉遗鱼",
+        "CardType": 0,
+        "RareType": 1,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 1,
+        "Attack": 1,
+        "MaxHealth": 2,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850028,
+        "m_noteMiniGuid": "FTBG_RanYiYu_G",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "冉遗鱼",
+        "CardType": 0,
+        "RareType": 1,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 1,
+        "Attack": 2,
+        "MaxHealth": 4,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850029,
+        "m_noteMiniGuid": "FTBG_DiJiang",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "帝江",
+        "CardType": 0,
+        "RareType": 1,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 2,
+        "Attack": 1,
+        "MaxHealth": 4,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850030,
+        "m_noteMiniGuid": "FTBG_DiJiang_G",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "帝江",
+        "CardType": 0,
+        "RareType": 1,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 2,
+        "Attack": 2,
+        "MaxHealth": 8,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850031,
+        "m_noteMiniGuid": "FTBG_TianGou",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "天狗",
+        "CardType": 0,
+        "RareType": 1,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 3,
+        "Attack": 6,
+        "MaxHealth": 1,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850032,
+        "m_noteMiniGuid": "FTBG_TianGou_G",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "天狗",
+        "CardType": 0,
+        "RareType": 1,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 3,
+        "Attack": 12,
+        "MaxHealth": 2,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850033,
+        "m_noteMiniGuid": "FTBG_BiFang",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "毕方",
+        "CardType": 0,
+        "RareType": 1,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 4,
+        "Attack": 3,
+        "MaxHealth": 5,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850034,
+        "m_noteMiniGuid": "FTBG_BiFang_G",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "毕方",
+        "CardType": 0,
+        "RareType": 1,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 4,
+        "Attack": 6,
+        "MaxHealth": 10,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850035,
+        "m_noteMiniGuid": "FTBG_ZhuLong",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "烛龙",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 5,
+        "Attack": 6,
+        "MaxHealth": 5,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850036,
+        "m_noteMiniGuid": "FTBG_ZhuLong_G",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "烛龙",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 5,
+        "Attack": 12,
+        "MaxHealth": 10,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850037,
+        "m_noteMiniGuid": "FTBG_Kui",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "夔",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 6,
+        "Attack": 6,
+        "MaxHealth": 9,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850038,
+        "m_noteMiniGuid": "FTBG_Kui_G",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "夔",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 6,
+        "Attack": 12,
+        "MaxHealth": 18,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850039,
+        "m_noteMiniGuid": "FTBG_TuoShu",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "鸵鼠",
+        "CardType": 0,
+        "RareType": 1,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 1,
+        "Attack": 1,
+        "MaxHealth": 1,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850040,
+        "m_noteMiniGuid": "FTBG_TuoShu_G",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "鸵鼠",
+        "CardType": 0,
+        "RareType": 1,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 1,
+        "Attack": 2,
+        "MaxHealth": 2,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850041,
+        "m_noteMiniGuid": "FTBG_ShuSi",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "数斯",
+        "CardType": 0,
+        "RareType": 1,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 2,
+        "Attack": 3,
+        "MaxHealth": 2,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850042,
+        "m_noteMiniGuid": "FTBG_ShuSi_G",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "数斯",
+        "CardType": 0,
+        "RareType": 1,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 2,
+        "Attack": 6,
+        "MaxHealth": 4,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850043,
+        "m_noteMiniGuid": "FTBG_QiLin",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "麒麟",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 3,
+        "Attack": 4,
+        "MaxHealth": 3,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850044,
+        "m_noteMiniGuid": "FTBG_QiLin_G",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "麒麟",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 3,
+        "Attack": 8,
+        "MaxHealth": 6,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850045,
+        "m_noteMiniGuid": "FTBG_HunDun",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "混沌",
+        "CardType": 0,
+        "RareType": 3,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 4,
+        "Attack": 8,
+        "MaxHealth": 1,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850046,
+        "m_noteMiniGuid": "FTBG_HunDun_G",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "混沌",
+        "CardType": 0,
+        "RareType": 3,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 4,
+        "Attack": 8,
+        "MaxHealth": 1,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850047,
+        "m_noteMiniGuid": "FTBG_FeiYi",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "肥遗",
+        "CardType": 0,
+        "RareType": 3,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 5,
+        "Attack": 4,
+        "MaxHealth": 7,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850048,
+        "m_noteMiniGuid": "FTBG_FeiYi_G",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "肥遗",
+        "CardType": 0,
+        "RareType": 3,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 5,
+        "Attack": 8,
+        "MaxHealth": 14,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+
+
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850049,
+        "m_noteMiniGuid": "FTBG_GuDiao",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "蛊雕",
+        "CardType": 0,
+        "RareType": 2,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 6,
+        "Attack": 5,
+        "MaxHealth": 10,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850050,
+        "m_noteMiniGuid": "FTBG_GuDiao_G",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "蛊雕",
+        "CardType": 0,
+        "RareType": 2,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 6,
+        "Attack": 10,
+        "MaxHealth": 20,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850051,
+        "m_noteMiniGuid": "FTBG_BiYiNiao",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "比翼鸟",
+        "CardType": 0,
+        "RareType": 2,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 1,
+        "Attack": 2,
+        "MaxHealth": 1,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850052,
+        "m_noteMiniGuid": "FTBG_BiYiNiao_G",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "比翼鸟",
+        "CardType": 0,
+        "RareType": 2,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 1,
+        "Attack": 4,
+        "MaxHealth": 2,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850053,
+        "m_noteMiniGuid": "FTBG_ShuiQiLin",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "水麒麟",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 2,
+        "Attack": 1,
+        "MaxHealth": 1,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850054,
+        "m_noteMiniGuid": "FTBG_ShuiQiLin_G",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "水麒麟",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 2,
+        "Attack": 2,
+        "MaxHealth": 2,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850055,
+        "m_noteMiniGuid": "FTBG_XieZhi",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "獬豸",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 3,
+        "Attack": 3,
+        "MaxHealth": 4,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850056,
+        "m_noteMiniGuid": "FTBG_XieZhi_G",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "獬豸",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 3,
+        "Attack": 6,
+        "MaxHealth": 8,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850057,
+        "m_noteMiniGuid": "FTBG_DangKang",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "当康",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 4,
+        "Attack": 4,
+        "MaxHealth": 5,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850058,
+        "m_noteMiniGuid": "FTBG_DangKang_G",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "当康",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 4,
+        "Attack": 8,
+        "MaxHealth": 10,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850059,
+        "m_noteMiniGuid": "FTBG_ChiMuZhuYao",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "赤目猪妖",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 5,
+        "Attack": 8,
+        "MaxHealth": 4,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850060,
+        "m_noteMiniGuid": "FTBG_ChiMuZhuYao_G",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "赤目猪妖",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 5,
+        "Attack": 16,
+        "MaxHealth": 8,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850023,
+        "m_noteMiniGuid": "FTBG_MingShe",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "鸣蛇",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 6,
+        "Attack": 10,
+        "MaxHealth": 4,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850024,
+        "m_noteMiniGuid": "FTBG_MingShe_G",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "鸣蛇",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 6,
+        "Attack": 20,
+        "MaxHealth": 8,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850061,
+        "m_noteMiniGuid": "FTBG_JinWu",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "金乌",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 1,
+        "Attack": 3,
+        "MaxHealth": 1,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850062,
+        "m_noteMiniGuid": "FTBG_JinWu_G",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "金乌",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 1,
+        "Attack": 6,
+        "MaxHealth": 2,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850063,
+        "m_noteMiniGuid": "FTBG_GouShe",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "钩蛇",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 2,
+        "Attack": 3,
+        "MaxHealth": 2,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850064,
+        "m_noteMiniGuid": "FTBG_GouShe_G",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "钩蛇",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 2,
+        "Attack": 6,
+        "MaxHealth": 4,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850065,
+        "m_noteMiniGuid": "FTBG_DangHu",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "当扈",
+        "CardType": 0,
+        "RareType": 2,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 3,
+        "Attack": 2,
+        "MaxHealth": 5,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850066,
+        "m_noteMiniGuid": "FTBG_DangHu_G",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "当扈",
+        "CardType": 0,
+        "RareType": 2,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 3,
+        "Attack": 4,
+        "MaxHealth": 10,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850067,
+        "m_noteMiniGuid": "FTBG_JiaoDuan",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "角端",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 4,
+        "Attack": 6,
+        "MaxHealth": 3,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850068,
+        "m_noteMiniGuid": "FTBG_JiaoDuan_G",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "角端",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 4,
+        "Attack": 12,
+        "MaxHealth": 6,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850069,
+        "m_noteMiniGuid": "FTBG_KunPeng",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "鲲鹏",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 5,
+        "Attack": 5,
+        "MaxHealth": 5,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850070,
+        "m_noteMiniGuid": "FTBG_KunPeng_G",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "鲲鹏",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 5,
+        "Attack": 10,
+        "MaxHealth": 10,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850071,
+        "m_noteMiniGuid": "FTBG_ZaoChi",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "凿齿",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 6,
+        "Attack": 9,
+        "MaxHealth": 6,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850072,
+        "m_noteMiniGuid": "FTBG_ZaoChi_G",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "凿齿",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 6,
+        "Attack": 18,
+        "MaxHealth": 12,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850073,
+        "m_noteMiniGuid": "FTBG_ChengHuang",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "乘黄",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 1,
+        "Attack": 1,
+        "MaxHealth": 3,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850074,
+        "m_noteMiniGuid": "FTBG_ChengHuang_G",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "乘黄",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 1,
+        "Attack": 2,
+        "MaxHealth": 6,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850075,
+        "m_noteMiniGuid": "FTBG_YaYu",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "猰貐",
+        "CardType": 0,
+        "RareType": 3,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 2,
+        "Attack": 4,
+        "MaxHealth": 1,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850076,
+        "m_noteMiniGuid": "FTBG_YaYu_G",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "猰貐",
+        "CardType": 0,
+        "RareType": 3,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 2,
+        "Attack": 8,
+        "MaxHealth": 2,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850077,
+        "m_noteMiniGuid": "FTBG_BaShe",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "巴蛇",
+        "CardType": 0,
+        "RareType": 2,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 3,
+        "Attack": 4,
+        "MaxHealth": 3,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850078,
+        "m_noteMiniGuid": "FTBG_BaShe_G",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "巴蛇",
+        "CardType": 0,
+        "RareType": 2,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 3,
+        "Attack": 4,
+        "MaxHealth": 3,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850079,
+        "m_noteMiniGuid": "FTBG_XiangLiu",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "相柳",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 4,
+        "Attack": 9,
+        "MaxHealth": 1,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850080,
+        "m_noteMiniGuid": "FTBG_XiangLiu_G",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "相柳",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 4,
+        "Attack": 18,
+        "MaxHealth": 2,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850081,
+        "m_noteMiniGuid": "FTBG_Hou",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "犼",
+        "CardType": 0,
+        "RareType": 3,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 5,
+        "Attack": 7,
+        "MaxHealth": 4,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850082,
+        "m_noteMiniGuid": "FTBG_Hou_G",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "犼",
+        "CardType": 0,
+        "RareType": 3,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 5,
+        "Attack": 14,
+        "MaxHealth": 8,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850083,
+        "m_noteMiniGuid": "FTBG_XuanWu",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "犼",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 6,
+        "Attack": 4,
+        "MaxHealth": 12,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 850084,
+        "m_noteMiniGuid": "FTBG_XuanWu_G",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "犼",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 6,
+        "Attack": 8,
+        "MaxHealth": 24,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+]

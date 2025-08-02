@@ -1,0 +1,239 @@
+[
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 590001,
+        "m_noteMiniGuid": "PVZ_001",
+        "Classes":
+        [
+            10
+        ],
+        "CnName": "僵王博士",
+        "ScriptName": "HERO_05",
+        "CardType": 3,
+        "RareType": 0,
+        "RaceType":
+        [
+            22
+        ],
+        "SpellType":
+        [],
+        "ManaCost": 0,
+        "Attack": 0,
+        "MaxHealth": 30,
+        "Targets": 0,
+        "Description": ""
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 5900010,
+        "m_noteMiniGuid": "PVZ_001bp",
+        "Classes":
+        [
+            10
+        ],
+        "CnName": "一大波僵尸",
+        "ScriptName": "HERO_09bp",
+        "CardType": 4,
+        "RareType": 0,
+        "RaceType":
+        [
+        ],
+        "SpellType":
+        [
+        ],
+        "ManaCost": 4,
+        "Attack": 0,
+        "MaxHealth": 0,
+        "Targets": 0,
+        "Description": "召唤一个随机僵尸。"
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 590002,
+        "m_noteMiniGuid": "PVZ_002",
+        "Classes":
+        [
+            10
+        ],
+        "CnName": "普通僵尸",
+        "ScriptName": "EX1_251",
+        "CardType": 0,
+        "RareType": 0,
+        "RaceType":
+        [
+            22
+        ],
+        "SpellType":
+        [],
+        "ManaCost": 1,
+        "Attack": 2,
+        "MaxHealth": 2,
+        "Targets": 0,
+        "Description": ""
+    },
+
+
+
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 590003,
+        "m_noteMiniGuid": "PVZ_003",
+        "Classes":
+        [
+            10
+        ],
+        "CnName": "路障僵尸",
+        "ScriptName": "EX1_251",
+        "CardType": 0,
+        "RareType": 0,
+        "RaceType":
+        [
+            22
+        ],
+        "SpellType":
+        [],
+        "ManaCost": 2,
+        "Attack": 2,
+        "MaxHealth": 5,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 590004,
+        "m_noteMiniGuid": "PVZ_004",
+        "Classes":
+        [
+            10
+        ],
+        "CnName": "撑杆僵尸",
+        "ScriptName": "EX1_251",
+        "CardType": 0,
+        "RareType": 0,
+        "RaceType":
+        [
+            22
+        ],
+        "SpellType":
+        [],
+        "ManaCost": 3,
+        "Attack": 3,
+        "MaxHealth": 4,
+        "Targets": 0,
+        "Description": ""
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 590005,
+        "m_noteMiniGuid": "PVZ_005",
+        "Classes":
+        [
+            10
+        ],
+        "CnName": "铁桶僵尸",
+        "ScriptName": "EX1_251",
+        "CardType": 0,
+        "RareType": 0,
+        "RaceType":
+        [
+            22
+        ],
+        "SpellType":
+        [],
+        "ManaCost": 4,
+        "Attack": 2,
+        "MaxHealth": 6,
+        "Targets": 0,
+        "Description": ""
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 590006,
+        "m_noteMiniGuid": "PVZ_006",
+        "Classes":
+        [
+            10
+        ],
+        "CnName": "读报僵尸",
+        "ScriptName": "EX1_251",
+        "CardType": 0,
+        "RareType": 0,
+        "RaceType":
+        [
+            22
+        ],
+        "SpellType":
+        [],
+        "ManaCost": 4,
+        "Attack": 3,
+        "MaxHealth": 3,
+        "Targets": 0,
+        "Description": ""
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 590007,
+        "m_noteMiniGuid": "PVZ_007",
+        "Classes":
+        [
+            10
+        ],
+        "CnName": "铁闸门僵尸",
+        "ScriptName": "EX1_251",
+        "CardType": 0,
+        "RareType": 0,
+        "RaceType":
+        [
+            22
+        ],
+        "SpellType":
+        [],
+        "ManaCost": 5,
+        "Attack": 2,
+        "MaxHealth": 8,
+        "Targets": 0,
+        "Description": "<b>嘲讽</b>"
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 590008,
+        "m_noteMiniGuid": "PVZ_008",
+        "Classes":
+        [
+            10
+        ],
+        "CnName": "橄榄球僵尸",
+        "ScriptName": "EX1_251",
+        "CardType": 0,
+        "RareType": 0,
+        "RaceType":
+        [
+            22
+        ],
+        "SpellType":
+        [],
+        "ManaCost": 6,
+        "Attack": 4,
+        "MaxHealth": 7,
+        "Targets": 0,
+        "Description": ""
+    },
+
+
+]

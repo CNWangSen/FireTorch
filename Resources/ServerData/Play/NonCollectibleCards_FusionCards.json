@@ -1,0 +1,73 @@
+[
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 550000,
+        "m_noteMiniGuid": "BOTA_BOSS_20p2",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "卡牌融合",
+        "ScriptName": "EX1_251",
+        "CardType": 4,
+        "RareType": 0,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 2,
+        "Attack": 0,
+        "MaxHealth": 0,
+        "Targets": 3,
+        "Description": "使一个友方随从和左边的随从融合。"
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 550001,
+        "m_noteMiniGuid": "FUS_001",
+        "ScriptName":"DS1_185",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "希尔瓦娜斯·炎魔行者",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 9,
+        "Attack": 9,
+        "MaxHealth": 9,
+        "Targets": 0,
+        "Description": "<b>亡语</b>、在你的回合结束时：随机夺取一个敌方随从的控制权，对一个随机敌人造成8点伤害。"
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 5500020,
+        "m_noteMiniGuid": "FUS_002t",
+        "Classes":
+        [
+            2
+        ],
+        "CnName": "火车王降落伞",
+        "ScriptName": "VAC_933t",
+        "CardType": 1,
+        "RareType": 0,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 1,
+        "Attack": 1,
+        "MaxHealth": 1,
+        "Targets": 0,
+        "Description": "<b>抽到时施放</b>\n召唤一个6/2并具有<b>冲锋</b>的火车王。"
+    },
+]

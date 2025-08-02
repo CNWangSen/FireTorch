@@ -1,0 +1,247 @@
+[
+
+    {
+        "ModId": 1,
+        "SetId": 37,
+        "DbfId": 69912,
+        "m_noteMiniGuid": "VAN_EX1_298",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "炎魔之王拉格纳罗斯",
+        "ScriptName": "FP1_031",
+        "CardType": 3,
+        "RareType": 0,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 0,
+        "Attack": 0,
+        "MaxHealth": 30,
+        "Targets": 0,
+        "Description": "无法攻击。在你的回合结束时，随机对一个敌人造成8点伤害。"
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 37,
+        "DbfId": 70980,
+        "m_noteMiniGuid": "VAN_EX1_572",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "伊瑟拉",
+        "ScriptName": "FP1_031",
+        "CardType": 3,
+        "RareType": 4,
+        "RaceType":
+        [
+            3
+        ],
+        "SpellType":
+        [],
+        "ManaCost": 0,
+        "Attack": 0,
+        "MaxHealth": 30,
+        "Targets": 0,
+        "Description": "在你的回合结束时，将一张梦境牌置入你的手牌。"
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 22,
+        "DbfId": 1915,
+        "m_noteMiniGuid": "FP1_031",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "瑞文戴尔男爵",
+        "ScriptName": "FP1_031",
+        "CardType": 3,
+        "RareType": 4,
+        "RaceType":
+        [
+            14
+        ],
+        "SpellType":
+        [],
+        "ManaCost": 4,
+        "Attack": 0,
+        "MaxHealth": 30,
+        "Targets": 0,
+        "Description": "你的随从的<b>亡语</b>将触发两次。"
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 37,
+        "DbfId": 999999999,
+        "m_noteMiniGuid": "TMP_ICON",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "炉火Torch",
+        "ScriptName": "REV_906",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 0,
+        "Attack": 1,
+        "MaxHealth": 1,
+        "Targets": 0,
+        "Description": ""
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 37,
+        "DbfId": 600411034,
+        "m_noteMiniGuid": "TMP_DIR",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "伊瑟拉",
+        "ScriptName": "REV_906",
+        "CardType": 0,
+        "RareType": 4,
+        "RaceType":
+        [
+            3
+        ],
+        "SpellType":
+        [],
+        "ManaCost": 0,
+        "Attack": 0,
+        "MaxHealth": 30,
+        "Targets": 0,
+        "Description": "在你的回合结束时，将一张梦境牌置入你的手牌。"
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 37,
+        "DbfId": 69979,
+        "m_noteMiniGuid": "VAN_EX1_563",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "玛里苟斯",
+        "ScriptName": "REV_906",
+        "CardType": 3,
+        "RareType": 0,
+        "RaceType":
+        [
+            3
+        ],
+        "SpellType":
+        [],
+        "ManaCost": 0,
+        "Attack": 0,
+        "MaxHealth": 30,
+        "Targets": 0,
+        "Description": "<b>法术伤害+5</b>"
+    },
+
+    {
+        "ModId": 0,
+        "SetId": 19,
+        "DbfId": 600411030,
+        "m_noteMiniGuid": "TB_BaconShop_HERO_78_SKIN_B",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "虎鲸",
+        "ScriptName": "REV_906",
+        "CardType": 3,
+        "RareType": 0,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 0,
+        "Attack": 0,
+        "MaxHealth": 30,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 0,
+        "SetId": 19,
+        "DbfId": 600411031,
+        "m_noteMiniGuid": "TB_BaconShop_HERO_53_SKIN_C",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "虎鲸",
+        "ScriptName": "REV_906",
+        "CardType": 3,
+        "RareType": 0,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 0,
+        "Attack": 0,
+        "MaxHealth": 30,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 0,
+        "SetId": 19,
+        "DbfId": 600411032,
+        "m_noteMiniGuid": "TB_BaconShop_HERO_11_SKIN_C",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "虎鲸",
+        "ScriptName": "REV_906",
+        "CardType": 3,
+        "RareType": 0,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 0,
+        "Attack": 0,
+        "MaxHealth": 30,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 0,
+        "SetId": 19,
+        "DbfId": 600411033,
+        "m_noteMiniGuid": "TB_BaconShop_HERO_11_SKIN_E",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "虎鲸",
+        "ScriptName": "REV_906",
+        "CardType": 3,
+        "RareType": 0,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 0,
+        "Attack": 0,
+        "MaxHealth": 30,
+        "Targets": 0,
+        "Description": ""
+    },
+]

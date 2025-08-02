@@ -1,0 +1,42 @@
+
+ename=1.mp4|mute=0|sqzero=1|speed=1|startms=0|endms=7000
+ttxt=如果暴龙王和大螺丝融合会有多强？
+d
+ttxt=接下来我们实战试试
+a
+
+ename=2.mp4|mute=0|seqzero=1|speed=1
+ttxt=炎魔暴龙王，继承暴龙王和大螺丝的身材
+ttxt=具有大螺丝的无法攻击和暴龙王的冲锋
+ttxt=在回合结束时能造成伤害
+
+ename=3.mp4|mute=0|seqzero=1|speed=1
+ttxt=大家觉得这张卡强度怎么样呢？
+ttxt=炎魔之王和暴龙王都是极具攻击性的高费随从
+ttxt=大家觉得它们的融合效果合不合理呢？
+ttxt=欢迎大家在评论区留言
+
+
+ename=4.mp4|mute=0|seqzero=1|speed=1
+ttxt=炉石卡牌融合，释放无限可能，我们下期再见
+d
+
+##
+checkboard:
+addcpn   q txt dur
+addimg   w name
+addvid   e name cx cy layer mute speed
+    r name bgm startms
+addman   t txt
+imgseq   y name
+
+waitcpn  a
+waitimg  s
+waitvid  d
+
+holdtill Z
+hold     z ms
+clearimg x
+clearcpn c
+clearvid v
+done     b

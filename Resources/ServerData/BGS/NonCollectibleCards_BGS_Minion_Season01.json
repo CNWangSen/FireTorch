@@ -1,0 +1,3332 @@
+[
+  {
+    "ModId": 1,
+    "SetId": 16,
+    "DbfId": 42467,
+    "m_noteMiniGuid": "ICC_038",
+    "Classes": [
+      6
+    ],
+    "CnName": "正义保护者",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [],
+    "SpellType": [],
+    "ManaCost": 1,
+    "Attack": 1,
+    "MaxHealth": 1,
+    "Targets": 0,
+    "Description": "<b>嘲讽</b>\n<b>圣盾</b>"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 63774,
+    "m_noteMiniGuid": "ICC_038_G",
+    "Classes": [
+      6
+    ],
+    "CnName": "正义保护者",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [],
+    "SpellType": [],
+    "ManaCost": 1,
+    "Attack": 2,
+    "MaxHealth": 2,
+    "Targets": 0,
+    "Description": "<b>嘲讽</b>\n<b>圣盾</b>"
+  },
+  {
+    "ModId": 0,
+    "SetId": 23,
+    "DbfId": 96769,
+    "m_noteMiniGuid": "BG_OG_221",
+    "Classes": [
+      0
+    ],
+    "CnName": "无私的英雄",
+    "CardType": 0,
+    "RareType": 2,
+    "RaceType": [],
+    "SpellType": [],
+    "ManaCost": 1,
+    "Attack": 2,
+    "MaxHealth": 1,
+    "Targets": 0,
+    "Description": "<b>亡语：</b>随机使一个友方随从获得<b>圣盾</b>。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 23,
+    "DbfId": 58143,
+    "m_noteMiniGuid": "BG_OG_221_G",
+    "Classes": [
+      0
+    ],
+    "CnName": "无私的英雄",
+    "CardType": 0,
+    "RareType": 2,
+    "RaceType": [],
+    "SpellType": [],
+    "ManaCost": 1,
+    "Attack": 4,
+    "MaxHealth": 2,
+    "Targets": 0,
+    "Description": "<b>亡语：</b>随机使两个友方随从获得<b>圣盾</b>。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 23,
+    "DbfId": 96772,
+    "m_noteMiniGuid": "BG_OG_256",
+    "Classes": [
+      0
+    ],
+    "CnName": "恩佐斯的子嗣",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [],
+    "SpellType": [],
+    "ManaCost": 2,
+    "Attack": 2,
+    "MaxHealth": 2,
+    "Targets": 0,
+    "Description": "<b>亡语：</b>使你的所有随从获得+1/+1。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 23,
+    "DbfId": 58168,
+    "m_noteMiniGuid": "BG_OG_256_G",
+    "Classes": [
+      0
+    ],
+    "CnName": "恩佐斯的子嗣",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [],
+    "SpellType": [],
+    "ManaCost": 2,
+    "Attack": 4,
+    "MaxHealth": 4,
+    "Targets": 0,
+    "Description": "<b>亡语：</b>使你的所有随从获得+2/+2。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 13,
+    "DbfId": 96780,
+    "m_noteMiniGuid": "BG_GIL_681",
+    "Classes": [
+      0
+    ],
+    "CnName": "梦魇融合怪",
+    "CardType": 0,
+    "RareType": 3,
+    "RaceType": [
+      0
+    ],
+    "SpellType": [],
+    "ManaCost": 2,
+    "Attack": 3,
+    "MaxHealth": 4,
+    "Targets": 0,
+    "Description": "<i>本随从拥有全部随从类型。</i>"
+  },
+  {
+    "ModId": 0,
+    "SetId": 13,
+    "DbfId": 91216,
+    "m_noteMiniGuid": "BG_GIL_681_G",
+    "Classes": [
+      0
+    ],
+    "CnName": "梦魇融合怪",
+    "CardType": 0,
+    "RareType": 3,
+    "RaceType": [
+      0
+    ],
+    "SpellType": [],
+    "ManaCost": 2,
+    "Attack": 6,
+    "MaxHealth": 8,
+    "Targets": 0,
+    "Description": "<i>本随从拥有全部随从类型。</i>"
+  },
+  {
+    "ModId": 1,
+    "SetId": 30,
+    "DbfId": 2518,
+    "m_noteMiniGuid": "AT_121",
+    "Classes": [
+      0
+    ],
+    "CnName": "人气选手",
+    "CardType": 0,
+    "RareType": 3,
+    "RaceType": [],
+    "SpellType": [],
+    "ManaCost": 3,
+    "Attack": 4,
+    "MaxHealth": 4,
+    "Targets": 0,
+    "Description": "每当你使用一张具有<b>战吼</b>的牌，便获得+1/+1。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 58383,
+    "m_noteMiniGuid": "AT_121_G",
+    "Classes": [
+      0
+    ],
+    "CnName": "人气选手",
+    "CardType": 0,
+    "RareType": 3,
+    "RaceType": [],
+    "SpellType": [],
+    "ManaCost": 3,
+    "Attack": 8,
+    "MaxHealth": 8,
+    "Targets": 0,
+    "Description": "每当你使用一张具有<b>战吼</b>的牌，便获得+2/+2。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 58385,
+    "m_noteMiniGuid": "ULD_179_G",
+    "Classes": [
+      0
+    ],
+    "CnName": "方阵指挥官",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [],
+    "SpellType": [],
+    "ManaCost": 3,
+    "Attack": 8,
+    "MaxHealth": 10,
+    "Targets": 0,
+    "Description": "你的<b>嘲讽</b>随从拥有+4攻击力。"
+  },
+  {
+    "ModId": 1,
+    "SetId": 35,
+    "DbfId": 54153,
+    "m_noteMiniGuid": "ULD_179",
+    "Classes": [
+      0
+    ],
+    "CnName": "方阵指挥官",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [],
+    "SpellType": [],
+    "ManaCost": 3,
+    "Attack": 4,
+    "MaxHealth": 5,
+    "Targets": 0,
+    "Description": "你的<b>嘲讽</b>随从拥有+2攻击力。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 58374,
+    "m_noteMiniGuid": "UNG_037_G",
+    "Classes": [
+      7
+    ],
+    "CnName": "始祖龟执盾者",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [],
+    "SpellType": [],
+    "ManaCost": 3,
+    "Attack": 4,
+    "MaxHealth": 10,
+    "Targets": 0,
+    "Description": "<b>嘲讽，亡语：</b>随机使一个友方随从获得+2/+2。"
+  },
+  {
+    "ModId": 1,
+    "SetId": 36,
+    "DbfId": 41180,
+    "m_noteMiniGuid": "UNG_037",
+    "Classes": [
+      7
+    ],
+    "CnName": "始祖龟执盾者",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [],
+    "SpellType": [],
+    "ManaCost": 3,
+    "Attack": 2,
+    "MaxHealth": 5,
+    "Targets": 0,
+    "Description": "<b>嘲讽，亡语：</b>随机使一个友方随从获得+1/+1。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 57742,
+    "m_noteMiniGuid": "BGS_029",
+    "Classes": [
+      0
+    ],
+    "CnName": "百变泽鲁斯",
+    "CardType": 0,
+    "RareType": 4,
+    "RaceType": [],
+    "SpellType": [],
+    "ManaCost": 3,
+    "Attack": 1,
+    "MaxHealth": 1,
+    "Targets": 0,
+    "Description": "如果这张牌在你的手牌中，每个回合都会随机变成一张随从牌。保留附加效果。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 60233,
+    "m_noteMiniGuid": "BGS_029_G",
+    "Classes": [
+      0
+    ],
+    "CnName": "百变泽鲁斯",
+    "CardType": 0,
+    "RareType": 4,
+    "RaceType": [],
+    "SpellType": [],
+    "ManaCost": 3,
+    "Attack": 2,
+    "MaxHealth": 2,
+    "Targets": 0,
+    "Description": "如果这张牌在你的手牌中，每个回合都会随机变成一张金色随从牌。保留附加效果。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 6,
+    "DbfId": 96779,
+    "m_noteMiniGuid": "BG_DAL_575",
+    "Classes": [
+      5
+    ],
+    "CnName": "卡德加",
+    "CardType": 0,
+    "RareType": 4,
+    "RaceType": [],
+    "SpellType": [],
+    "ManaCost": 3,
+    "Attack": 2,
+    "MaxHealth": 2,
+    "Targets": 0,
+    "Description": "你的召唤随从的卡牌召唤数量翻倍。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 6,
+    "DbfId": 58380,
+    "m_noteMiniGuid": "BG_DAL_575_G",
+    "Classes": [
+      5
+    ],
+    "CnName": "卡德加",
+    "CardType": 0,
+    "RareType": 4,
+    "RaceType": [],
+    "SpellType": [],
+    "ManaCost": 3,
+    "Attack": 4,
+    "MaxHealth": 4,
+    "Targets": 0,
+    "Description": "你的召唤随从的卡牌召唤数量变为三倍。"
+  },
+  {
+    "ModId": 1,
+    "SetId": 13,
+    "DbfId": 99157,
+    "m_noteMiniGuid": "BG_GIL_655",
+    "Classes": [
+      11
+    ],
+    "CnName": "腐树巨人",
+    "CardType": 0,
+    "RareType": 2,
+    "RaceType": [
+      14
+    ],
+    "SpellType": [],
+    "ManaCost": 4,
+    "Attack": 2,
+    "MaxHealth": 7,
+    "Targets": 0,
+    "Description": "在一个友方随从攻击后，获得+1攻击力。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 199899157,
+    "m_noteMiniGuid": "BG_GIL_655_G",
+    "Classes": [
+      11
+    ],
+    "CnName": "腐树巨人",
+    "CardType": 0,
+    "RareType": 2,
+    "RaceType": [],
+    "SpellType": [],
+    "ManaCost": 4,
+    "Attack": 4,
+    "MaxHealth": 14,
+    "Targets": 0,
+    "Description": "在一个友方随从攻击后，获得+2攻击力。"
+  },
+  {
+    "ModId": 1,
+    "SetId": 18,
+    "DbfId": 39269,
+    "m_noteMiniGuid": "KAR_702",
+    "Classes": [
+      0
+    ],
+    "CnName": "展览馆法师",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [],
+    "SpellType": [],
+    "ManaCost": 4,
+    "Attack": 4,
+    "MaxHealth": 4,
+    "Targets": 0,
+    "Description": "<b>战吼：</b>随机使一个友方野兽，龙和鱼人获得+2/+2。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 59510,
+    "m_noteMiniGuid": "KAR_702_G",
+    "Classes": [
+      0
+    ],
+    "CnName": "展览馆法师",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [],
+    "SpellType": [],
+    "ManaCost": 4,
+    "Attack": 8,
+    "MaxHealth": 8,
+    "Targets": 0,
+    "Description": "<b>战吼：</b>随机使一个友方野兽，龙和鱼人获得+4/+4。"
+  },
+  {
+    "ModId": 1,
+    "SetId": 16,
+    "DbfId": 45392,
+    "m_noteMiniGuid": "ICC_858",
+    "Classes": [
+      6
+    ],
+    "CnName": "浴火者伯瓦尔",
+    "CardType": 0,
+    "RareType": 4,
+    "RaceType": [
+      14
+    ],
+    "SpellType": [],
+    "ManaCost": 4,
+    "Attack": 1,
+    "MaxHealth": 7,
+    "Targets": 0,
+    "Description": "<b>圣盾</b>\n在一个友方随从失去<b>圣盾</b>后，获得+2攻击力。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 58405,
+    "m_noteMiniGuid": "ICC_858_G",
+    "Classes": [
+      6
+    ],
+    "CnName": "浴火者伯瓦尔",
+    "CardType": 0,
+    "RareType": 4,
+    "RaceType": [],
+    "SpellType": [],
+    "ManaCost": 4,
+    "Attack": 2,
+    "MaxHealth": 14,
+    "Targets": 0,
+    "Description": "<b>圣盾</b>\n在一个友方随从失去<b>圣盾</b>后，获得+4攻击力。"
+  },
+  {
+    "ModId": 1,
+    "SetId": 11,
+    "DbfId": 763,
+    "m_noteMiniGuid": "EX1_093",
+    "Classes": [
+      0
+    ],
+    "CnName": "阿古斯防御者",
+    "CardType": 0,
+    "RareType": 2,
+    "RaceType": [],
+    "SpellType": [],
+    "ManaCost": 4,
+    "Attack": 3,
+    "MaxHealth": 3,
+    "Targets": 0,
+    "Description": "<b>战吼：</b>使相邻的随从获得+1/+1和<b>嘲讽</b>。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 57404,
+    "m_noteMiniGuid": "EX1_093_G",
+    "Classes": [
+      0
+    ],
+    "CnName": "阿古斯防御者",
+    "CardType": 0,
+    "RareType": 2,
+    "RaceType": [],
+    "SpellType": [],
+    "ManaCost": 4,
+    "Attack": 6,
+    "MaxHealth": 6,
+    "Targets": 0,
+    "Description": "<b>战吼：</b>使相邻的随从获得+2/+2和<b>嘲讽</b>。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 20,
+    "DbfId": 96786,
+    "m_noteMiniGuid": "BG_LOE_077",
+    "Classes": [
+      0
+    ],
+    "CnName": "布莱恩·铜须",
+    "CardType": 0,
+    "RareType": 4,
+    "RaceType": [],
+    "SpellType": [],
+    "ManaCost": 5,
+    "Attack": 2,
+    "MaxHealth": 4,
+    "Targets": 0,
+    "Description": "你的<b>战吼</b>会触发\n两次。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 20,
+    "DbfId": 58400,
+    "m_noteMiniGuid": "BG_LOE_077_G",
+    "Classes": [
+      0
+    ],
+    "CnName": "布莱恩·铜须",
+    "CardType": 0,
+    "RareType": 4,
+    "RaceType": [],
+    "SpellType": [],
+    "ManaCost": 5,
+    "Attack": 4,
+    "MaxHealth": 8,
+    "Targets": 0,
+    "Description": "你的<b>战吼</b>会触发\n三次。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 59707,
+    "m_noteMiniGuid": "BGS_009",
+    "Classes": [
+      0
+    ],
+    "CnName": "光牙执行者",
+    "CardType": 0,
+    "RareType": 5,
+    "RaceType": [],
+    "SpellType": [],
+    "ManaCost": 5,
+    "Attack": 4,
+    "MaxHealth": 4,
+    "Targets": 0,
+    "Description": "在你的回合结束时，使每个类型的各一个友方随从获得+2/+2。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 59711,
+    "m_noteMiniGuid": "BGS_009_G",
+    "Classes": [
+      0
+    ],
+    "CnName": "光牙执行者",
+    "CardType": 0,
+    "RareType": 5,
+    "RaceType": [],
+    "SpellType": [],
+    "ManaCost": 5,
+    "Attack": 8,
+    "MaxHealth": 8,
+    "Targets": 0,
+    "Description": "在你的回合结束时，使每个类型的各一个友方随从获得+4/+4。"
+  },
+  {
+    "ModId": 1,
+    "SetId": 23,
+    "DbfId": 38895,
+    "m_noteMiniGuid": "OG_300",
+    "Classes": [
+      0
+    ],
+    "CnName": "波戈蒙斯塔",
+    "CardType": 0,
+    "RareType": 4,
+    "RaceType": [],
+    "SpellType": [],
+    "ManaCost": 5,
+    "Attack": 6,
+    "MaxHealth": 7,
+    "Targets": 0,
+    "Description": "每当波戈蒙斯塔攻击并消灭一个随从，便获得+2/+2。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 58425,
+    "m_noteMiniGuid": "OG_300_G",
+    "Classes": [
+      0
+    ],
+    "CnName": "波戈蒙斯塔",
+    "CardType": 0,
+    "RareType": 4,
+    "RaceType": [],
+    "SpellType": [],
+    "ManaCost": 5,
+    "Attack": 12,
+    "MaxHealth": 14,
+    "Targets": 0,
+    "Description": "每当波戈蒙斯塔攻击并消灭一个随从，便获得+4/+4。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 16,
+    "DbfId": 97422,
+    "m_noteMiniGuid": "BG_ICC_807",
+    "Classes": [
+      3
+    ],
+    "CnName": "硬壳清道夫",
+    "CardType": 0,
+    "RareType": 2,
+    "RaceType": [],
+    "SpellType": [],
+    "ManaCost": 5,
+    "Attack": 2,
+    "MaxHealth": 3,
+    "Targets": 0,
+    "Description": "<b>战吼：</b>使你具有<b>嘲讽</b>的随从获得+2/+2。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 16,
+    "DbfId": 59508,
+    "m_noteMiniGuid": "BG_ICC_807_G",
+    "Classes": [
+      0
+    ],
+    "CnName": "硬壳清道夫",
+    "CardType": 0,
+    "RareType": 2,
+    "RaceType": [],
+    "SpellType": [],
+    "ManaCost": 5,
+    "Attack": 4,
+    "MaxHealth": 6,
+    "Targets": 0,
+    "Description": "<b>战吼：</b>使你具有<b>嘲讽</b>的随从获得+4/+4。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 22,
+    "DbfId": 96785,
+    "m_noteMiniGuid": "BG_FP1_031",
+    "Classes": [
+      0
+    ],
+    "CnName": "瑞文戴尔男爵",
+    "CardType": 0,
+    "RareType": 4,
+    "RaceType": [
+      14
+    ],
+    "SpellType": [],
+    "ManaCost": 5,
+    "Attack": 1,
+    "MaxHealth": 7,
+    "Targets": 0,
+    "Description": "你的随从的<b>亡语</b>将触发两次。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 22,
+    "DbfId": 58421,
+    "m_noteMiniGuid": "BG_FP1_031_G",
+    "Classes": [
+      0
+    ],
+    "CnName": "瑞文戴尔男爵",
+    "CardType": 0,
+    "RareType": 4,
+    "RaceType": [
+      14
+    ],
+    "SpellType": [],
+    "ManaCost": 5,
+    "Attack": 2,
+    "MaxHealth": 14,
+    "Targets": 0,
+    "Description": "你的随从的<b>亡语</b>将触发三次。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 60040,
+    "m_noteMiniGuid": "BGS_022",
+    "Classes": [
+      0
+    ],
+    "CnName": "扎普·斯里维克",
+    "CardType": 0,
+    "RareType": 4,
+    "RaceType": [],
+    "SpellType": [],
+    "ManaCost": 6,
+    "Attack": 11,
+    "MaxHealth": 22,
+    "Targets": 0,
+    "Description": "<b>风怒</b>\n本随从总会攻击攻击力最低的敌方随从。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 60041,
+    "m_noteMiniGuid": "BGS_022_G",
+    "Classes": [
+      0
+    ],
+    "CnName": "扎普·斯里维克",
+    "CardType": 0,
+    "RareType": 4,
+    "RaceType": [],
+    "SpellType": [],
+    "ManaCost": 6,
+    "Attack": 22,
+    "MaxHealth": 44,
+    "Targets": 0,
+    "Description": "<b>风怒</b>\n本随从总会攻击攻击力最低的敌方随从。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 12,
+    "DbfId": 96758,
+    "m_noteMiniGuid": "BG_CFM_315",
+    "Classes": [
+      4
+    ],
+    "CnName": "雄斑虎",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [
+      1
+    ],
+    "SpellType": [],
+    "ManaCost": 1,
+    "Attack": 1,
+    "MaxHealth": 1,
+    "Targets": 0,
+    "Description": "<b>战吼：</b>召唤一头1/1的雌斑虎。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 12,
+    "DbfId": 60053,
+    "m_noteMiniGuid": "BG_CFM_315_G",
+    "Classes": [
+      4
+    ],
+    "CnName": "雄斑虎",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [
+      1
+    ],
+    "SpellType": [],
+    "ManaCost": 1,
+    "Attack": 2,
+    "MaxHealth": 2,
+    "Targets": 0,
+    "Description": "<b>战吼：</b>召唤一头2/2的雌斑虎。"
+  },
+  {
+    "ModId": 1,
+    "SetId": 11,
+    "DbfId": 985,
+    "m_noteMiniGuid": "EX1_162",
+    "Classes": [
+      0
+    ],
+    "CnName": "恐狼前锋",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [
+      1
+    ],
+    "SpellType": [],
+    "ManaCost": 1,
+    "Attack": 2,
+    "MaxHealth": 2,
+    "Targets": 0,
+    "Description": "相邻的随从拥有+1攻击力。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 60025,
+    "m_noteMiniGuid": "EX1_162_G",
+    "Classes": [
+      0
+    ],
+    "CnName": "恐狼前锋",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [
+      1
+    ],
+    "SpellType": [],
+    "ManaCost": 1,
+    "Attack": 4,
+    "MaxHealth": 4,
+    "Targets": 0,
+    "Description": "相邻的随从拥有+2攻击力。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 12,
+    "DbfId": 96789,
+    "m_noteMiniGuid": "BG_CFM_316",
+    "Classes": [
+      4
+    ],
+    "CnName": "瘟疫鼠群",
+    "CardType": 0,
+    "RareType": 3,
+    "RaceType": [
+      1
+    ],
+    "SpellType": [],
+    "ManaCost": 2,
+    "Attack": 2,
+    "MaxHealth": 2,
+    "Targets": 0,
+    "Description": "<b>亡语：</b>召唤若干个1/1的老鼠，数量等同于本随从的攻击力。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 12,
+    "DbfId": 58367,
+    "m_noteMiniGuid": "BG_CFM_316_G",
+    "Classes": [
+      4
+    ],
+    "CnName": "瘟疫鼠群",
+    "CardType": 0,
+    "RareType": 3,
+    "RaceType": [
+      1
+    ],
+    "SpellType": [],
+    "ManaCost": 2,
+    "Attack": 4,
+    "MaxHealth": 4,
+    "Targets": 0,
+    "Description": "<b>亡语：</b>召唤若干个2/2的老鼠，数量等同于本随从的攻击力。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 18,
+    "DbfId": 108851,
+    "m_noteMiniGuid": "BG_KAR_005",
+    "Classes": [
+      4
+    ],
+    "CnName": "慈祥的外婆",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [
+      1
+    ],
+    "SpellType": [],
+    "ManaCost": 2,
+    "Attack": 1,
+    "MaxHealth": 1,
+    "Targets": 0,
+    "Description": "<b>亡语：</b>召唤一只3/2的大灰狼。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 18,
+    "DbfId": 57340,
+    "m_noteMiniGuid": "BG_KAR_005_G",
+    "Classes": [
+      4
+    ],
+    "CnName": "慈祥的外婆",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [
+      1
+    ],
+    "SpellType": [],
+    "ManaCost": 2,
+    "Attack": 2,
+    "MaxHealth": 2,
+    "Targets": 0,
+    "Description": "<b>亡语：</b>召唤一只6/4的大灰狼。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 11,
+    "DbfId": 96762,
+    "m_noteMiniGuid": "BG_EX1_531",
+    "Classes": [
+      4
+    ],
+    "CnName": "食腐土狼",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [
+      1
+    ],
+    "SpellType": [],
+    "ManaCost": 2,
+    "Attack": 2,
+    "MaxHealth": 2,
+    "Targets": 0,
+    "Description": "每当一个友方野兽死亡，便获得+2/+1。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 11,
+    "DbfId": 58395,
+    "m_noteMiniGuid": "BG_EX1_531_G",
+    "Classes": [
+      4
+    ],
+    "CnName": "食腐土狼",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [
+      1
+    ],
+    "SpellType": [],
+    "ManaCost": 2,
+    "Attack": 4,
+    "MaxHealth": 4,
+    "Targets": 0,
+    "Description": "每当一个友方野兽死亡，便获得+4/+2。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 60050,
+    "m_noteMiniGuid": "BGS_025",
+    "Classes": [
+      3
+    ],
+    "CnName": "骑乘迅猛龙",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [
+      1
+    ],
+    "SpellType": [],
+    "ManaCost": 2,
+    "Attack": 3,
+    "MaxHealth": 2,
+    "Targets": 0,
+    "Description": "<b>亡语：</b>随机召唤一个法力值消耗为（1）的随从。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 58150,
+    "m_noteMiniGuid": "BGS_025_G",
+    "Classes": [
+      3
+    ],
+    "CnName": "骑乘迅猛龙",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [
+      1
+    ],
+    "SpellType": [],
+    "ManaCost": 2,
+    "Attack": 6,
+    "MaxHealth": 4,
+    "Targets": 0,
+    "Description": "<b>亡语：</b>随机召唤两个法力值消耗为（1）的随从。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 59940,
+    "m_noteMiniGuid": "BGS_017",
+    "Classes": [
+      0
+    ],
+    "CnName": "族群领袖",
+    "CardType": 0,
+    "RareType": 2,
+    "RaceType": [],
+    "SpellType": [],
+    "ManaCost": 3,
+    "Attack": 3,
+    "MaxHealth": 4,
+    "Targets": 0,
+    "Description": "每当你召唤一个野兽，使其获得+2\n攻击力。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 59969,
+    "m_noteMiniGuid": "BGS_017_G",
+    "Classes": [
+      0
+    ],
+    "CnName": "族群领袖",
+    "CardType": 0,
+    "RareType": 2,
+    "RaceType": [],
+    "SpellType": [],
+    "ManaCost": 3,
+    "Attack": 6,
+    "MaxHealth": 8,
+    "Targets": 0,
+    "Description": "每当你召唤一个野兽，使其获得+4\n攻击力。"
+  },
+  {
+    "ModId": 1,
+    "SetId": 23,
+    "DbfId": 38734,
+    "m_noteMiniGuid": "OG_216",
+    "Classes": [
+      4
+    ],
+    "CnName": "寄生恶狼",
+    "CardType": 0,
+    "RareType": 2,
+    "RaceType": [
+      1
+    ],
+    "SpellType": [],
+    "ManaCost": 3,
+    "Attack": 3,
+    "MaxHealth": 3,
+    "Targets": 0,
+    "Description": "<b>亡语：</b>召唤两只1/1的蜘蛛。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 58365,
+    "m_noteMiniGuid": "OG_216_G",
+    "Classes": [
+      4
+    ],
+    "CnName": "寄生恶狼",
+    "CardType": 0,
+    "RareType": 2,
+    "RaceType": [
+      1
+    ],
+    "SpellType": [],
+    "ManaCost": 3,
+    "Attack": 6,
+    "MaxHealth": 6,
+    "Targets": 0,
+    "Description": "<b>亡语：</b>召唤两只2/2的蜘蛛。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 96778,
+    "m_noteMiniGuid": "BG_DS1_070",
+    "Classes": [
+      4
+    ],
+    "CnName": "驯兽师",
+    "CardType": 0,
+    "RareType": 0,
+    "RaceType": [],
+    "SpellType": [],
+    "ManaCost": 3,
+    "Attack": 4,
+    "MaxHealth": 3,
+    "Targets": 3,
+    "Description": "<b>战吼：</b>使一个友方野兽获得+2/+2和<b>嘲讽</b>。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 59499,
+    "m_noteMiniGuid": "BG_DS1_070_G",
+    "Classes": [
+      4
+    ],
+    "CnName": "驯兽师",
+    "CardType": 0,
+    "RareType": 0,
+    "RaceType": [],
+    "SpellType": [],
+    "ManaCost": 3,
+    "Attack": 8,
+    "MaxHealth": 6,
+    "Targets": 3,
+    "Description": "<b>战吼：</b>使一个友方野兽获得+4/+4和<b>嘲讽</b>。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 21,
+    "DbfId": 96782,
+    "m_noteMiniGuid": "BG_LOOT_078",
+    "Classes": [
+      4
+    ],
+    "CnName": "洞穴多头蛇",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [
+      1
+    ],
+    "SpellType": [],
+    "ManaCost": 4,
+    "Attack": 2,
+    "MaxHealth": 4,
+    "Targets": 0,
+    "Description": "同时对其攻击目标相邻的随从造成伤害。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 21,
+    "DbfId": 63794,
+    "m_noteMiniGuid": "BG_LOOT_078_G",
+    "Classes": [
+      4
+    ],
+    "CnName": "洞穴多头蛇",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [
+      1
+    ],
+    "SpellType": [],
+    "ManaCost": 4,
+    "Attack": 4,
+    "MaxHealth": 8,
+    "Targets": 0,
+    "Description": "同时对其攻击目标相邻的随从造成伤害。"
+  },
+  {
+    "ModId": 1,
+    "SetId": 12,
+    "DbfId": 40641,
+    "m_noteMiniGuid": "CFM_816",
+    "Classes": [
+      3
+    ],
+    "CnName": "兔妖教头",
+    "CardType": 0,
+    "RareType": 2,
+    "RaceType": [],
+    "SpellType": [],
+    "ManaCost": 4,
+    "Attack": 4,
+    "MaxHealth": 4,
+    "Targets": 3,
+    "Description": "<b>战吼：</b>使一个友方野兽获得+3/+3。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 59512,
+    "m_noteMiniGuid": "CFM_816_G",
+    "Classes": [
+      3
+    ],
+    "CnName": "兔妖教头",
+    "CardType": 0,
+    "RareType": 2,
+    "RaceType": [],
+    "SpellType": [],
+    "ManaCost": 4,
+    "Attack": 8,
+    "MaxHealth": 10,
+    "Targets": 3,
+    "Description": "<b>战吼：</b>使一个友方野兽获得+4/+4。"
+  },
+  {
+    "ModId": 1,
+    "SetId": 11,
+    "DbfId": 962,
+    "m_noteMiniGuid": "EX1_577",
+    "Classes": [
+      0
+    ],
+    "CnName": "比斯巨兽",
+    "CardType": 0,
+    "RareType": 4,
+    "RaceType": [
+      1
+    ],
+    "SpellType": [],
+    "ManaCost": 4,
+    "Attack": 9,
+    "MaxHealth": 7,
+    "Targets": 0,
+    "Description": "<b>亡语：</b>\n为你的对手召唤一个3/3的皮普·急智。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 58394,
+    "m_noteMiniGuid": "EX1_577_G",
+    "Classes": [
+      0
+    ],
+    "CnName": "比斯巨兽",
+    "CardType": 0,
+    "RareType": 4,
+    "RaceType": [
+      1
+    ],
+    "SpellType": [],
+    "ManaCost": 4,
+    "Attack": 18,
+    "MaxHealth": 14,
+    "Targets": 0,
+    "Description": "<b>亡语：</b>\n为你的对手召唤一个3/3的皮普·急智。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 11,
+    "DbfId": 96793,
+    "m_noteMiniGuid": "BG_EX1_534",
+    "Classes": [
+      4
+    ],
+    "CnName": "长鬃草原狮",
+    "CardType": 0,
+    "RareType": 2,
+    "RaceType": [
+      1
+    ],
+    "SpellType": [],
+    "ManaCost": 5,
+    "Attack": 6,
+    "MaxHealth": 5,
+    "Targets": 0,
+    "Description": "<b>亡语：</b>召唤两只2/2的土狼。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 11,
+    "DbfId": 58409,
+    "m_noteMiniGuid": "BG_EX1_534_G",
+    "Classes": [
+      4
+    ],
+    "CnName": "长鬃草原狮",
+    "CardType": 0,
+    "RareType": 2,
+    "RaceType": [
+      1
+    ],
+    "SpellType": [],
+    "ManaCost": 5,
+    "Attack": 12,
+    "MaxHealth": 10,
+    "Targets": 0,
+    "Description": "<b>亡语：</b>召唤两只4/4的土狼。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 58413,
+    "m_noteMiniGuid": "UNG_010_G",
+    "Classes": [
+      0
+    ],
+    "CnName": "臃肿的蛇颈龙",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [
+      1
+    ],
+    "SpellType": [],
+    "ManaCost": 5,
+    "Attack": 10,
+    "MaxHealth": 14,
+    "Targets": 0,
+    "Description": "<b>亡语：</b>召唤三个2/2的鱼人。"
+  },
+  {
+    "ModId": 1,
+    "SetId": 36,
+    "DbfId": 41138,
+    "m_noteMiniGuid": "UNG_010",
+    "Classes": [
+      0
+    ],
+    "CnName": "臃肿的蛇颈龙",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [
+      1
+    ],
+    "SpellType": [],
+    "ManaCost": 5,
+    "Attack": 5,
+    "MaxHealth": 8,
+    "Targets": 0,
+    "Description": "<b>嘲讽</b>。<b>亡语：</b>召唤三个1/1的鱼人。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 58412,
+    "m_noteMiniGuid": "TRL_232_G",
+    "Classes": [
+      3
+    ],
+    "CnName": "铁皮恐角龙",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [
+      1
+    ],
+    "SpellType": [],
+    "ManaCost": 5,
+    "Attack": 14,
+    "MaxHealth": 14,
+    "Targets": 0,
+    "Description": "<b>超杀：</b>召唤一个10/10的铁皮小恐龙。"
+  },
+  {
+    "ModId": 1,
+    "SetId": 34,
+    "DbfId": 49973,
+    "m_noteMiniGuid": "TRL_232",
+    "Classes": [
+      3
+    ],
+    "CnName": "铁皮恐角龙",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [
+      1
+    ],
+    "SpellType": [],
+    "ManaCost": 5,
+    "Attack": 7,
+    "MaxHealth": 7,
+    "Targets": 0,
+    "Description": "<b>超杀：</b>召唤一个5/5的铁皮小恐龙。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 59955,
+    "m_noteMiniGuid": "BGS_018",
+    "Classes": [
+      0
+    ],
+    "CnName": "巨狼戈德林",
+    "ScriptName": "DAL_351",
+    "CardType": 0,
+    "RareType": 4,
+    "RaceType": [
+      1
+    ],
+    "SpellType": [],
+    "ManaCost": 5,
+    "Attack": 4,
+    "MaxHealth": 4,
+    "Targets": 0,
+    "Description": "<b>亡语：</b>你的野兽获得+4/+4。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 59956,
+    "m_noteMiniGuid": "BGS_018_G",
+    "ScriptName": "DAL_351",
+    "Classes": [
+      0
+    ],
+    "CnName": "巨狼戈德林",
+    "CardType": 0,
+    "RareType": 4,
+    "RaceType": [
+      1
+    ],
+    "SpellType": [],
+    "ManaCost": 5,
+    "Attack": 8,
+    "MaxHealth": 8,
+    "Targets": 0,
+    "Description": "<b>亡语：</b>你的野兽获得+8/+8。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 60036,
+    "m_noteMiniGuid": "BGS_021",
+    "Classes": [
+      0
+    ],
+    "CnName": "熊妈妈",
+    "ScriptName": "DAL_351",
+    "CardType": 0,
+    "RareType": 5,
+    "RaceType": [
+      1
+    ],
+    "SpellType": [],
+    "ManaCost": 6,
+    "Attack": 4,
+    "MaxHealth": 4,
+    "Targets": 0,
+    "Description": "每当你召唤一只野兽，使其获得+4/+4。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 60038,
+    "m_noteMiniGuid": "BGS_021_G",
+    "Classes": [
+      0
+    ],
+    "CnName": "熊妈妈",
+    "ScriptName": "DAL_351",
+    "CardType": 0,
+    "RareType": 5,
+    "RaceType": [
+      1
+    ],
+    "SpellType": [],
+    "ManaCost": 6,
+    "Attack": 8,
+    "MaxHealth": 8,
+    "Targets": 0,
+    "Description": "每当你召唤一只野兽，使其获得+8/+8。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 59687,
+    "m_noteMiniGuid": "BGS_008",
+    "Classes": [
+      7
+    ],
+    "CnName": "阴森巨蟒",
+    "CardType": 0,
+    "RareType": 3,
+    "RaceType": [
+      1
+    ],
+    "SpellType": [],
+    "ManaCost": 6,
+    "Attack": 7,
+    "MaxHealth": 7,
+    "Targets": 0,
+    "Description": "<b>亡语：</b>随机召唤\n两个<b>亡语</b>随从。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 58424,
+    "m_noteMiniGuid": "BGS_008_G",
+    "Classes": [
+      7
+    ],
+    "CnName": "阴森巨蟒",
+    "CardType": 0,
+    "RareType": 3,
+    "RaceType": [
+      1
+    ],
+    "SpellType": [],
+    "ManaCost": 6,
+    "Attack": 14,
+    "MaxHealth": 14,
+    "Targets": 0,
+    "Description": "<b>亡语：</b>随机召唤\n四个<b>亡语</b>随从。"
+  },
+  {
+    "ModId": 1,
+    "SetId": 22,
+    "DbfId": 1791,
+    "m_noteMiniGuid": "FP1_010",
+    "Classes": [
+      0
+    ],
+    "CnName": "迈克斯纳",
+    "CardType": 0,
+    "RareType": 4,
+    "RaceType": [
+      1
+    ],
+    "SpellType": [],
+    "ManaCost": 6,
+    "Attack": 2,
+    "MaxHealth": 8,
+    "Targets": 0,
+    "Description": "<b>剧毒</b>"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 63781,
+    "m_noteMiniGuid": "FP1_010_G",
+    "Classes": [
+      0
+    ],
+    "CnName": "迈克斯纳",
+    "CardType": 0,
+    "RareType": 4,
+    "RaceType": [
+      1
+    ],
+    "SpellType": [],
+    "ManaCost": 6,
+    "Attack": 4,
+    "MaxHealth": 16,
+    "Targets": 0,
+    "Description": "<b>剧毒</b>"
+  },
+  {
+    "ModId": 1,
+    "SetId": 3,
+    "DbfId": 48886,
+    "m_noteMiniGuid": "BOT_445",
+    "Classes": [
+      0
+    ],
+    "CnName": "机械袋鼠",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [
+      6,
+      1
+    ],
+    "SpellType": [],
+    "ManaCost": 1,
+    "Attack": 1,
+    "MaxHealth": 1,
+    "Targets": 0,
+    "Description": "<b>亡语：</b>召唤一个1/1的机械袋鼠宝宝。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 57336,
+    "m_noteMiniGuid": "BOT_445_G",
+    "Classes": [
+      0
+    ],
+    "CnName": "机械袋鼠",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [
+      6,
+      1
+    ],
+    "SpellType": [],
+    "ManaCost": 1,
+    "Attack": 2,
+    "MaxHealth": 2,
+    "Targets": 0,
+    "Description": "<b>亡语：</b>召唤一个2/2的机械袋鼠宝宝。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 60055,
+    "m_noteMiniGuid": "BGS_027",
+    "Classes": [
+      0
+    ],
+    "CnName": "微型战斗机甲",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [
+      6
+    ],
+    "SpellType": [],
+    "ManaCost": 1,
+    "Attack": 1,
+    "MaxHealth": 2,
+    "Targets": 0,
+    "Description": "在每个回合开始时，获得+1攻击力。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 60056,
+    "m_noteMiniGuid": "BGS_027_G",
+    "Classes": [
+      0
+    ],
+    "CnName": "微型战斗机甲",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [
+      6
+    ],
+    "SpellType": [],
+    "ManaCost": 1,
+    "Attack": 2,
+    "MaxHealth": 4,
+    "Targets": 0,
+    "Description": "在每个回合开始时，获得+2攻击力。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 11,
+    "DbfId": 96763,
+    "m_noteMiniGuid": "BG_EX1_556",
+    "Classes": [
+      0
+    ],
+    "CnName": "麦田傀儡",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [
+      6
+    ],
+    "SpellType": [],
+    "ManaCost": 2,
+    "Attack": 2,
+    "MaxHealth": 3,
+    "Targets": 0,
+    "Description": "<b>亡语：</b>召唤一个2/1的损坏的傀儡。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 11,
+    "DbfId": 57401,
+    "m_noteMiniGuid": "BG_EX1_556_G",
+    "Classes": [
+      0
+    ],
+    "CnName": "麦田傀儡",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [
+      6
+    ],
+    "SpellType": [],
+    "ManaCost": 2,
+    "Attack": 4,
+    "MaxHealth": 6,
+    "Targets": 0,
+    "Description": "<b>亡语：</b>召唤一个4/2的损坏的傀儡。"
+  },
+
+  {
+      "ModId": 1,
+      "SetId": 14,
+      "DbfId": 19982026,
+      "m_noteMiniGuid": "GVG_058",
+      "Classes":
+      [
+          6
+      ],
+      "CnName": "护盾机器人",
+      "ScriptName": "GVG_058",
+      "CardType": 0,
+      "RareType": 1,
+      "RaceType":
+      [
+          6
+      ],
+      "SpellType":
+      [],
+      "ManaCost": 2,
+      "Attack": 2,
+      "MaxHealth": 2,
+      "Targets": 0,
+      "Description": "<b>圣盾</b>"
+  },
+  {
+      "ModId": 1,
+      "SetId": 14,
+      "DbfId": 19982027,
+      "m_noteMiniGuid": "GVG_058_G",
+      "Classes":
+      [
+          6
+      ],
+      "CnName": "护盾机器人",
+      "ScriptName": "GVG_058",
+      "CardType": 0,
+      "RareType": 1,
+      "RaceType":
+      [
+          6
+      ],
+      "SpellType":
+      [],
+      "ManaCost": 2,
+      "Attack": 4,
+      "MaxHealth": 4,
+      "Targets": 0,
+      "Description": "<b>圣盾</b>"
+  },
+
+  {
+    "ModId": 0,
+    "SetId": 14,
+    "DbfId": 103652,
+    "m_noteMiniGuid": "BG_GVG_085",
+    "Classes": [
+      0
+    ],
+    "CnName": "吵吵机器人",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [
+      6
+    ],
+    "SpellType": [],
+    "ManaCost": 2,
+    "Attack": 1,
+    "MaxHealth": 2,
+    "Targets": 0,
+    "Description": "<b>嘲讽</b>\n<b>圣盾</b>"
+  },
+  {
+    "ModId": 0,
+    "SetId": 14,
+    "DbfId": 103653,
+    "m_noteMiniGuid": "BG_GVG_085_G",
+    "Classes": [
+      0
+    ],
+    "CnName": "吵吵机器人",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [
+      6
+    ],
+    "SpellType": [],
+    "ManaCost": 2,
+    "Attack": 2,
+    "MaxHealth": 4,
+    "Targets": 0,
+    "Description": "<b>嘲讽</b>\n<b>圣盾</b>"
+  },
+  {
+    "ModId": 0,
+    "SetId": 3,
+    "DbfId": 96766,
+    "m_noteMiniGuid": "BG_BOT_606",
+    "Classes": [
+      0
+    ],
+    "CnName": "爆爆机器人",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [
+      6
+    ],
+    "SpellType": [],
+    "ManaCost": 2,
+    "Attack": 2,
+    "MaxHealth": 2,
+    "Targets": 0,
+    "Description": "<b>亡语：</b>随机对一个敌方随从造成4点伤害。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 3,
+    "DbfId": 58369,
+    "m_noteMiniGuid": "BG_BOT_606_G",
+    "Classes": [
+      0
+    ],
+    "CnName": "爆爆机器人",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [
+      6
+    ],
+    "SpellType": [],
+    "ManaCost": 2,
+    "Attack": 4,
+    "MaxHealth": 4,
+    "Targets": 0,
+    "Description": "<b>亡语：</b>随机对一个敌方随从造成4点伤害，触发两次。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 14,
+    "DbfId": 96767,
+    "m_noteMiniGuid": "BG_GVG_048",
+    "Classes": [
+      4
+    ],
+    "CnName": "金刚刃牙兽",
+    "CardType": 0,
+    "RareType": 2,
+    "RaceType": [
+      6
+    ],
+    "SpellType": [],
+    "ManaCost": 2,
+    "Attack": 3,
+    "MaxHealth": 3,
+    "Targets": 0,
+    "Description": "<b>战吼：</b>使你的其他机械获得+2攻击力。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 14,
+    "DbfId": 59495,
+    "m_noteMiniGuid": "BG_GVG_048_G",
+    "Classes": [
+      4
+    ],
+    "CnName": "金刚刃牙兽",
+    "CardType": 0,
+    "RareType": 2,
+    "RaceType": [
+      6
+    ],
+    "SpellType": [],
+    "ManaCost": 2,
+    "Attack": 6,
+    "MaxHealth": 6,
+    "Targets": 0,
+    "Description": "<b>战吼：</b>使你的其他机械获得+4攻击力。"
+  },
+  {
+    "ModId": 1,
+    "SetId": 18,
+    "DbfId": 39839,
+    "m_noteMiniGuid": "KAR_095",
+    "Classes": [
+      0
+    ],
+    "CnName": "机械动物管理员",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [
+      6
+    ],
+    "SpellType": [],
+    "ManaCost": 2,
+    "Attack": 3,
+    "MaxHealth": 3,
+    "Targets": 0,
+    "Description": "<b>战吼：</b>随机使一个友方野兽，龙和鱼人获得+1/+1。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 59489,
+    "m_noteMiniGuid": "KAR_095_G",
+    "Classes": [
+      0
+    ],
+    "CnName": "机械动物管理员",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [
+      6
+    ],
+    "SpellType": [],
+    "ManaCost": 2,
+    "Attack": 6,
+    "MaxHealth": 6,
+    "Targets": 0,
+    "Description": "<b>战吼：</b>随机使一个友方野兽，龙和鱼人获得+2/+2。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 60122,
+    "m_noteMiniGuid": "BGS_028",
+    "Classes": [
+      8
+    ],
+    "CnName": "蹦蹦兔",
+    "CardType": 0,
+    "RareType": 2,
+    "RaceType": [
+      6,
+      1
+    ],
+    "SpellType": [],
+    "ManaCost": 2,
+    "Attack": 1,
+    "MaxHealth": 1,
+    "Targets": 0,
+    "Description": "<b>战吼：</b>在本局对战中，你每使用过一张其他蹦蹦兔，便获得+2/+2。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 59664,
+    "m_noteMiniGuid": "BGS_028_G",
+    "Classes": [
+      8
+    ],
+    "CnName": "蹦蹦兔",
+    "CardType": 0,
+    "RareType": 2,
+    "RaceType": [
+      6,
+      1
+    ],
+    "SpellType": [],
+    "ManaCost": 2,
+    "Attack": 2,
+    "MaxHealth": 2,
+    "Targets": 0,
+    "Description": "<b>战吼：</b>在本局对战中，你每使用过一张其他蹦蹦兔，便获得+4/+4。"
+  },
+  {
+    "ModId": 1,
+    "SetId": 14,
+    "DbfId": 2023,
+    "m_noteMiniGuid": "GVG_055",
+    "Classes": [
+      11
+    ],
+    "CnName": "废旧螺栓机甲",
+    "CardType": 0,
+    "RareType": 2,
+    "RaceType": [
+      6
+    ],
+    "SpellType": [],
+    "ManaCost": 3,
+    "Attack": 2,
+    "MaxHealth": 5,
+    "Targets": 3,
+    "Description": "<b>战吼：</b>使一个友方机械获得+2/+2。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 59501,
+    "m_noteMiniGuid": "GVG_055_G",
+    "Classes": [
+      11
+    ],
+    "CnName": "废旧螺栓机甲",
+    "CardType": 0,
+    "RareType": 2,
+    "RaceType": [
+      6
+    ],
+    "SpellType": [],
+    "ManaCost": 3,
+    "Attack": 4,
+    "MaxHealth": 10,
+    "Targets": 3,
+    "Description": "<b>战吼：</b>使一个友方机械获得+4/+4。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 23,
+    "DbfId": 105886,
+    "m_noteMiniGuid": "BG_OG_145",
+    "Classes": [
+      0
+    ],
+    "CnName": "闹闹机器人",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [
+      6
+    ],
+    "SpellType": [],
+    "ManaCost": 3,
+    "Attack": 3,
+    "MaxHealth": 4,
+    "Targets": 0,
+    "Description": "<b>嘲讽</b>\n<b>圣盾</b>"
+  },
+  {
+    "ModId": 0,
+    "SetId": 23,
+    "DbfId": 105887,
+    "m_noteMiniGuid": "BG_OG_145_G",
+    "Classes": [
+      0
+    ],
+    "CnName": "闹闹机器人",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [
+      6
+    ],
+    "SpellType": [],
+    "ManaCost": 3,
+    "Attack": 6,
+    "MaxHealth": 8,
+    "Targets": 0,
+    "Description": "<b>嘲讽</b>\n<b>圣盾</b>"
+  },
+  {
+    "ModId": 0,
+    "SetId": 3,
+    "DbfId": 89724,
+    "m_noteMiniGuid": "BG_BOT_312",
+    "Classes": [
+      0
+    ],
+    "CnName": "量产型恐吓机",
+    "CardType": 0,
+    "RareType": 2,
+    "RaceType": [
+      6
+    ],
+    "SpellType": [],
+    "ManaCost": 3,
+    "Attack": 3,
+    "MaxHealth": 2,
+    "Targets": 0,
+    "Description": "<b>磁力</b>\n<b>亡语：</b>召唤三个1/1的微型机器人。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 3,
+    "DbfId": 58376,
+    "m_noteMiniGuid": "BG_BOT_312_G",
+    "Classes": [
+      0
+    ],
+    "CnName": "量产型恐吓机",
+    "CardType": 0,
+    "RareType": 2,
+    "RaceType": [
+      6
+    ],
+    "SpellType": [],
+    "ManaCost": 3,
+    "Attack": 6,
+    "MaxHealth": 4,
+    "Targets": 0,
+    "Description": "<b>磁力</b>\n<b>亡语：</b>召唤三个2/2的微型机器人。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 60048,
+    "m_noteMiniGuid": "BGS_023",
+    "Classes": [
+      0
+    ],
+    "CnName": "载人收割机",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [
+      6
+    ],
+    "SpellType": [],
+    "ManaCost": 3,
+    "Attack": 4,
+    "MaxHealth": 3,
+    "Targets": 0,
+    "Description": "<b>亡语：</b>随机召唤一个法力值消耗为（2）的随从。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 58381,
+    "m_noteMiniGuid": "BGS_023_G",
+    "Classes": [
+      0
+    ],
+    "CnName": "载人收割机",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [
+      6
+    ],
+    "SpellType": [],
+    "ManaCost": 3,
+    "Attack": 8,
+    "MaxHealth": 6,
+    "Targets": 0,
+    "Description": "<b>亡语：</b>随机召唤两个法力值消耗为（2）的随从。"
+  },
+  {
+    "ModId": 1,
+    "SetId": 14,
+    "DbfId": 2030,
+    "m_noteMiniGuid": "GVG_062",
+    "Classes": [
+      6
+    ],
+    "CnName": "钴制卫士",
+    "CardType": 0,
+    "RareType": 2,
+    "RaceType": [
+      6
+    ],
+    "SpellType": [],
+    "ManaCost": 3,
+    "Attack": 6,
+    "MaxHealth": 3,
+    "Targets": 0,
+    "Description": "每当你召唤一个机械，便获得<b>圣盾</b>。"
+  },
+  {
+    "ModId": 1,
+    "SetId": 14,
+    "DbfId": 19982030,
+    "m_noteMiniGuid": "GVG_062_G",
+    "Classes": [
+      6
+    ],
+    "CnName": "钴制卫士",
+    "CardType": 0,
+    "RareType": 2,
+    "RaceType": [
+      6
+    ],
+    "SpellType": [],
+    "ManaCost": 3,
+    "Attack": 12,
+    "MaxHealth": 6,
+    "Targets": 0,
+    "Description": "每当你召唤一个机械，便获得<b>圣盾</b>。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 14,
+    "DbfId": 97423,
+    "m_noteMiniGuid": "BG_GVG_027",
+    "Classes": [
+      8
+    ],
+    "CnName": "钢铁武道家",
+    "CardType": 0,
+    "RareType": 2,
+    "RaceType": [
+      6
+    ],
+    "SpellType": [],
+    "ManaCost": 4,
+    "Attack": 2,
+    "MaxHealth": 2,
+    "Targets": 0,
+    "Description": "在你的回合结束时，使另一个友方机械获得+2/+2。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 14,
+    "DbfId": 58397,
+    "m_noteMiniGuid": "BG_GVG_027_G",
+    "Classes": [
+      8
+    ],
+    "CnName": "钢铁武道家",
+    "CardType": 0,
+    "RareType": 2,
+    "RaceType": [
+      6
+    ],
+    "SpellType": [],
+    "ManaCost": 4,
+    "Attack": 4,
+    "MaxHealth": 4,
+    "Targets": 0,
+    "Description": "在你的回合结束时，使另一个友方机械获得+4/+4。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 60049,
+    "m_noteMiniGuid": "BGS_024",
+    "Classes": [
+      0
+    ],
+    "CnName": "载人飞天魔像",
+    "CardType": 0,
+    "RareType": 3,
+    "RaceType": [
+      6
+    ],
+    "SpellType": [],
+    "ManaCost": 4,
+    "Attack": 6,
+    "MaxHealth": 4,
+    "Targets": 0,
+    "Description": "<b>亡语：</b>随机召唤一个法力值消耗为（4）的随从。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 58411,
+    "m_noteMiniGuid": "BGS_024_G",
+    "Classes": [
+      0
+    ],
+    "CnName": "载人飞天魔像",
+    "CardType": 0,
+    "RareType": 3,
+    "RaceType": [
+      6
+    ],
+    "SpellType": [],
+    "ManaCost": 4,
+    "Attack": 12,
+    "MaxHealth": 8,
+    "Targets": 0,
+    "Description": "<b>亡语：</b>随机召唤两个法力值消耗为（4）的随从。"
+  },
+  {
+    "ModId": 1,
+    "SetId": 3,
+    "DbfId": 48100,
+    "m_noteMiniGuid": "BOT_218",
+    "Classes": [
+      11
+    ],
+    "CnName": "安保巡游者",
+    "CardType": 0,
+    "RareType": 2,
+    "RaceType": [
+      6
+    ],
+    "SpellType": [],
+    "ManaCost": 4,
+    "Attack": 2,
+    "MaxHealth": 6,
+    "Targets": 0,
+    "Description": "每当本随从受到伤害，召唤一个2/3并具有<b>嘲讽</b>的机械。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 58392,
+    "m_noteMiniGuid": "BOT_218_G",
+    "Classes": [
+      11
+    ],
+    "CnName": "安保巡游者",
+    "CardType": 0,
+    "RareType": 2,
+    "RaceType": [
+      6
+    ],
+    "SpellType": [],
+    "ManaCost": 4,
+    "Attack": 4,
+    "MaxHealth": 12,
+    "Targets": 0,
+    "Description": "每当本随从受到伤害，召唤一个4/6并具有<b>嘲讽</b>的机械。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 3,
+    "DbfId": 96812,
+    "m_noteMiniGuid": "BG_BOT_911",
+    "Classes": [
+      6
+    ],
+    "CnName": "吵吵模组",
+    "CardType": 0,
+    "RareType": 2,
+    "RaceType": [
+      6
+    ],
+    "SpellType": [],
+    "ManaCost": 4,
+    "Attack": 2,
+    "MaxHealth": 4,
+    "Targets": 0,
+    "Description": "<b>磁力</b>\n<b>圣盾</b>\n<b>嘲讽</b>"
+  },
+  {
+    "ModId": 0,
+    "SetId": 3,
+    "DbfId": 60327,
+    "m_noteMiniGuid": "BG_BOT_911_G",
+    "Classes": [
+      6
+    ],
+    "CnName": "吵吵模组",
+    "CardType": 0,
+    "RareType": 2,
+    "RaceType": [
+      6
+    ],
+    "SpellType": [],
+    "ManaCost": 4,
+    "Attack": 4,
+    "MaxHealth": 8,
+    "Targets": 0,
+    "Description": "<b>磁力</b>\n<b>圣盾</b>\n<b>嘲讽</b>"
+  },
+  {
+    "ModId": 1,
+    "SetId": 14,
+    "DbfId": 2074,
+    "m_noteMiniGuid": "GVG_106",
+    "Classes": [
+      0
+    ],
+    "CnName": "回收机器人",
+    "CardType": 0,
+    "RareType": 3,
+    "RaceType": [
+      6
+    ],
+    "SpellType": [],
+    "ManaCost": 4,
+    "Attack": 1,
+    "MaxHealth": 5,
+    "Targets": 0,
+    "Description": "每当一个友方机械死亡，便获得+2/+2。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 58402,
+    "m_noteMiniGuid": "GVG_106_G",
+    "Classes": [
+      0
+    ],
+    "CnName": "回收机器人",
+    "CardType": 0,
+    "RareType": 3,
+    "RaceType": [
+      6
+    ],
+    "SpellType": [],
+    "ManaCost": 4,
+    "Attack": 2,
+    "MaxHealth": 10,
+    "Targets": 0,
+    "Description": "每当一个友方机械死亡，便获得+4/+4。"
+  },
+  {
+    "ModId": 1,
+    "SetId": 3,
+    "DbfId": 49169,
+    "m_noteMiniGuid": "BOT_537",
+    "Classes": [
+      6
+    ],
+    "CnName": "机械蛋",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [
+      6
+    ],
+    "SpellType": [],
+    "ManaCost": 5,
+    "Attack": 0,
+    "MaxHealth": 5,
+    "Targets": 0,
+    "Description": "<b>亡语：</b>召唤一个8/8的机械暴龙。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 58387,
+    "m_noteMiniGuid": "BOT_537_G",
+    "Classes": [
+      6
+    ],
+    "CnName": "机械蛋",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [
+      6
+    ],
+    "SpellType": [],
+    "ManaCost": 5,
+    "Attack": 0,
+    "MaxHealth": 10,
+    "Targets": 0,
+    "Description": "<b>亡语：</b>召唤一个16/16的机械暴龙。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 59682,
+    "m_noteMiniGuid": "BGS_006",
+    "Classes": [
+      0
+    ],
+    "CnName": "斯尼德的伐木机",
+    "CardType": 0,
+    "RareType": 4,
+    "RaceType": [
+      6
+    ],
+    "SpellType": [],
+    "ManaCost": 6,
+    "Attack": 5,
+    "MaxHealth": 7,
+    "Targets": 0,
+    "Description": "<b>亡语：</b>随机召唤一个<b>传说</b>随从。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 59683,
+    "m_noteMiniGuid": "BGS_006_G",
+    "Classes": [
+      0
+    ],
+    "CnName": "斯尼德的伐木机",
+    "CardType": 0,
+    "RareType": 4,
+    "RaceType": [
+      6
+    ],
+    "SpellType": [],
+    "ManaCost": 6,
+    "Attack": 10,
+    "MaxHealth": 14,
+    "Targets": 0,
+    "Description": "<b>亡语：</b>随机召唤两个<b>传说</b>随从。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 59935,
+    "m_noteMiniGuid": "BGS_012",
+    "Classes": [
+      0
+    ],
+    "CnName": "坎格尔的学徒",
+    "CardType": 0,
+    "RareType": 5,
+    "RaceType": [],
+    "SpellType": [],
+    "ManaCost": 6,
+    "Attack": 3,
+    "MaxHealth": 6,
+    "Targets": 0,
+    "Description": "<b>亡语：</b>召唤你本场战斗中最先死亡的\n2个机械。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 59976,
+    "m_noteMiniGuid": "BGS_012_G",
+    "Classes": [
+      0
+    ],
+    "CnName": "坎格尔的学徒",
+    "CardType": 0,
+    "RareType": 5,
+    "RaceType": [],
+    "SpellType": [],
+    "ManaCost": 6,
+    "Attack": 6,
+    "MaxHealth": 12,
+    "Targets": 0,
+    "Description": "<b>亡语：</b>召唤你本场战斗中最先死亡的\n4个机械。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 14,
+    "DbfId": 96787,
+    "m_noteMiniGuid": "BG_GVG_113",
+    "Classes": [
+      0
+    ],
+    "CnName": "死神4000型",
+    "CardType": 0,
+    "RareType": 4,
+    "RaceType": [
+      6
+    ],
+    "SpellType": [],
+    "ManaCost": 6,
+    "Attack": 6,
+    "MaxHealth": 9,
+    "Targets": 0,
+    "Description": "同时对其攻击目标相邻的随从造成伤害。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 14,
+    "DbfId": 63776,
+    "m_noteMiniGuid": "BG_GVG_113_G",
+    "Classes": [
+      0
+    ],
+    "CnName": "死神4000型",
+    "CardType": 0,
+    "RareType": 4,
+    "RaceType": [
+      6
+    ],
+    "SpellType": [],
+    "ManaCost": 6,
+    "Attack": 12,
+    "MaxHealth": 18,
+    "Targets": 0,
+    "Description": "同时对其攻击目标相邻的随从造成伤害。"
+  },
+
+  {
+    "ModId": 1,
+    "SetId": 21,
+    "DbfId": 43121,
+    "m_noteMiniGuid": "LOOT_013",
+    "Classes": [
+      10
+    ],
+    "CnName": "粗俗的矮劣魔",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [
+      2
+    ],
+    "SpellType": [],
+    "ManaCost": 1,
+    "Attack": 2,
+    "MaxHealth": 4,
+    "Targets": 0,
+    "Description": "<b>嘲讽，战吼：</b>对你的英雄造成2点伤害。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 63778,
+    "m_noteMiniGuid": "LOOT_013_G",
+    "Classes": [
+      10
+    ],
+    "CnName": "粗俗的矮劣魔",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [
+      2
+    ],
+    "SpellType": [],
+    "ManaCost": 1,
+    "Attack": 4,
+    "MaxHealth": 8,
+    "Targets": 0,
+    "Description": "<b>嘲讽，战吼：</b>对你的英雄造成2点伤害。"
+  },
+
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 59670,
+    "m_noteMiniGuid": "BGS_004",
+    "Classes": [
+      0
+    ],
+    "CnName": "愤怒编织者",
+    "CardType": 0,
+    "RareType": 5,
+    "RaceType": [],
+    "SpellType": [],
+    "ManaCost": 1,
+    "Attack": 1,
+    "MaxHealth": 4,
+    "Targets": 0,
+    "Description": "在你使用一张恶魔牌后，对你的英雄造成1点伤害并获得+2/+1。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 59679,
+    "m_noteMiniGuid": "BGS_004_G",
+    "Classes": [
+      0
+    ],
+    "CnName": "愤怒编织者",
+    "CardType": 0,
+    "RareType": 5,
+    "RaceType": [],
+    "SpellType": [],
+    "ManaCost": 1,
+    "Attack": 2,
+    "MaxHealth": 8,
+    "Targets": 0,
+    "Description": "在你使用一张恶魔牌后，对你的英雄造成1点伤害并获得+2/+1，触发两次。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 45,
+    "DbfId": 96796,
+    "m_noteMiniGuid": "BG_CS2_065",
+    "Classes": [
+      10
+    ],
+    "CnName": "虚空行者",
+    "CardType": 0,
+    "RareType": 0,
+    "RaceType": [
+      2
+    ],
+    "SpellType": [],
+    "ManaCost": 1,
+    "Attack": 1,
+    "MaxHealth": 3,
+    "Targets": 0,
+    "Description": "<b>嘲讽</b>"
+  },
+  {
+    "ModId": 0,
+    "SetId": 45,
+    "DbfId": 57299,
+    "m_noteMiniGuid": "BG_CS2_065_G",
+    "Classes": [
+      10
+    ],
+    "CnName": "虚空行者",
+    "CardType": 0,
+    "RareType": 0,
+    "RaceType": [
+      2
+    ],
+    "SpellType": [],
+    "ManaCost": 1,
+    "Attack": 2,
+    "MaxHealth": 6,
+    "Targets": 0,
+    "Description": "<b>嘲讽</b>"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 59186,
+    "m_noteMiniGuid": "BGS_001",
+    "Classes": [
+      0
+    ],
+    "CnName": "纳斯雷兹姆监工",
+    "CardType": 0,
+    "RareType": 2,
+    "RaceType": [
+      2
+    ],
+    "SpellType": [],
+    "ManaCost": 2,
+    "Attack": 2,
+    "MaxHealth": 4,
+    "Targets": 3,
+    "Description": "<b>战吼：</b>使一个友方恶魔获得+2/+2。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 59487,
+    "m_noteMiniGuid": "BGS_001_G",
+    "Classes": [
+      0
+    ],
+    "CnName": "纳斯雷兹姆监工",
+    "CardType": 0,
+    "RareType": 2,
+    "RaceType": [
+      2
+    ],
+    "SpellType": [],
+    "ManaCost": 2,
+    "Attack": 4,
+    "MaxHealth": 8,
+    "Targets": 3,
+    "Description": "<b>战吼：</b>使一个友方恶魔获得+4/+4。"
+  },
+  {
+    "ModId": 1,
+    "SetId": 4,
+    "DbfId": 2288,
+    "m_noteMiniGuid": "BRM_006",
+    "Classes": [
+      10
+    ],
+    "CnName": "小鬼首领",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [
+      2
+    ],
+    "SpellType": [],
+    "ManaCost": 3,
+    "Attack": 2,
+    "MaxHealth": 4,
+    "Targets": 0,
+    "Description": "每当本随从受到伤害，召唤一个1/1的\n小鬼。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 58372,
+    "m_noteMiniGuid": "BRM_006_G",
+    "Classes": [
+      10
+    ],
+    "CnName": "小鬼首领",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [
+      2
+    ],
+    "SpellType": [],
+    "ManaCost": 3,
+    "Attack": 4,
+    "MaxHealth": 8,
+    "Targets": 0,
+    "Description": "每当本随从受到伤害，召唤一个2/2的\n小鬼。"
+  },
+  {
+    "ModId": 1,
+    "SetId": 12,
+    "DbfId": 40391,
+    "m_noteMiniGuid": "CFM_610",
+    "Classes": [
+      10
+    ],
+    "CnName": "魔瘾结晶者",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [],
+    "SpellType": [],
+    "ManaCost": 3,
+    "Attack": 5,
+    "MaxHealth": 4,
+    "Targets": 0,
+    "Description": "<b>战吼：</b>使你的所有恶魔获得+1/+1。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 59504,
+    "m_noteMiniGuid": "CFM_610_G",
+    "Classes": [
+      10
+    ],
+    "CnName": "魔瘾结晶者",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [],
+    "SpellType": [],
+    "ManaCost": 3,
+    "Attack": 10,
+    "MaxHealth": 8,
+    "Targets": 0,
+    "Description": "<b>战吼：</b>使你的所有恶魔获得+2/+2。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 59660,
+    "m_noteMiniGuid": "BGS_002",
+    "Classes": [
+      0
+    ],
+    "CnName": "灵魂杂耍者",
+    "CardType": 0,
+    "RareType": 5,
+    "RaceType": [],
+    "SpellType": [],
+    "ManaCost": 3,
+    "Attack": 3,
+    "MaxHealth": 5,
+    "Targets": 0,
+    "Description": "在一个友方恶魔死亡后，随机对一个敌方随从造成3点伤害。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 59661,
+    "m_noteMiniGuid": "BGS_002_G",
+    "Classes": [
+      0
+    ],
+    "CnName": "灵魂杂耍者",
+    "CardType": 0,
+    "RareType": 5,
+    "RaceType": [],
+    "SpellType": [],
+    "ManaCost": 3,
+    "Attack": 6,
+    "MaxHealth": 10,
+    "Targets": 0,
+    "Description": "在一个友方恶魔死亡后，随机对一个敌方随从造成3点伤害，触发两次。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 11,
+    "DbfId": 54835,
+    "m_noteMiniGuid": "EX1_185",
+    "Classes": [
+      10
+    ],
+    "CnName": "攻城恶魔",
+    "CardType": 0,
+    "RareType": 2,
+    "RaceType": [
+      2
+    ],
+    "SpellType": [],
+    "ManaCost": 4,
+    "Attack": 5,
+    "MaxHealth": 8,
+    "Targets": 0,
+    "Description": "<b>嘲讽</b>\n你的其他恶魔拥有+1攻击力。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 58418,
+    "m_noteMiniGuid": "EX1_185_G",
+    "Classes": [
+      10
+    ],
+    "CnName": "攻城恶魔",
+    "CardType": 0,
+    "RareType": 2,
+    "RaceType": [
+      2
+    ],
+    "SpellType": [],
+    "ManaCost": 4,
+    "Attack": 10,
+    "MaxHealth": 16,
+    "Targets": 0,
+    "Description": "<b>嘲讽</b>\n你的其他恶魔拥有+2攻击力。"
+  },
+  {
+    "ModId": 1,
+    "SetId": 14,
+    "DbfId": 1986,
+    "m_noteMiniGuid": "GVG_021",
+    "Classes": [
+      10
+    ],
+    "CnName": "玛尔加尼斯",
+    "CardType": 0,
+    "RareType": 4,
+    "RaceType": [
+      2
+    ],
+    "SpellType": [],
+    "ManaCost": 5,
+    "Attack": 9,
+    "MaxHealth": 7,
+    "Targets": 0,
+    "Description": "你的英雄<b>免疫</b>。你的其他恶魔拥有+2/+2。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 58428,
+    "m_noteMiniGuid": "GVG_021_G",
+    "Classes": [
+      10
+    ],
+    "CnName": "玛尔加尼斯",
+    "CardType": 0,
+    "RareType": 4,
+    "RaceType": [
+      2
+    ],
+    "SpellType": [],
+    "ManaCost": 5,
+    "Attack": 18,
+    "MaxHealth": 14,
+    "Targets": 0,
+    "Description": "你的其他恶魔\n拥有+4/+4。你的英雄<b>免疫</b>。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 59714,
+    "m_noteMiniGuid": "BGS_010",
+    "Classes": [
+      0
+    ],
+    "CnName": "安尼赫兰战场军官",
+    "CardType": 0,
+    "RareType": 5,
+    "RaceType": [
+      2
+    ],
+    "SpellType": [],
+    "ManaCost": 5,
+    "Attack": 3,
+    "MaxHealth": 1,
+    "Targets": 0,
+    "Description": "<b>战吼：</b>你的英雄每缺失一点生命值，便获得+2生命值。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 59716,
+    "m_noteMiniGuid": "BGS_010_G",
+    "Classes": [
+      0
+    ],
+    "CnName": "安尼赫兰战场军官",
+    "CardType": 0,
+    "RareType": 5,
+    "RaceType": [
+      2
+    ],
+    "SpellType": [],
+    "ManaCost": 5,
+    "Attack": 6,
+    "MaxHealth": 2,
+    "Targets": 0,
+    "Description": "<b>战吼：</b>你的英雄每缺失一点生命值，便获得+4生命值。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 21,
+    "DbfId": 96797,
+    "m_noteMiniGuid": "BG_LOOT_368",
+    "Classes": [
+      10
+    ],
+    "CnName": "虚空领主",
+    "CardType": 0,
+    "RareType": 3,
+    "RaceType": [
+      2
+    ],
+    "SpellType": [],
+    "ManaCost": 6,
+    "Attack": 3,
+    "MaxHealth": 9,
+    "Targets": 0,
+    "Description": "<b>嘲讽，亡语：</b>\n召唤三个1/3并具有<b>嘲讽</b>的恶魔。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 21,
+    "DbfId": 58427,
+    "m_noteMiniGuid": "BG_LOOT_368_G",
+    "Classes": [
+      10
+    ],
+    "CnName": "虚空领主",
+    "CardType": 0,
+    "RareType": 3,
+    "RaceType": [
+      2
+    ],
+    "SpellType": [],
+    "ManaCost": 6,
+    "Attack": 6,
+    "MaxHealth": 18,
+    "Targets": 0,
+    "Description": "<b>嘲讽，亡语：</b>\n召唤三个2/6并具有<b>嘲讽</b>的恶魔。"
+  },
+  {
+    "ModId": 1,
+    "SetId": 19,
+    "DbfId": 976,
+    "m_noteMiniGuid": "EX1_506",
+    "Classes": [
+      0
+    ],
+    "CnName": "鱼人猎潮者",
+    "CardType": 0,
+    "RareType": 0,
+    "RaceType": [
+      7
+    ],
+    "SpellType": [],
+    "ManaCost": 1,
+    "Attack": 2,
+    "MaxHealth": 1,
+    "Targets": 0,
+    "Description": "<b>战吼：</b>召唤一个1/1的鱼人斥候。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 57338,
+    "m_noteMiniGuid": "EX1_506_G",
+    "Classes": [
+      0
+    ],
+    "CnName": "鱼人猎潮者",
+    "CardType": 0,
+    "RareType": 0,
+    "RaceType": [
+      7
+    ],
+    "SpellType": [],
+    "ManaCost": 1,
+    "Attack": 4,
+    "MaxHealth": 2,
+    "Targets": 0,
+    "Description": "<b>战吼：</b>召唤一个2/2的鱼人斥候。"
+  },
+  {
+    "ModId": 1,
+    "SetId": 11,
+    "DbfId": 475,
+    "m_noteMiniGuid": "EX1_509",
+    "Classes": [
+      0
+    ],
+    "CnName": "鱼人招潮者",
+    "CardType": 0,
+    "RareType": 2,
+    "RaceType": [
+      7
+    ],
+    "SpellType": [],
+    "ManaCost": 1,
+    "Attack": 1,
+    "MaxHealth": 2,
+    "Targets": 0,
+    "Description": "每当你召唤一个鱼人，便获得\n+1攻击力。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 58138,
+    "m_noteMiniGuid": "EX1_509_G",
+    "Classes": [
+      0
+    ],
+    "CnName": "鱼人招潮者",
+    "CardType": 0,
+    "RareType": 2,
+    "RaceType": [
+      7
+    ],
+    "SpellType": [],
+    "ManaCost": 1,
+    "Attack": 2,
+    "MaxHealth": 4,
+    "Targets": 0,
+    "Description": "每当你召唤一个鱼人，便获得\n+2攻击力。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 36,
+    "DbfId": 96761,
+    "m_noteMiniGuid": "BG_UNG_073",
+    "Classes": [
+      0
+    ],
+    "CnName": "石塘猎人",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [
+      7
+    ],
+    "SpellType": [],
+    "ManaCost": 1,
+    "Attack": 2,
+    "MaxHealth": 3,
+    "Targets": 3,
+    "Description": "<b>战吼：</b>使一个友方鱼人获得+1/+1。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 36,
+    "DbfId": 59485,
+    "m_noteMiniGuid": "BG_UNG_073_G",
+    "Classes": [
+      0
+    ],
+    "CnName": "石塘猎人",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [
+      7
+    ],
+    "SpellType": [],
+    "ManaCost": 1,
+    "Attack": 4,
+    "MaxHealth": 6,
+    "Targets": 3,
+    "Description": "<b>战吼：</b>使一个友方鱼人获得+2/+2。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 11,
+    "DbfId": 96768,
+    "m_noteMiniGuid": "BG_EX1_507",
+    "Classes": [
+      0
+    ],
+    "CnName": "鱼人领军",
+    "CardType": 0,
+    "RareType": 3,
+    "RaceType": [
+      7
+    ],
+    "SpellType": [],
+    "ManaCost": 2,
+    "Attack": 3,
+    "MaxHealth": 3,
+    "Targets": 0,
+    "Description": "你的其他鱼人拥有+2攻击力。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 11,
+    "DbfId": 57403,
+    "m_noteMiniGuid": "BG_EX1_507_G",
+    "Classes": [
+      0
+    ],
+    "CnName": "鱼人领军",
+    "CardType": 0,
+    "RareType": 3,
+    "RaceType": [
+      7
+    ],
+    "SpellType": [],
+    "ManaCost": 2,
+    "Attack": 6,
+    "MaxHealth": 6,
+    "Targets": 0,
+    "Description": "你的其他鱼人拥有+4攻击力。"
+  },
+  {
+    "ModId": 1,
+    "SetId": 19,
+    "DbfId": 736,
+    "m_noteMiniGuid": "EX1_062",
+    "Classes": [
+      0
+    ],
+    "CnName": "老瞎眼",
+    "CardType": 0,
+    "RareType": 4,
+    "RaceType": [
+      7
+    ],
+    "SpellType": [],
+    "ManaCost": 2,
+    "Attack": 2,
+    "MaxHealth": 4,
+    "Targets": 0,
+    "Description": "<b>冲锋</b>，在战场上每有一个其他鱼人便拥有+1攻击力。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 58382,
+    "m_noteMiniGuid": "EX1_062_G",
+    "Classes": [
+      0
+    ],
+    "CnName": "老瞎眼",
+    "CardType": 0,
+    "RareType": 4,
+    "RaceType": [
+      7
+    ],
+    "SpellType": [],
+    "ManaCost": 2,
+    "Attack": 4,
+    "MaxHealth": 8,
+    "Targets": 0,
+    "Description": "<b>冲锋</b>，在战场上每有一个其他鱼人便拥有+2攻击力。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 11,
+    "DbfId": 96773,
+    "m_noteMiniGuid": "BG_EX1_103",
+    "Classes": [
+      0
+    ],
+    "CnName": "寒光先知",
+    "CardType": 0,
+    "RareType": 2,
+    "RaceType": [
+      7
+    ],
+    "SpellType": [],
+    "ManaCost": 3,
+    "Attack": 2,
+    "MaxHealth": 3,
+    "Targets": 0,
+    "Description": "<b>战吼：</b>使你的其他鱼人获得+2生命值。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 11,
+    "DbfId": 59491,
+    "m_noteMiniGuid": "BG_EX1_103_G",
+    "Classes": [
+      0
+    ],
+    "CnName": "寒光先知",
+    "CardType": 0,
+    "RareType": 2,
+    "RaceType": [
+      7
+    ],
+    "SpellType": [],
+    "ManaCost": 3,
+    "Attack": 4,
+    "MaxHealth": 6,
+    "Targets": 0,
+    "Description": "<b>战吼：</b>使你的其他鱼人获得+4生命值。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 6,
+    "DbfId": 96842,
+    "m_noteMiniGuid": "BG_DAL_077",
+    "Classes": [
+      0
+    ],
+    "CnName": "毒鳍鱼人",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [
+      7
+    ],
+    "SpellType": [],
+    "ManaCost": 4,
+    "Attack": 1,
+    "MaxHealth": 2,
+    "Targets": 3,
+    "Description": "<b>战吼：</b>使一个友方鱼人获得<b>剧毒</b>。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 6,
+    "DbfId": 63796,
+    "m_noteMiniGuid": "BG_DAL_077_G",
+    "Classes": [
+      0
+    ],
+    "CnName": "毒鳍鱼人",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [
+      7
+    ],
+    "SpellType": [],
+    "ManaCost": 4,
+    "Attack": 2,
+    "MaxHealth": 4,
+    "Targets": 3,
+    "Description": "<b>战吼：</b>使一个友方鱼人获得<b>剧毒</b>。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 36,
+    "DbfId": 60028,
+    "m_noteMiniGuid": "BGS_020",
+    "Classes": [
+      0
+    ],
+    "CnName": "蛮鱼斥候",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [
+      7
+    ],
+    "SpellType": [],
+    "ManaCost": 5,
+    "Attack": 3,
+    "MaxHealth": 2,
+    "Targets": 0,
+    "Description": "<b>战吼：</b>如果你控制着其他鱼人，<b>发现</b>一张鱼人牌。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 36,
+    "DbfId": 60027,
+    "m_noteMiniGuid": "BGS_020_G",
+    "Classes": [
+      0
+    ],
+    "CnName": "蛮鱼斥候",
+    "CardType": 0,
+    "RareType": 1,
+    "RaceType": [
+      7
+    ],
+    "SpellType": [],
+    "ManaCost": 5,
+    "Attack": 6,
+    "MaxHealth": 4,
+    "Targets": 0,
+    "Description": "<b>战吼：</b>如果你控制着其他鱼人，<b>发现</b>2张鱼人牌。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 56465,
+    "m_noteMiniGuid": "BGS_031",
+    "Classes": [
+      0
+    ],
+    "CnName": "温顺的巨壳龙",
+    "CardType": 0,
+    "RareType": 3,
+    "RaceType": [
+      1
+    ],
+    "SpellType": [],
+    "ManaCost": 6,
+    "Attack": 5,
+    "MaxHealth": 4,
+    "Targets": 0,
+    "Description": "<b>战吼：</b><b>进化</b>你所有的鱼人。"
+  },
+  {
+    "ModId": 0,
+    "SetId": 43,
+    "DbfId": 59828,
+    "m_noteMiniGuid": "BGS_031_G",
+    "Classes": [
+      0
+    ],
+    "CnName": "温顺的巨壳龙",
+    "CardType": 0,
+    "RareType": 3,
+    "RaceType": [
+      1
+    ],
+    "SpellType": [],
+    "ManaCost": 6,
+    "Attack": 10,
+    "MaxHealth": 8,
+    "Targets": 0,
+    "Description": "<b>战吼：</b><b>进化</b>你所有的鱼人两次。"
+  }
+]

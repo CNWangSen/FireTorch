@@ -1,0 +1,52 @@
+ename=1.mp4|mute=1|sqzero=1|speed=1|startms=7000|endms=18000
+ttxt=在语音提示的引导下
+ttxt=患者做出转体、抱头等动作
+ttxt=实现三百六十度全方位采集
+d
+##
+ename=0.mp4|mute=1|seqzero=1|speed=1|startms=3000|endms=14000
+ttxt=通过调整相机的高度
+ttxt=可以拍摄患者的腿部
+ttxt=实现全身拍摄
+d
+
+ename=2.mp4|mute=1|seqzero=1|speed=1|startms=22000|endms=31000
+ttxt=在高精度电机的驱动下
+ttxt=实现了摄像头的快速准确移动
+d
+
+ename=1.mp4|mute=1|seqzero=1|speed=1|startms=90000|endms=99000
+ttxt=在患者正面抱头后
+ttxt=医生可点击前端结束检查
+ttxt=将拍摄图像送入后台处理
+d
+
+ename=3.mp4|mute=1|seqzero=1|speed=1|startms=77000|endms=144000
+ttxt=结合数字图像处理技术
+ttxt=医生可以在患者的红外图像上绘制分析区域
+ttxt=人工智能算法会处理分析区域
+ttxt=实现自动穴位配准、穴位温度曲线绘制、热层分析
+ttxt=最终大语言模型会生成分析报告
+ttxt=快速、准确地完成患者病情分析
+d
+
+##
+checkboard:
+addcpn   q txt dur
+addimg   w name
+addvid   e name cx cy layer mute speed
+    r name bgm startms
+addman   t txt
+imgseq   y name
+
+waitcpn  a
+waitimg  s
+waitvid  d
+
+holdtill Z
+hold     z ms
+clearimg x
+clearcpn c
+clearvid v
+done     b
+ename=2.mp4|mute=0|seqzero=1|speed=1

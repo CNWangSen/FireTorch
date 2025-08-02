@@ -1,0 +1,370 @@
+[
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 82281,
+        "m_noteMiniGuid": "LT22_005H_01",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "冰雪之王洛克霍拉",
+        "ScriptName": "CORE_CS2_024",
+        "CardType": 0,
+        "RareType": 1,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 1,
+        "Attack": 2,
+        "MaxHealth": 9,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": "<b>技能：</b>对一个随机敌方随从造成3点伤害。"
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 82282,
+        "m_noteMiniGuid": "LT22_005H_02",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "冰雪之王洛克霍拉",
+        "ScriptName": "CORE_CS2_024",
+        "CardType": 0,
+        "RareType": 0,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 1,
+        "Attack": 4,
+        "MaxHealth": 18,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": "<b>技能：</b>对一个随机敌方随从造成6点伤害。"
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 82283,
+        "m_noteMiniGuid": "LT22_005H_03",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "冰雪之王洛克霍拉",
+        "ScriptName": "CORE_CS2_024",
+        "CardType": 0,
+        "RareType": 0,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 1,
+        "Attack": 8,
+        "MaxHealth": 36,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": "<b>技能：</b>对一个随机敌方随从造成12点伤害。"
+    },
+
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 70613,
+        "m_noteMiniGuid": "BARL_024H_01",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "剑圣萨穆罗",
+        "ScriptName": "CORE_CS2_024",
+        "CardType": 0,
+        "RareType": 1,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 2,
+        "Attack": 2,
+        "MaxHealth": 12,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": "<b>技能：</b>对所有敌方随从造成2点伤害。"
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 70612,
+        "m_noteMiniGuid": "BARL_024H_02",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "剑圣萨穆罗",
+        "ScriptName": "CORE_CS2_024",
+        "CardType": 0,
+        "RareType": 0,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 2,
+        "Attack": 4,
+        "MaxHealth": 26,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": "<b>技能：</b>对所有敌方随从造成4点伤害。"
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 70540,
+        "m_noteMiniGuid": "BARL_024H_03",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "剑圣萨穆罗",
+        "ScriptName": "CORE_CS2_024",
+        "CardType": 0,
+        "RareType": 0,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 2,
+        "Attack": 8,
+        "MaxHealth": 52,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": "<b>技能：</b>对所有敌方随从造成8点伤害。"
+    },
+
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 64588,
+        "m_noteMiniGuid": "LETL_029H_01",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "布鲁坎",
+        "ScriptName": "CORE_CS2_024",
+        "CardType": 0,
+        "RareType": 2,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 3,
+        "Attack": 1,
+        "MaxHealth": 8,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": "<b>技能：</b>对一个随机敌方随从释放一级闪电链。"
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 64587,
+        "m_noteMiniGuid": "LETL_029H_02",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "布鲁坎",
+        "ScriptName": "CORE_CS2_024",
+        "CardType": 0,
+        "RareType": 2,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 3,
+        "Attack": 2,
+        "MaxHealth": 19,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": "<b>技能：</b>对一个随机敌方随从释放二级闪电链。"
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 64586,
+        "m_noteMiniGuid": "LETL_029H_03",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "布鲁坎",
+        "ScriptName": "CORE_CS2_024",
+        "CardType": 0,
+        "RareType": 2,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 3,
+        "Attack": 4,
+        "MaxHealth": 43,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": "<b>技能：</b>对一个随机敌方随从释放三级闪电链。"
+    },
+
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 70777,
+        "m_noteMiniGuid": "BARL_012H_01",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "玛诺洛斯",
+        "ScriptName": "CORE_CS2_024",
+        "CardType": 0,
+        "RareType": 3,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 4,
+        "Attack": 2,
+        "MaxHealth": 12,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": "<b>技能：</b>沉默一个高价值的敌方随从，每场对战仅触发一次。"
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 70776,
+        "m_noteMiniGuid": "BARL_012H_02",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "玛诺洛斯",
+        "ScriptName": "CORE_CS2_024",
+        "CardType": 0,
+        "RareType": 3,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 4,
+        "Attack": 4,
+        "MaxHealth": 28,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": "<b>技能：</b>沉默两个高价值的敌方随从，每场对战仅触发一次。"
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 70775,
+        "m_noteMiniGuid": "BARL_012H_03",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "玛诺洛斯",
+        "ScriptName": "CORE_CS2_024",
+        "CardType": 0,
+        "RareType": 3,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 3,
+        "Attack": 8,
+        "MaxHealth": 58,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": "<b>技能：</b>沉默三个高价值的敌方随从，每场对战仅触发一次。"
+    },
+
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 87891,
+        "m_noteMiniGuid": "LT23_028H_01",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "亚煞极",
+        "ScriptName": "CORE_CS2_024",
+        "CardType": 0,
+        "RareType": 1,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 5,
+        "Attack": 2,
+        "MaxHealth": 12,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": "<b>技能：</b>对一个随机敌方随从造成3点伤害。"
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 87892,
+        "m_noteMiniGuid": "LT23_028H_02",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "亚煞极",
+        "ScriptName": "CORE_CS2_024",
+        "CardType": 0,
+        "RareType": 0,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 5,
+        "Attack": 5,
+        "MaxHealth": 24,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": "<b>技能：</b>对一个随机敌方随从造成6点伤害。"
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 87893,
+        "m_noteMiniGuid": "LT23_028H_03",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "亚煞极",
+        "ScriptName": "CORE_CS2_024",
+        "CardType": 0,
+        "RareType": 0,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 5,
+        "Attack": 9,
+        "MaxHealth": 47,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": "<b>技能：</b>对一个随机敌方随从造成12点伤害。"
+    },
+]

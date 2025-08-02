@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: 6bdd5f544f9a8fc43821634e73ec1190
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 510dd02d931cefb4dbb1f56fa4fbd301, type: 3}
+  importAttachments: 0
+  importEvents: 0
+  importParticleEmitters: 0
+  importCollisionShapes: 0
+  excludeGeosets: 
+  excludeByTexture:
+  - gutz.blp
+  importMaterials: 1
+  addMaterialsToAsset: 1
+  importAnimations: 1
+  addAnimationsToAsset: 1
+  importTangents: 1
+  frameRate: 960
+  excludeAnimations:
+  - Decay Bone
+  - Decay Flesh

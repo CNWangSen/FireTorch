@@ -1,0 +1,56 @@
+wname=crafting.png
+rname=come.wav
+wname=c1.png|mfx=300|mfy=1620|mtx=300|mty=540|mdur=1000
+wname=c2.png|mfx=1620|mfy=1620|mtx=1620|mty=540|mdur=1000
+qtxt=卡牌融合|dur=500
+s
+wname=c1.png|cx=300|cy=540|sfe=10|ste=15|sdur=500
+wname=c2.png|cx=1620|cy=540|sfe=10|ste=15|sdur=500
+s
+qtxt=铜须+大帝=？|dur=500
+wname=c1.png|cx=300|cy=540|sfe=15|ste=10|sdur=250
+wname=c2.png|cx=1620|cy=540|sfe=15|ste=10|sdur=250
+s
+wname=c1.png|mfx=300|mfy=540|mtx=960|mty=540|mdur=1000
+wname=c2.png|mfx=1620|mfy=540|mtx=960|mty=540|mdur=1000
+s
+wname=cb.png|cx=960|cy=540|sfe=10|ste=15|sdur=500
+s
+wname=cb.png|cx=960|cy=540|sfe=15|ste=10|sdur=250
+s
+rname=flipleg.wav
+n
+wname=cb.png|cx=960|cy=540|rtb=90|rdur=250
+s
+wname=c3.png|cx=960|cy=540|rfb=-90|rtb=0|rdur=250
+s
+N
+wname=c3.png|cx=960|cy=540|sfe=10|ste=15|sdur=500
+qtxt=铜须大帝！|dur=500
+s
+wname=c3.png|cx=960|cy=540|sfe=15|ste=10|sdur=250
+s
+wname=c3.png|cx=960|cy=540|dur=1000
+s
+rname=go.wav
+wname=c3.png|mfx=960|mfy=540|mtx=960|mty=-300|mdur=1000
+s
+
+##
+checkboard:
+addcpn   q txt dur
+addimg   w name
+addvid   e name cx cy layer mute
+addaud   r name
+addman   t txt
+
+waitcpn  a
+waitimg  s
+waitvid  d
+
+holdtill Z
+hold     z ms
+clearimg x
+clearcpn c
+done     b
+

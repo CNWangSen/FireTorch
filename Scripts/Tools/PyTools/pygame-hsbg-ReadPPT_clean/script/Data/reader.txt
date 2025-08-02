@@ -1,0 +1,66 @@
+ename=1.mp4|mute=0|sqzero=1|speed=1
+ttxt=如果缝合“云顶之弈”和“酒馆战棋”，会发生什么？
+ttxt=众所周知，和经典自走棋类游戏不同
+ttxt=酒馆战棋抛弃了利息、装备、羁绊等系统
+ttxt=这使酒馆在相对低复杂度的同时具有相对深的策略深度
+ttxt=本频道旨在探索如果酒馆战棋具有更高复杂度，会更好玩吗？
+ttxt=为此，棋子将具有蓝条、技能、装备、羁绊等特性
+ttxt=棋子在造成或受到伤害后会恢复法力值
+ttxt=当棋子拥有10点法力值时会用专属技能取代攻击
+ttxt=购买棋子将花费棋子等级的铸币
+ttxt=而出售棋子只能获得折扣的铸币
+ttxt=可上阵棋子数等于酒馆等级，上阵的棋子也可以返回手牌
+ttxt=每回合铸币可以保存到下一回合，升本费用也大大提升
+ttxt=本频道将持续增加以上经典自走棋拥有的特性
+ttxt=当前的主要工作是为每个棋子增加专属技能
+ttxt=正如大家所看到的，当前的棋子技能只有一种
+ttxt=即对一个随机敌方随从造成3/6/12点伤害
+ttxt=未来会确保所有棋子的技能具有不同的功能
+ttxt=比如沉默、冻结、AOE、治疗、回蓝等
+ttxt=这保证每一个棋子都是不可替代的
+ttxt=也会增加装备、护甲系统
+ttxt=某些棋子将具有自己的专属武器
+ttxt=也会增加职业和种族双羁绊体系
+ttxt=比如四兽人羁绊会增加所有棋子的生命值
+ttxt=再增加全局宝藏效果
+ttxt=进一步提升趣味性
+ttxt=当然，这只是我目前的畅想
+ttxt=欢迎牌佬们批评指正
+ttxt=我是炉火torch，正在一个人开发卡牌游戏
+ttxt=感谢你的观看，我们下期再见
+d
+##
+checkboard:
+addcpn   q txt dur
+addimg   w name
+addvid   e name cx cy layer mute speed
+addaud   r name bgm startms
+addman   t txt
+imgseq   y name
+
+waitcpn  a
+waitimg  s
+waitvid  d
+
+holdtill Z
+hold     z ms
+clearimg x
+clearcpn c
+clearvid v
+done     b
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

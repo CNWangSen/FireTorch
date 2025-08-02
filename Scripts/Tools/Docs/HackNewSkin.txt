@@ -1,0 +1,227 @@
+
+----------------------------------------------------------------------------------------
+namebanner
+public void UpdatePlayerNameBanner()
+{
+	if (GameState.Get().GetPlayer(this.m_playerId).IsControlledByOpposingSidePlayer())
+	{
+		this.SetName("皮肤尚未完全实装");
+		return;
+	}
+	this.SetName("请以官方发布为准");
+}
+public void SetName(string name)
+{
+	name = "请以官方发布为准";
+	if (GameState.Get().GetPlayer(this.m_playerId).IsControlledByOpposingSidePlayer())
+	{
+		name = "皮肤尚未完全实装";
+	}
+	this.m_currentPlayerName.Text = name;
+	if (this.m_alphaBannerSkinned != null)
+	{
+		this.AdjustSkinnedBanner();
+		return;
+	}
+	this.AdjustBanner();
+}
+----------------------------------------------------------------------------------------------------
+
+camerashakemgr
+private void Update()
+{
+	Card FH = GameState.Get().GetFriendlySidePlayer().GetHeroCard();
+	if (!this.Loaded)
+	{
+		AssetBundle ab = AssetBundle.LoadFromFile("D:/Projects/GameHackProj/BepInPvz/BepInRH-AB/test");
+		this.vd = ab.LoadAsset<VideoClip>("FireTorchSkin_Vid13");
+		this.rtx = ab.LoadAsset<RenderTexture>("FireTorchSkin_RenderTexture");
+		this.Loaded = true;
+	}
+	if (Input.GetKeyDown(KeyCode.X))
+	{
+		Renderer[] componentsInChildren = heroCard.GetActor().m_portraitMesh.GetComponentsInChildren<Renderer>();
+		VideoPlayer videoPlayer = heroCard.GetActor().m_portraitMesh.gameObject.AddComponent<VideoPlayer>();
+		videoPlayer.clip = this.vd;
+		videoPlayer.renderMode = VideoRenderMode.RenderTexture;
+		videoPlayer.targetTexture = this.rtx;
+		componentsInChildren[0].materials[1].SetTexture("_MainTex", this.rtx);
+	}
+	if (Input.GetKeyDown(KeyCode.Alpha1))
+	{
+		FH.PlayEmote(EmoteType.SORRY);
+	}
+	if (Input.GetKeyDown(KeyCode.Alpha2))
+	{
+		FH.PlayEmote(EmoteType.ERROR_FULL_MINIONS);
+	}
+	if (Input.GetKeyDown(KeyCode.Alpha3))
+	{
+		FH.PlayEmote(EmoteType.ERROR_HAND_FULL);
+	}
+	if (Input.GetKeyDown(KeyCode.Alpha4))
+	{
+		FH.PlayEmote(EmoteType.ERROR_I_ATTACKED);
+	}
+	if (Input.GetKeyDown(KeyCode.Alpha5))
+	{
+		FH.PlayEmote(EmoteType.ERROR_MINION_ATTACKED);
+	}
+	if (Input.GetKeyDown(KeyCode.Alpha6))
+	{
+		FH.PlayEmote(EmoteType.ERROR_NEED_MANA);
+	}
+	if (Input.GetKeyDown(KeyCode.Alpha7))
+	{
+		FH.PlayEmote(EmoteType.ERROR_NEED_WEAPON);
+	}
+	if (Input.GetKeyDown(KeyCode.Alpha8))
+	{
+		FH.PlayEmote(EmoteType.ERROR_PLAY);
+	}
+	if (Input.GetKeyDown(KeyCode.Alpha9))
+	{
+		FH.PlayEmote(EmoteType.ERROR_STEALTH);
+	}
+	if (Input.GetKeyDown(KeyCode.Alpha0))
+	{
+		FH.PlayEmote(EmoteType.ERROR_SUMMON_SICKNESS);
+	}
+	if (Input.GetKeyDown(KeyCode.P))
+	{
+		FH.PlayEmote(EmoteType.ERROR_TARGET);
+	}
+	if (Input.GetKeyDown(KeyCode.O))
+	{
+		FH.PlayEmote(EmoteType.ERROR_TAUNT);
+	}
+	if (Input.GetKeyDown(KeyCode.I))
+	{
+		FH.PlayEmote(EmoteType.ERROR_GENERIC);
+	}
+	float move = 0.05f;
+	Vector3 b = default(Vector3);
+	if (Input.GetKey(KeyCode.W))
+	{
+		b = new Vector3(0f, 0f, move);
+	}
+	if (Input.GetKey(KeyCode.A))
+	{
+		b = new Vector3(-move, 0f, 0f);
+	}
+	if (Input.GetKey(KeyCode.S))
+	{
+		b = new Vector3(0f, 0f, -move);
+	}
+	if (Input.GetKey(KeyCode.D))
+	{
+		b = new Vector3(move, 0f, 0f);
+	}
+	if (Input.GetKey(KeyCode.Q))
+	{
+		b = new Vector3(0f, move, 0f);
+	}
+	if (Input.GetKey(KeyCode.E))
+	{
+		b = new Vector3(0f, -move, 0f);
+	}
+	if (Input.GetKey(KeyCode.M))
+	{
+		Debug.Log("-------POS!------");
+		Debug.Log(base.transform.position);
+	}
+	if (Input.GetKey(KeyCode.C))
+	{
+		base.transform.position = new Vector3(-7.45f, 6.95f, -7.52f);
+	}
+	if (Input.GetKey(KeyCode.Z))
+	{
+		base.transform.position = new Vector3(-7.45f, 15.35f, -5.42f);
+	}
+	base.transform.position = base.transform.position + b;
+}
+----------------------------------------------------------------------------------------------------
+heroskin
+--entity--loadcard
+	if (cardId == "HERO_02")
+	{
+		cardId = "HERO_02az";
+	}
+	if (cardId == "HERO_02bp")
+	{
+		cardId = "HERO_02azhp";
+	}
+
+----------------------------------------------------------------------------------------------------
+herosocketin
+MulliganManager
+private void LoadHisHeroSkinSocketInEffect(Actor hisHero)
+{
+	string input = hisHero.SocketInEffectOpponent;
+	if (string.IsNullOrEmpty(hisHero.SocketInEffectOpponent) && !UniversalInputManager.UsePhoneUI)
+	{
+		input = "";
+		List<string> allCardIds = GameUtils.GetAllCardIds();
+		DefLoader defLoader = DefLoader.Get();
+		int Length = allCardIds.Count;
+		while (input == "")
+		{
+			string ToSetId = allCardIds[UnityEngine.Random.Range(0, Length)];
+			if (ToSetId.Contains("HERO"))
+			{
+				input = ((defLoader != null) ? defLoader.GetCardDef(ToSetId, TAG_PREMIUM.NORMAL) : null).CardDef.m_SocketInEffectOpponent;
+			}
+		}
+	}
+	if (string.IsNullOrEmpty(hisHero.SocketInEffectOpponentPhone) && UniversalInputManager.UsePhoneUI)
+	{
+		return;
+	}
+	this.m_isLoadingHisCustomSocketIn = true;
+	if (UniversalInputManager.UsePhoneUI)
+	{
+		input = hisHero.SocketInEffectOpponentPhone;
+	}
+	if (!AssetLoader.Get().InstantiatePrefab(input, new PrefabCallback<GameObject>(this.OnHisHeroSkinSocketInEffectLoadAttempted), null, AssetLoadingOptions.None))
+	{
+		this.OnHisHeroSkinSocketInEffectLoadAttempted(input, null, null);
+	}
+}
+------------------------------------------------------------------------------------------------------------------
+private void LoadMyHeroSkinSocketInEffect(Actor myHero)
+{
+	string input = myHero.SocketInEffectFriendly;
+	if (string.IsNullOrEmpty(myHero.SocketInEffectFriendly) && !UniversalInputManager.UsePhoneUI)
+	{
+		input = "";
+		List<string> allCardIds = GameUtils.GetAllCardIds();
+		DefLoader defLoader = DefLoader.Get();
+		int Length = allCardIds.Count;
+		while (input == "")
+		{
+			string ToSetId = allCardIds[UnityEngine.Random.Range(0, Length)];
+			if (ToSetId.Contains("HERO"))
+			{
+				input = ((defLoader != null) ? defLoader.GetCardDef(ToSetId, TAG_PREMIUM.NORMAL) : null).CardDef.m_SocketInEffectFriendly;
+			}
+		}
+	}
+	if (string.IsNullOrEmpty(myHero.SocketInEffectFriendlyPhone) && UniversalInputManager.UsePhoneUI)
+	{
+		return;
+	}
+	this.m_isLoadingMyCustomSocketIn = true;
+	if (UniversalInputManager.UsePhoneUI)
+	{
+		input = myHero.SocketInEffectFriendlyPhone;
+	}
+	if (!AssetLoader.Get().InstantiatePrefab(input, new PrefabCallback<GameObject>(this.OnMyHeroSkinSocketInEffectLoadAttempted), null, AssetLoadingOptions.None))
+	{
+		this.OnMyHeroSkinSocketInEffectLoadAttempted(input, null, null);
+	}
+}
+
+
+
+
+

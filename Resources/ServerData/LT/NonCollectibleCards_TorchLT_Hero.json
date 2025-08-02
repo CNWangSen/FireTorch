@@ -1,0 +1,328 @@
+[
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 760000,
+        "m_noteMiniGuid": "FTBG_LT_Bob",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "鲍勃",
+        "CardType": 3,
+        "RareType": 0,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 0,
+        "Attack": 0,
+        "MaxHealth": 999999,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 760001,
+        "m_noteMiniGuid": "FTBG_LT_Hero",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "佣兵战棋英雄",
+        "CardType": 3,
+        "RareType": 0,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 0,
+        "Attack": 0,
+        "MaxHealth": 100,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 760002,
+        "m_noteMiniGuid": "FTBG_LT_TripleReward",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "三连奖励",
+        "CardType": 1,
+        "RareType": 0,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 0,
+        "Attack": 0,
+        "MaxHealth": 0,
+        "Targets": 0,
+        "Description": "发现一个更高等级的随从。"
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 760003,
+        "m_noteMiniGuid": "FTBG_LT_Refresh",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "刷新",
+        "CardType": 4,
+        "RareType": 0,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 2,
+        "Attack": 0,
+        "MaxHealth": 0,
+        "Targets": 0,
+        "Description": "刷新酒馆中的随从。"
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 760004,
+        "m_noteMiniGuid": "FTBG_LT_Freeze",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "冻结",
+        "CardType": 4,
+        "RareType": 0,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 0,
+        "Attack": 0,
+        "MaxHealth": 0,
+        "Targets": 0,
+        "Description": "冻结酒馆中的随从。"
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 760005,
+        "m_noteMiniGuid": "FTBG_LT_Upgrade",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "升本",
+        "CardType": 4,
+        "RareType": 0,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 100,
+        "Attack": 0,
+        "MaxHealth": 0,
+        "Targets": 0,
+        "Description": "升级酒馆。"
+    },
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 760006,
+        "m_noteMiniGuid": "FTBG_LT_DIR",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "战棋模式",
+        "CardType": 0,
+        "RareType": 0,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 0,
+        "Attack": 0,
+        "MaxHealth": 200,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+
+
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 760010,
+        "m_noteMiniGuid": "FTBG_LT_BOSS0",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "战棋对手",
+        "CardType": 3,
+        "RareType": 0,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 0,
+        "Attack": 0,
+        "MaxHealth": 100,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 760011,
+        "m_noteMiniGuid": "FTBG_LT_BOSS1",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "战棋对手",
+        "CardType": 3,
+        "RareType": 0,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 0,
+        "Attack": 0,
+        "MaxHealth": 100,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 760012,
+        "m_noteMiniGuid": "FTBG_LT_BOSS2",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "战棋对手",
+        "CardType": 3,
+        "RareType": 0,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 0,
+        "Attack": 0,
+        "MaxHealth": 100,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 760013,
+        "m_noteMiniGuid": "FTBG_LT_BOSS3",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "战棋对手",
+        "CardType": 3,
+        "RareType": 0,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 0,
+        "Attack": 0,
+        "MaxHealth": 100,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 760014,
+        "m_noteMiniGuid": "FTBG_LT_BOSS4",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "战棋对手",
+        "CardType": 3,
+        "RareType": 0,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 0,
+        "Attack": 0,
+        "MaxHealth": 100,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 760015,
+        "m_noteMiniGuid": "FTBG_LT_BOSS5",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "战棋对手",
+        "CardType": 3,
+        "RareType": 0,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 0,
+        "Attack": 0,
+        "MaxHealth": 100,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+    {
+        "ModId": 1,
+        "SetId": 0,
+        "DbfId": 760016,
+        "m_noteMiniGuid": "FTBG_LT_BOSS6",
+        "Classes":
+        [
+            0
+        ],
+        "CnName": "战棋对手",
+        "CardType": 3,
+        "RareType": 0,
+        "RaceType":
+        [],
+        "SpellType":
+        [],
+        "ManaCost": 0,
+        "Attack": 0,
+        "MaxHealth": 100,
+        "Armor": 0,
+        "Targets": 0,
+        "Description": ""
+    },
+]
